@@ -1,0 +1,10 @@
+﻿SELECT 
+  "PlantsForAFuture"."Common name", 
+  "PlantsForAFuture"."Latin name", 
+  "PlantsForAFuture"."Habitat"
+FROM 
+  public."PlantsForAFuture"
+WHERE 
+  "PlantsForAFuture"."Hardyness" <= 4 AND 
+  "PlantsForAFuture"."Shade" LIKE '%S%' AND 
+  "PlantsForAFuture"."Edible uses" LIKE '%tuber%';

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<JCSDataFile xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" >
+<JCSGMLInputTemplate>
+<CollectionElement>featureCollection</CollectionElement> 
+<FeatureElement>feature</FeatureElement>
+<GeometryElement>geometry</GeometryElement>
+<ColumnDefinitions>
+</ColumnDefinitions>
+</JCSGMLInputTemplate>
+
+<featureCollection>
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>741581.8678936653,5920122.951864242 
+                    741585.6982453377,5920119.198119603 
+                    741592.8993064817,5920114.295269462 
+                    741596.9594792543,5920111.6140232915 
+                    741603.7008981976,5920107.630457552 
+                    741610.1358890071,5920103.80010588 
+                    741615.1153461811,5920100.429396409 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+     </feature>
+
+     </featureCollection>
+</JCSDataFile>

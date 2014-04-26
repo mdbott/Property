@@ -1,0 +1,9 @@
+syntax: glob
+*.jpg
+*.tif
+*.gif
+*.png
+*.ovr
+GRASS/farm/PERMANENT/*
+S37E149/S37E149.shp
+

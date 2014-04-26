@@ -1,0 +1,1183 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="Property" version="0.9.0-Ganymede" >
+    <title>Property</title>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>740320.027341</xmin>
+            <ymin>5919140.673748</ymin>
+            <xmax>742320.159487</xmax>
+            <ymax>5920585.990683</ymax>
+        </extent>
+        <projections>1</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                <srsid>1628</srsid>
+                <srid>28355</srid>
+                <epsg>28355</epsg>
+                <description>GDA94 / MGA zone 55</description>
+                <projectionacronym>utm</projectionacronym>
+                <ellipsoidacronym>GRS80</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend>
+        <legendlayer open="false" checked="Qt::Checked" name="cont" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile layerid="_public___cont___the_geom__sql_20071223203343092" visible="1" inOverview="0" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Unchecked" name="interior_fences" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile layerid="_public___interior_fences___the_geom__sql_20071223202831511" visible="0" inOverview="0" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Unchecked" name="Bega_cont" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile layerid="Bega_cont20071223132024879" visible="0" inOverview="0" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Unchecked" name="10mcontours" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile layerid="10mcontours20071223130038906" visible="0" inOverview="0" />
+            </filegroup>
+        </legendlayer>
+        <legendgroup open="false" checked="Qt::Checked" name="Access" >
+            <legendlayer open="true" checked="Qt::Checked" name="Roads" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Roads20071113211520938" visible="1" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Checked" name="Water" >
+            <legendlayer open="false" checked="Qt::Checked" name="Water Storages" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Water_Storages20071113211937038" visible="1" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Checked" name="Pipes" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Pipes20071113210739046" visible="1" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Checked" name="Fences" >
+            <legendlayer open="false" checked="Qt::Checked" name="Planned Fences" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Planned_Fences_Projected20071113204225335" visible="1" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Checked" name="Interior Fences" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Interior_Fences_Projected20071024141900574" visible="1" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Checked" name="Boundary_Fences" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Boundary_Fences20071024141607506" visible="1" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Zones" >
+            <legendlayer open="false" checked="Qt::Unchecked" name="Paddocks" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Paddocks20071113205431307" visible="0" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Checked" name="Permaculture Zone" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Permaculture_Zone20071113204825232" visible="1" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Unchecked" name="Functional Zones" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Functional_Zones20071113205929072" visible="0" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Checked" name="Infrastructure" >
+            <legendlayer open="false" checked="Qt::Checked" name="Power" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Power20071113210013706" visible="1" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Checked" name="Planned Structures" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Planned_Structures20071113210332112" visible="1" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Checked" name="Current Structures" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="Farm_Structures20071113210120034" visible="1" inOverview="0" />
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Checked" name="Images" >
+            <legendlayer open="false" checked="Qt::Checked" name="farm" >
+                <filegroup open="false" hidden="true" >
+                    <legendlayerfile layerid="farm20071024141628586" visible="1" inOverview="1" />
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+    </legend>
+    <projectlayers layercount="17" >
+        <maplayer minScale="0" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Line" type="vector" >
+            <id>10mcontours20071223130038906</id>
+            <datasource>/Users/maxbott/Property/New Folder/10mcontours.shp</datasource>
+            <layername>10mcontours</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=54 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1627</srsid>
+                    <srid>28354</srid>
+                    <epsg>28354</epsg>
+                    <description>GDA94 / MGA zone 54</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>cat</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="13" blue="84" green="188" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="0" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Line" type="vector" >
+            <id>Bega_cont20071223132024879</id>
+            <datasource>/Users/maxbott/Desktop/max_files Folder/Bega_cont.shp</datasource>
+            <layername>Bega_cont</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=GRS80 +no_defs</proj4>
+                    <srsid>2370</srsid>
+                    <srid>4019</srid>
+                    <epsg>4019</epsg>
+                    <description>Unknown datum based upon the GRS 1980 ellipsoid</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>FNODE_</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="231" blue="132" green="129" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="0" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Line" type="vector" >
+            <id>Boundary_Fences20071024141607506</id>
+            <datasource>/Users/maxbott/Property/Boundary_Fences/Boundary_Fences.shp</datasource>
+            <layername>Boundary_Fences</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>2585</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>Name</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="1" blue="193" green="34" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="1" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Polygon" type="vector" >
+            <id>Farm_Structures20071113210120034</id>
+            <datasource>/Users/maxbott/Property/Infrastructure/Current Structures/Farm_Structures.shp</datasource>
+            <layername>Current Structures</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>2585</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>Structure</displayfield>
+            <label>1</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="70" blue="196" green="112" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="0" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="0" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Polygon" type="vector" >
+            <id>Functional_Zones20071113205929072</id>
+            <datasource>/Users/maxbott/Property/Zones/Functional Zones/Functional Zones.shp</datasource>
+            <layername>Functional Zones</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>2585</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>Descriptio</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="185" blue="167" green="193" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="0" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Line" type="vector" >
+            <id>Interior_Fences_Projected20071024141900574</id>
+            <datasource>/Users/maxbott/Property/Fences/Interior Fences/Interior Fences Projected.shp</datasource>
+            <layername>Interior Fences</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1628</srsid>
+                    <srid>28355</srid>
+                    <epsg>28355</epsg>
+                    <description>GDA94 / MGA zone 55</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>Barbed</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="117" blue="56" green="136" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="1" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Polygon" type="vector" >
+            <id>Paddocks20071113205431307</id>
+            <datasource>/Users/maxbott/Property/Zones/Paddocks/Paddocks.shp</datasource>
+            <layername>Paddocks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>2585</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>95</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <classificationattribute>Fireweed</classificationattribute>
+            <displayfield>Fireweed</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <graduatedsymbol>
+                <classificationfield>0</classificationfield>
+                <symbol>
+                    <lowervalue>2.000000</lowervalue>
+                    <uppervalue>3.000000</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="255" blue="0" green="0" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>3.000000</lowervalue>
+                    <uppervalue>4.000000</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="153" blue="0" green="102" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>4.000000</lowervalue>
+                    <uppervalue>4.000000</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="102" blue="0" green="153" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>4.000000</lowervalue>
+                    <uppervalue>5.000000</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="51" blue="0" green="204" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>5.000000</lowervalue>
+                    <uppervalue>7.000000</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="0" blue="0" green="255" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </graduatedsymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="1" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Polygon" type="vector" >
+            <id>Permaculture_Zone20071113204825232</id>
+            <datasource>/Users/maxbott/Property/Zones/Permaculture Zone/Permaculture Zone.shp</datasource>
+            <layername>Permaculture Zone</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>2585</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>120</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <classificationattribute>Zone</classificationattribute>
+            <displayfield>Name</displayfield>
+            <label>1</label>
+            <attributeactions/>
+            <graduatedsymbol>
+                <classificationfield>1</classificationfield>
+                <symbol>
+                    <lowervalue>-0.001</lowervalue>
+                    <uppervalue>0.833</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="255" blue="0" green="0" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>0.833</lowervalue>
+                    <uppervalue>1.667</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="171" blue="0" green="84" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>1.667</lowervalue>
+                    <uppervalue>2.500</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="129" blue="0" green="126" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>2.500</lowervalue>
+                    <uppervalue>3.333</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="87" blue="0" green="168" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>3.333</lowervalue>
+                    <uppervalue>4.167</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="45" blue="0" green="210" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>4.167</lowervalue>
+                    <uppervalue>5.001</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="3" blue="0" green="252" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </graduatedsymbol>
+            <labelattributes>
+                <label field="0" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="1" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Line" type="vector" >
+            <id>Pipes20071113210739046</id>
+            <datasource>/Users/maxbott/Property/Water/Pipes/Pipes.shp</datasource>
+            <layername>Pipes</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>2585</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>Inner Diam</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="29" blue="238" green="169" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>2</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="1" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Line" type="vector" >
+            <id>Planned_Fences_Projected20071113204225335</id>
+            <datasource>/Users/maxbott/Property/Fences/Planned Fences/Planned Fences Projected.shp</datasource>
+            <layername>Planned Fences</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1628</srsid>
+                    <srid>28355</srid>
+                    <epsg>28355</epsg>
+                    <description>GDA94 / MGA zone 55</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>Barbed</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="12" blue="174" green="174" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="0" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Polygon" type="vector" >
+            <id>Planned_Structures20071113210332112</id>
+            <datasource>/Users/maxbott/Property/Infrastructure/Planned Structures/Planned Structures.shp</datasource>
+            <layername>Planned Structures</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>2585</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>NAME</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="122" blue="71" green="61" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="0" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Line" type="vector" >
+            <id>Power20071113210013706</id>
+            <datasource>/Users/maxbott/Property/Infrastructure/Power/Power.shp</datasource>
+            <layername>Power</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1628</srsid>
+                    <srid>28355</srid>
+                    <epsg>28355</epsg>
+                    <description>GDA94 / MGA zone 55</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>Location</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="19" blue="226" green="162" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="1" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Line" type="vector" >
+            <id>Roads20071113211520938</id>
+            <datasource>/Users/maxbott/Property/Access/Roads/Roads.shp</datasource>
+            <layername>Roads</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>2585</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>Name</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="109" blue="118" green="116" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>4</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="1" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Polygon" type="vector" >
+            <id>Water_Storages20071113211937038</id>
+            <datasource>/Users/maxbott/Property/Water/Water_Storages/Water_Storages.shp</datasource>
+            <layername>Water Storages</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>2585</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>ogr</provider>
+            <encoding>System</encoding>
+            <displayfield>Name</displayfield>
+            <label>1</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="9" blue="188" green="58" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="0" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="1" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Line" type="vector" >
+            <id>_public___cont___the_geom__sql_20071223203343092</id>
+            <datasource>host=localhost dbname=testgis port=5432 user=postgres password='' table=public.cont (the_geom) sql=</datasource>
+            <layername>cont</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1628</srsid>
+                    <srid>28355</srid>
+                    <epsg>28355</epsg>
+                    <description>GDA94 / MGA zone 55</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>postgres</provider>
+            <encoding>System</encoding>
+            <displayfield>gid</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="19" blue="98" green="128" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="0" maxScale="1e+08" scaleBasedVisibilityFlag="0" geometry="Line" type="vector" >
+            <id>_public___interior_fences___the_geom__sql_20071223202831511</id>
+            <datasource>host=localhost dbname=testgis port=5432 user=postgres password='' table="public"."interior_fences" (the_geom) sql=</datasource>
+            <layername>interior_fences</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=54 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1627</srsid>
+                    <srid>28354</srid>
+                    <epsg>28354</epsg>
+                    <description>GDA94 / MGA zone 54</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider>postgres</provider>
+            <encoding>System</encoding>
+            <displayfield>description</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>6</pointsize>
+                    <outlinecolor red="68" blue="242" green="24" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>1</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label field="" text="Label" />
+                <family field="" name="Lucida Grande" />
+                <size field="" units="pt" value="12" />
+                <bold field="" on="0" />
+                <italic field="" on="0" />
+                <underline field="" on="0" />
+                <color field="" red="0" blue="0" green="0" />
+                <x field="" />
+                <y field="" />
+                <offset x="0" y="0" yfield="-1" xfield="-1" units="pt" />
+                <angle field="" value="0" />
+                <alignment field="-1" value="center" />
+                <buffercolor field="" red="255" blue="255" green="255" />
+                <buffersize field="" units="pt" value="1" />
+                <bufferenabled field="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minScale="1" maxScale="1e+08" scaleBasedVisibilityFlag="0" type="raster" >
+            <id>farm20071024141628586</id>
+            <datasource>/Users/maxbott/Property/farm.tif</datasource>
+            <layername>farm</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1628</srsid>
+                    <srid>28355</srid>
+                    <epsg>28355</epsg>
+                    <description>GDA94 / MGA zone 55</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider></provider>
+            <rasterproperties>
+                <showDebugOverlayFlag boolean="false" />
+                <drawingStyle>PALETTED_MULTI_BAND_COLOR</drawingStyle>
+                <invertHistogramFlag boolean="false" />
+                <stdDevsToPlotDouble>0</stdDevsToPlotDouble>
+                <redBandNameQString>Red</redBandNameQString>
+                <greenBandNameQString>Green</greenBandNameQString>
+                <blueBandNameQString>Blue</blueBandNameQString>
+                <grayBandNameQString>Not Set</grayBandNameQString>
+            </rasterproperties>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <SpatialRefSys>
+            <ProjectSRSProj4String type="QString" >+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectSRSProj4String>
+            <ProjectionsEnabled type="int" >1</ProjectionsEnabled>
+            <ProjectSRSID type="int" >1628</ProjectSRSID>
+        </SpatialRefSys>
+        <Gui>
+            <SelectionColorBluePart type="int" >0</SelectionColorBluePart>
+            <SelectionColorGreenPart type="int" >255</SelectionColorGreenPart>
+            <SelectionColorRedPart type="int" >255</SelectionColorRedPart>
+            <CanvasColorBluePart type="int" >255</CanvasColorBluePart>
+            <CanvasColorRedPart type="int" >255</CanvasColorRedPart>
+            <CanvasColorGreenPart type="int" >255</CanvasColorGreenPart>
+        </Gui>
+        <PositionPrecision>
+            <DecimalPlaces type="int" >2</DecimalPlaces>
+            <Automatic type="bool" >true</Automatic>
+        </PositionPrecision>
+        <Digitizing>
+            <Tolerance type="QString" >0</Tolerance>
+            <LineWidth type="int" >1</LineWidth>
+            <LineColorGreenPart type="int" >0</LineColorGreenPart>
+            <LineColorBluePart type="int" >0</LineColorBluePart>
+            <LineColorRedPart type="int" >255</LineColorRedPart>
+        </Digitizing>
+    </properties>
+</qgis>
