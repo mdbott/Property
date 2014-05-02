@@ -1,0 +1,6 @@
+CREATE RULE view_insert AS
+    ON UPDATE TO new_view DO INSTEAD UPDATE vegetation SET 
+vegetation.botanical_name_id=NEW.id,
+locations=NEW.locations,
+dripline_radius=NEW.dripline_radius
+WHERE id = NEW.id

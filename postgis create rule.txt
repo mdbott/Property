@@ -1,0 +1,3 @@
+CREATE RULE view_insert AS
+    ON INSERT TO new_view DO INSTEAD INSERT INTO vegetation (botanical_name_id,locations,dripline_radius) VALUES (NEW.id,NEW.locations,NEW.dripline_radius);
+    
