@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>16665299.75264734216034412</xmin>
-            <ymin>-4415891.18228575587272644</ymin>
-            <xmax>16665453.22121454961597919</xmax>
-            <ymax>-4415784.45643248222768307</ymax>
+            <xmin>16665269.56046516448259354</xmin>
+            <ymin>-4415891.58351077139377594</ymin>
+            <xmax>16665423.02903237193822861</xmax>
+            <ymax>-4415784.85765749774873257</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,7 +23,7 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="S37E14920130315230759617">
+    <legend updateDrawingOrder="true" activeLayer="vegetation_view20140502123646201">
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Contours" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="S37E14920130315230759617" visible="0"/>
@@ -184,10 +184,10 @@
                 </legendgroup>
             </legendgroup>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Vegetation">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="vegetation" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Vegetation">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="vegetation" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vegetation20130313185510813" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="vegetation20130313185510813" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="vegetation_view" showFeatureCount="0">
