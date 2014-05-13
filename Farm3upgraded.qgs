@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>16664900.01424358412623405</xmin>
-            <ymin>-4416279.26963216066360474</ymin>
-            <xmax>16665843.66467331908643246</xmax>
-            <ymax>-4415705.91240903083235025</ymax>
+            <xmin>16665305.73791998997330666</xmin>
+            <ymin>-4415966.32731690350919962</ymin>
+            <xmax>16665613.25977379828691483</xmax>
+            <ymax>-4415755.49530884530395269</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -37,8 +37,8 @@
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Sectors20070922093252483"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Planned_Fences20070923084756295"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Proposed_Zones20140427084706612"/>
-            <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="Interior_Fences_Projected20071009150520598"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="Boundary_Fences20071009171024537"/>
+            <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="Interior_Fences_Projected20071009150520598"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Boundary_Fences20070921080039767"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Notes20130330205521487"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="farm20130227082345472"/>
@@ -52,7 +52,7 @@
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="Power20080316145105996"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="Water_Storages20070920231657995">
+    <legend updateDrawingOrder="true" activeLayer="vegetation_view20140502123646201">
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Contours" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="S37E14920130315230759617" visible="1"/>
@@ -80,7 +80,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Fences">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Fences">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Planned Fences" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="1" layerid="Planned_Fences20070923084756295" visible="0"/>
@@ -112,16 +112,16 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Zones of Use">
-            <legendgroup open="true" checked="Qt::PartiallyChecked" name="Proposed Zones">
+        <legendgroup open="false" checked="Qt::Checked" name="Zones of Use">
+            <legendgroup open="true" checked="Qt::Checked" name="Proposed Zones">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Proposed Zones" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="Proposed_Zones20140427084706612" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Notes" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Notes" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="Notes20140427191839952" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="Notes20140427191839952" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
@@ -199,15 +199,15 @@
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
-                <legendgroup open="true" checked="Qt::PartiallyChecked" name="Climate &amp; Landform">
+                <legendgroup open="true" checked="Qt::Unchecked" name="Climate &amp; Landform">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Landform" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="Landform20130330211347717" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Notes" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Notes" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
-                            <legendlayerfile isInOverview="0" layerid="Notes20130330205521487" visible="1"/>
+                            <legendlayerfile isInOverview="0" layerid="Notes20130330205521487" visible="0"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
@@ -219,8 +219,8 @@
                     <legendlayerfile isInOverview="0" layerid="vegetation20130313185510813" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="vegetation_view" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="vegetation_view" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vegetation_view20140502123646201" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -231,7 +231,7 @@
             </filegroup>
         </legendlayer>
     </legend>
-    <Composer title="Composer 1" visible="1">
+    <Composer title="Composer 1" visible="0">
         <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="420" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="297" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="1" generateWorldFile="0">
             <symbol alpha="1" type="fill" name="">
                 <layer pass="0" class="SimpleFill" locked="0">
@@ -248,13 +248,13 @@
             <ComposerLabel valign="32" labelText="Proposed Zones of Use" htmlState="0" halign="1" margin="1">
                 <LabelFont description="Ubuntu,28,-1,5,63,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="122.968" x="76.7765" transparency="0" y="13.3524" height="15.5791" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="1.49785" uuid="{615a95f3-1f92-4839-a506-5f129ea969ae}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="122.968" x="76.7765" transparency="0" y="13.3524" height="15.5791" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="1.49785" uuid="{615a95f3-1f92-4839-a506-5f129ea969ae}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
             <ComposerScaleBar penColor="#000000" style="Single Box" numMapUnitsPerScaleBarUnit="1" alignment="0" brushColor="#000000" numSegments="4" segmentMillimeters="39.8723" fontColor="#000000" font="Ubuntu,12,-1,5,50,0,0,0,0,0" numUnitsPerSegment="75" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="2" height="3" mapId="0" boxContentSpace="1" unitLabel="m">
-                <ComposerItem width="213.868" x="66.7622" transparency="0" y="265.713" height="12" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="1.49785" uuid="{f32c4930-2987-45ba-aa9c-cb1228134e3e}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="213.868" x="66.7622" transparency="0" y="265.713" height="12" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="1.49785" uuid="{f32c4930-2987-45ba-aa9c-cb1228134e3e}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -301,14 +301,14 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="402" x="10" transparency="0" y="11" height="277" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="1.49785" uuid="{dd2cd5d3-142d-4701-a280-e85bf67e764e}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="402" x="10" transparency="0" y="11" height="277" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="1.53219" uuid="{dd2cd5d3-142d-4701-a280-e85bf67e764e}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerMap>
         </Composition>
     </Composer>
-    <Composer title="Farm" visible="1">
+    <Composer title="Farm" visible="0">
         <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
             <symbol alpha="1" type="fill" name="">
                 <layer pass="0" class="SimpleFill" locked="0">
@@ -324,7 +324,7 @@
             </symbol>
         </Composition>
     </Composer>
-    <Composer title="Permaculture Zones" visible="1">
+    <Composer title="Permaculture Zones" visible="0">
         <Composition snapGridTolerance="2" gridVisible="0" printResolution="600" paperWidth="420" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="297" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="1" generateWorldFile="0">
             <symbol alpha="1" type="fill" name="">
                 <layer pass="0" class="SimpleFill" locked="0">
@@ -1367,7 +1367,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>Notes20140427191839952</id>
             <datasource>./Zones of Use/Proposed Zones/Notes.shp</datasource>
             <title></title>
@@ -1401,13 +1401,13 @@
                             <prop k="horizontal_anchor_point" v="1"/>
                             <prop k="name" v="circle"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
+                            <prop k="offset_unit" v="MapUnit"/>
                             <prop k="outline_style" v="solid"/>
                             <prop k="outline_width" v="0"/>
                             <prop k="outline_width_unit" v="MM"/>
                             <prop k="scale_method" v="area"/>
                             <prop k="size" v="2"/>
-                            <prop k="size_unit" v="MM"/>
+                            <prop k="size_unit" v="MapUnit"/>
                             <prop k="vertical_anchor_point" v="1"/>
                         </layer>
                     </symbol>
@@ -1446,7 +1446,7 @@
                 <property key="labeling/fontLimitPixelSize" value="true"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="4"/>
+                <property key="labeling/fontSize" value="3"/>
                 <property key="labeling/fontSizeInMapUnits" value="true"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
@@ -1477,8 +1477,8 @@
                 <property key="labeling/quadOffset" value="8"/>
                 <property key="labeling/reverseDirectionSymbol" value="false"/>
                 <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="5000"/>
-                <property key="labeling/scaleMin" value="1000"/>
+                <property key="labeling/scaleMax" value="2500"/>
+                <property key="labeling/scaleMin" value="500"/>
                 <property key="labeling/scaleVisibility" value="true"/>
                 <property key="labeling/shadowBlendMode" value="6"/>
                 <property key="labeling/shadowColorB" value="0"/>
@@ -3025,7 +3025,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="-4.65661e-10" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>Water_Storages20070920231657995</id>
             <datasource>./Water/Water_Storages/Water_Storages.shp</datasource>
             <title></title>
@@ -3054,13 +3054,13 @@
                     <symbol alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="29,81,216,255"/>
-                            <prop k="color_border" v="255,255,255,255"/>
+                            <prop k="color" v="165,191,221,255"/>
+                            <prop k="color_border" v="114,133,132,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.264583"/>
+                            <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -3187,7 +3187,7 @@
             </customproperties>
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
-            <layerTransparency>0</layerTransparency>
+            <layerTransparency>50</layerTransparency>
             <displayfield>Name</displayfield>
             <label>0</label>
             <labelfield>Name</labelfield>
@@ -3802,7 +3802,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vegetation_view20140502123646201</id>
             <datasource>dbname='eden' host=localhost port=5432 user='postgres' sslmode=disable key='row_number' srid=3857 type=POINT table="public"."vegetation_view" (locations) sql=</datasource>
             <title></title>
@@ -3995,8 +3995,27 @@
             </labelattributes>
             <edittypes>
                 <edittype labelontop="0" editable="1" type="3" name="botanicalid">
+                    <valuepair key="Almond" value="5242"/>
                     <valuepair key="Apple" value="4053"/>
+                    <valuepair key="Boldo" value="4713"/>
                     <valuepair key="Burr oak" value="5487"/>
+                    <valuepair key="Chilean hazel" value="3019"/>
+                    <valuepair key="Comfrey" value="6673"/>
+                    <valuepair key="Fig" value="2811"/>
+                    <valuepair key="Hazel" value="1993"/>
+                    <valuepair key="Lemon" value="1761"/>
+                    <valuepair key="Macadamia" value="4002"/>
+                    <valuepair key="Mana Gum" value="2697"/>
+                    <valuepair key="Messmate" value="2687"/>
+                    <valuepair key="Osage orange" value="4005"/>
+                    <valuepair key="Peach" value="5286"/>
+                    <valuepair key="Pear" value="5421"/>
+                    <valuepair key="Pecan" value="1445"/>
+                    <valuepair key="Pistachio" value="4937"/>
+                    <valuepair key="Plum" value="5241"/>
+                    <valuepair key="Pomegranate" value="5387"/>
+                    <valuepair key="Stone Pine" value="4908"/>
+                    <valuepair key="Yellow Box" value="2685"/>
                 </edittype>
                 <edittype labelontop="0" editable="1" type="10" name="common_name"/>
                 <edittype labelontop="0" editable="1" type="0" name="dripline_radius"/>
