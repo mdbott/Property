@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>16665409.75366068817675114</xmin>
-            <ymin>-4416002.77394827269017696</ymin>
-            <xmax>16665711.55736560001969337</xmax>
-            <ymax>-4415813.22993920743465424</ymax>
+            <xmin>16665507.91037966869771481</xmin>
+            <ymin>-4415999.95335290022194386</ymin>
+            <xmax>16665809.71408458054065704</xmax>
+            <ymax>-4415810.40934383496642113</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -56,7 +56,7 @@
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="Power20080316145105996"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="vegetation20130313185510813">
+    <legend updateDrawingOrder="true" activeLayer="vegetation_view20140502123646201">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="waypoints" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="waypoints20140526192643270" visible="0"/>
@@ -131,16 +131,16 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Zones of Use">
-            <legendgroup open="true" checked="Qt::Unchecked" name="Proposed Zones">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Proposed Zones" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::Checked" name="Zones of Use">
+            <legendgroup open="true" checked="Qt::Checked" name="Proposed Zones">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Proposed Zones" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="Proposed_Zones20140427084706612" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="Proposed_Zones20140427084706612" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Notes" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Notes" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="Notes20140427191839952" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="Notes20140427191839952" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
@@ -4481,6 +4481,7 @@
                     <valuepair key="Coast grey box" value="7401"/>
                     <valuepair key="Comfrey" value="6673"/>
                     <valuepair key="Cornelian Cherry" value="1955"/>
+                    <valuepair key="Creeping Lantana" value="7406"/>
                     <valuepair key="Fig" value="2811"/>
                     <valuepair key="Hazel" value="1993"/>
                     <valuepair key="Lemon" value="1761"/>
