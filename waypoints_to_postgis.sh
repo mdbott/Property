@@ -1,0 +1,1 @@
+ogr2ogr -update -append -f "PostgreSQL" PG:"host=localhost user=postgres dbname=eden password=****"   Waypoints.gpx waypoints -sql "SELECT name AS comment FROM waypoints"  -lco GEOMETRY_NAME=locations -t_srs EPSG:3857 -nln vegetation
