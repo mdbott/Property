@@ -1,6 +1,7 @@
 syntax: glob
 *.jpg
 *.tif
+*.tiff
 *.gif
 *.png
 *.ovr
