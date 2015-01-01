@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="705.10297" height="715.1767" viewBox="0 0 736.44036 746.96189" version="1.2" id="svg65714" inkscape:version="0.48.4 r9939" sodipodi:docname="palma_pianta_4.svg">
+  <metadata id="metadata66596">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1176" id="namedview66594" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:zoom="1.138488" inkscape:cx="374.65913" inkscape:cy="354.18822" inkscape:window-x="1920" inkscape:window-y="24" inkscape:window-maximized="1" inkscape:current-layer="svg65714"/>
+  <title id="title65716">Qt SVG Document</title>
+  <desc id="desc65718">Generated with Qt</desc>
+  <defs id="defs65720"/>
+  <g id="g65724" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65730" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65732" font-style="normal" font-weight="400" font-size="14.3611" stroke-miterlimit="2" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65734" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65736" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.0103916,-0.999946,0.999946,-0.0103916,192.05834,706.39617)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65738" d="m 65.829,0 c 0,-11.962 -3.1906,-23.1789 -8.7671,-32.846" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65740" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65742" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.16681,-0.985989,0.985989,-0.16681,251.07234,737.02917)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65744" d="m 133.489,0 c 0,-22.3081 -5.472,-43.3381 -15.148,-61.821" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65746" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65748" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.312599,-0.949885,0.949885,-0.312599,362.80834,907.01217)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65750" d="m 347.15,0 c 0,-26.4487 -2.958,-52.2065 -8.56,-76.9608" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65752" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65754" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.337362,-0.941375,0.941375,-0.337362,430.17934,933.83217)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65756" d="m 424.303,0 c 0,-29.1903 -2.947,-57.6922 -8.561,-85.2242" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65758" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65760" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.966428,0.256938,-0.256938,0.966428,-330.86066,412.74917)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65762" d="m 651.487,0 c 0,-32.2727 -2.346,-63.9973 -6.878,-95.0125" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65764" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65766" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.451482,-0.89228,0.89228,-0.451482,571.84934,1001.9222)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65768" d="m 571.811,0 c 0,-33.8088 -2.934,-66.9323 -8.562,-99.1298" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65770" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65772" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.487829,-0.872939,0.872939,-0.487829,585.42534,919.67217)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65774" d="m 524.761,0 c 0,-32.4085 -2.937,-64.1308 -8.561,-94.9152" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65776" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65778" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.718641,0.695381,-0.695381,0.718641,169.26134,643.34617)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65780" d="m 28.5475,0 c 0,-10.4335 -5.5972,-19.5597 -13.9527,-24.5398" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65782" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65784" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.819575,0.572972,-0.572972,0.819575,158.19534,612.61317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65786" d="m 68.0001,0 c 0,-16.0708 -5.5749,-30.8395 -14.8964,-42.4776" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65788" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65790" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.979405,0.201905,-0.201905,0.979405,-390.25821,498.30017)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65792" d="m 651.487,0 c 0,-19.015 -0.814,-37.8397 -2.41,-56.4411" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65794" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65796" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.973301,0.229531,-0.229531,0.973301,-357.51226,455.44717)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65798" d="m 651.487,0 c 0,-25.5838 -1.474,-50.8233 -4.343,-75.6379" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65800" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <path vector-effect="non-scaling-stroke" d="M 141.50809,678.54227 C 252.69488,603.45016 327.83057,494.95201 362.57339,375.45863" id="path65804" inkscape:connector-curvature="0" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65806" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65808" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.960517,0.278223,-0.278223,0.960517,-315.11596,382.62617)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65810" d="m 651.487,0 c 0,-37.595 -3.184,-74.4463 -9.298,-110.299" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65812" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65814" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.954667,0.297677,-0.297677,0.954667,-304.57666,359.51317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65816" d="m 651.487,0 c 0,-42.5432 -4.077,-84.1341 -11.864,-124.403" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65818" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65820" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.536863,-0.843669,0.843669,0.536863,39.111341,559.77517)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65822" d="m 65.829,0 c 0,-11.962 -3.1906,-23.1789 -8.7671,-32.846" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65824" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65826" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.398162,-0.917315,0.917315,0.398162,71.855341,617.64417)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65828" d="m 133.489,0 c 0,-22.3081 -5.472,-43.3381 -15.148,-61.821" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65830" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65832" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.256286,-0.966601,0.966601,0.256286,72.750341,821.06317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65834" d="m 347.15,0 c 0,-26.4487 -2.958,-52.2065 -8.56,-76.9608" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65836" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65838" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.230891,-0.97298,0.97298,0.230891,114.57634,880.29817)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65840" d="m 424.303,0 c 0,-29.1903 -2.947,-57.6922 -8.561,-85.2242" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65842" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65844" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.669724,0.74261,-0.74261,0.669724,-238.90366,28.380173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65846" d="m 651.487,0 c 0,-32.2727 -2.346,-63.9973 -6.878,-95.0125" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65848" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65850" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.108467,-0.9941,0.9941,0.108467,196.15234,1014.6522)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65852" d="m 571.811,0 c 0,-33.8088 -2.934,-66.9323 -8.562,-99.1298" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65854" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65856" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.0674541,-0.997722,0.997722,0.0674541,252.40734,953.13217)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65858" d="m 524.761,0 c 0,-32.4085 -2.937,-64.1308 -8.561,-94.9152" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65860" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65862" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.222853,0.974852,-0.974852,0.222853,54.407341,494.49817)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65864" d="m 28.5475,0 c 0,-10.4335 -5.5972,-19.5597 -13.9527,-24.5398" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65866" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65868" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.374226,0.927337,-0.927337,0.374226,61.901341,462.70417)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65870" d="m 68.0001,0 c 0,-16.0708 -5.5749,-30.8395 -14.8964,-42.4776" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65872" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65874" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.710626,0.70357,-0.70357,0.710626,-335.35846,67.668173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65876" d="m 651.487,0 c 0,-19.015 -0.814,-37.8397 -2.41,-56.4411" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65878" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65880" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.690438,0.723391,-0.723391,0.690438,-284.53486,49.621173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65882" d="m 651.487,0 c 0,-25.5838 -1.474,-50.8233 -4.343,-75.6379" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65884" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <path vector-effect="non-scaling-stroke" d="M 11.945243,508.85103 C 146.09506,506.58408 268.2588,456.65186 362.57052,375.46678" id="path65888" inkscape:connector-curvature="0" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65890" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65892" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.653157,0.757222,-0.757222,0.653157,-209.27366,11.726173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65894" d="m 651.487,0 c 0,-37.595 -3.184,-74.4463 -9.298,-110.299" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65896" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65898" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.637641,0.770334,-0.770334,0.637641,-187.83166,-1.8932272)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65900" d="m 651.487,0 c 0,-42.5432 -4.077,-84.1341 -11.864,-124.403" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65902" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65904" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.930228,-0.366983,0.366983,0.930228,-7.4536595,334.45617)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65906" d="m 65.829,0 c 0,-11.962 -3.1906,-23.1789 -8.7671,-32.846" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65908" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65910" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.861304,-0.508089,0.508089,0.861304,-14.978659,400.52017)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65912" d="m 133.489,0 c 0,-22.3081 -5.472,-43.3381 -15.148,-61.821" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65914" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65916" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.775494,-0.631355,0.631355,0.775494,-133.82066,565.61617)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65918" d="m 347.15,0 c 0,-26.4487 -2.958,-52.2065 -8.56,-76.9608" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65920" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65922" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.758698,-0.651443,0.651443,0.758698,-134.80066,638.12317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65924" d="m 424.303,0 c 0,-29.1903 -2.947,-57.6922 -8.561,-85.2242" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65926" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65928" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.105323,0.994438,-0.994438,0.105323,79.973341,-258.86383)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65930" d="m 651.487,0 c 0,-32.2727 -2.346,-63.9973 -6.878,-95.0125" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65932" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65934" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.672069,-0.740489,0.740489,0.672069,-147.77766,794.77017)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65936" d="m 571.811,0 c 0,-33.8088 -2.934,-66.9323 -8.562,-99.1298" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65938" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65940" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.641018,-0.767526,0.767526,0.641018,-66.102659,778.06117)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65942" d="m 524.761,0 c 0,-32.4085 -2.937,-64.1308 -8.561,-94.9152" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65944" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65946" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.392712,0.919662,-0.919662,-0.392712,43.289341,290.63717)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65948" d="m 28.5475,0 c 0,-10.4335 -5.5972,-19.5597 -13.9527,-24.5398" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65950" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65952" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.24232,0.970196,-0.970196,-0.24232,68.040341,269.32017)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65954" d="m 68.0001,0 c 0,-16.0708 -5.5749,-30.8395 -14.8964,-42.4776" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65956" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65958" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.16136,0.986896,-0.986896,0.16136,-21.153659,-283.77383)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65960" d="m 651.487,0 c 0,-19.015 -0.814,-37.8397 -2.41,-56.4411" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65962" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65964" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.133377,0.991065,-0.991065,0.133377,30.571341,-268.50083)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65966" d="m 651.487,0 c 0,-25.5838 -1.474,-50.8233 -4.343,-75.6379" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65968" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65970" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.574032,0.818833,-0.818833,-0.574032,317.40634,-174.76323)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65972" d="m 552.071,0 c 0,-134.169 -47.861,-257.159 -127.441,-352.829" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65974" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65976" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.0833312,0.996522,-0.996522,0.0833312,113.73334,-254.92183)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65978" d="m 651.487,0 c 0,-37.595 -3.184,-74.4463 -9.298,-110.299" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65980" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65982" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.0630715,0.998009,-0.998009,0.0630715,139.08534,-253.33583)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65984" d="m 651.487,0 c 0,-42.5432 -4.077,-84.1341 -11.864,-124.403" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65986" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65988" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.963313,0.26838,-0.26838,0.963313,92.164341,119.57317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65990" d="m 65.829,0 c 0,-11.962 -3.1906,-23.1789 -8.7671,-32.846" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65992" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g65994" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.993451,0.114259,-0.114259,0.993451,46.314341,167.72817)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path65996" d="m 133.489,0 c 0,-22.3081 -5.472,-43.3381 -15.148,-61.821" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g65998" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66000" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.999358,-0.0358177,0.0358177,0.999358,-148.05666,227.72717)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66002" d="m 347.15,0 c 0,-26.4487 -2.958,-52.2065 -8.56,-76.9608" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66004" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66006" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.998078,-0.0619708,0.0619708,0.998078,-192.57266,284.96917)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66008" d="m 424.303,0 c 0,-29.1903 -2.947,-57.6922 -8.561,-85.2242" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66010" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66012" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.515812,0.856702,-0.856702,-0.515812,519.77234,-300.93083)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66014" d="m 651.487,0 c 0,-32.2727 -2.346,-63.9973 -6.878,-95.0125" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66016" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66018" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.982692,-0.185247,0.185247,0.982692,-297.40836,402.08417)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66020" d="m 571.811,0 c 0,-33.8088 -2.934,-66.9323 -8.562,-99.1298" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66022" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66024" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.974234,-0.225541,0.225541,0.974234,-222.18566,438.02117)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66026" d="m 524.761,0 c 0,-32.4085 -2.937,-64.1308 -8.561,-94.9152" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66028" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66030" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.867947,0.496658,-0.496658,-0.867947,159.06834,115.23017)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66032" d="m 28.5475,0 c 0,-10.4335 -5.5972,-19.5597 -13.9527,-24.5398" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66034" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66036" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.778474,0.627677,-0.627677,-0.778474,191.66734,113.15617)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66038" d="m 68.0001,0 c 0,-16.0708 -5.5749,-30.8395 -14.8964,-42.4776" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66040" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66042" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.466567,0.884486,-0.884486,-0.466567,454.13734,-381.79583)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66044" d="m 651.487,0 c 0,-19.015 -0.814,-37.8397 -2.41,-56.4411" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66046" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66048" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.491402,0.870933,-0.870933,-0.491402,486.18134,-338.41483)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66050" d="m 651.487,0 c 0,-25.5838 -1.474,-50.8233 -4.343,-75.6379" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66052" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <path vector-effect="non-scaling-stroke" d="M 132.98566,78.775197 C 174.15783,206.47081 257.45133,308.83978 362.54982,375.47334" id="path66056" inkscape:connector-curvature="0" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66058" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66060" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.53461,0.845099,-0.845099,-0.53461,544.32134,-277.42283)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66062" d="m 651.487,0 c 0,-37.595 -3.184,-74.4463 -9.298,-110.299" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66064" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66066" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.551667,0.834065,-0.834065,-0.551667,563.58634,-260.86683)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66068" d="m 651.487,0 c 0,-42.5432 -4.077,-84.1341 -11.864,-124.403" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66070" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66072" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.621587,0.783345,-0.783345,0.621587,294.21034,9.5101728)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66074" d="m 65.829,0 c 0,-11.962 -3.1906,-23.1789 -8.7671,-32.846" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66076" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66078" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.736559,0.676373,-0.676373,0.736559,228.81234,21.518173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66080" d="m 133.489,0 c 0,-22.3081 -5.472,-43.3381 -15.148,-61.821" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66082" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66084" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.829551,0.558431,-0.558431,0.829551,36.296341,-44.189827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66086" d="m 347.15,0 c 0,-26.4487 -2.958,-52.2065 -8.56,-76.9608" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66088" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66090" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.843888,0.53652,-0.53652,0.843888,-33.363659,-24.046627)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66092" d="m 424.303,0 c 0,-29.1903 -2.947,-57.6922 -8.561,-85.2242" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66094" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66096" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.920857,0.3899,-0.3899,-0.920857,887.32034,-79.343527)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66098" d="m 651.487,0 c 0,-32.2727 -2.346,-63.9973 -6.878,-95.0125" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66100" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66102" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.9039,0.427744,-0.427744,0.9039,-187.01666,9.0811728)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66104" d="m 571.811,0 c 0,-33.8088 -2.934,-66.9323 -8.562,-99.1298" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66106" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66108" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.920741,0.390174,-0.390174,0.920741,-147.28266,82.370173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66110" d="m 524.761,0 c 0,-32.4085 -2.937,-64.1308 -8.561,-94.9152" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66112" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66114" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.994112,-0.108362,0.108362,-0.994112,350.89034,45.321173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66116" d="m 28.5475,0 c 0,-10.4335 -5.5972,-19.5597 -13.9527,-24.5398" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66118" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66120" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.998738,0.050226,-0.050226,-0.998738,378.48134,62.805173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66122" d="m 68.0001,0 c 0,-16.0708 -5.5749,-30.8395 -14.8964,-42.4776" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66124" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66126" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.897349,0.441323,-0.441323,-0.897349,881.75034,-183.34403)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66128" d="m 651.487,0 c 0,-19.015 -0.814,-37.8397 -2.41,-56.4411" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66130" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66132" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.909474,0.415761,-0.415761,-0.909474,882.18034,-129.41303)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66134" d="m 651.487,0 c 0,-25.5838 -1.474,-50.8233 -4.343,-75.6379" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66136" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <path vector-effect="non-scaling-stroke" d="M 351.21635,0.49999728 C 309.46766,128.00831 316.68246,259.78526 362.54264,375.46833" id="path66140" inkscape:connector-curvature="0" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66142" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66144" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.929245,0.369463,-0.369463,-0.929245,893.36034,-45.895627)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66146" d="m 651.487,0 c 0,-37.595 -3.184,-74.4463 -9.298,-110.299" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66148" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66150" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.936559,0.350511,-0.350511,-0.936559,899.22034,-21.177327)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66152" d="m 651.487,0 c 0,-42.5432 -4.077,-84.1341 -11.864,-124.403" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66154" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66156" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.229472,0.973315,-0.973315,-0.229472,607.37634,95.006173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66158" d="m 65.829,0 c 0,-11.962 -3.1906,-23.1789 -8.7671,-32.846" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66160" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66162" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.0742654,0.997239,-0.997239,-0.0742654,557.41834,51.127173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66164" d="m 133.489,0 c 0,-22.3081 -5.472,-43.3381 -15.148,-61.821" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66166" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66168" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.0759277,0.997113,-0.997113,0.0759277,489.66134,-140.67693)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66170" d="m 347.15,0 c 0,-26.4487 -2.958,-52.2065 -8.56,-76.9608" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66172" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66174" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.102008,0.994784,-0.994784,0.102008,430.67834,-182.85813)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66176" d="m 424.303,0 c 0,-29.1903 -2.947,-57.6922 -8.561,-85.2242" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66178" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66180" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.876728,-0.480987,0.480987,-0.876728,1044.7203,505.37917)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66182" d="m 651.487,0 c 0,-32.2727 -2.346,-63.9973 -6.878,-95.0125" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66184" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66186" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.224567,0.974459,-0.974459,0.224567,309.44634,-282.90583)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66188" d="m 571.811,0 c 0,-33.8088 -2.934,-66.9323 -8.562,-99.1298" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66190" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66192" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.264488,0.964389,-0.964389,0.264488,276.55934,-206.29983)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66194" d="m 524.761,0 c 0,-32.4085 -2.937,-64.1308 -8.561,-94.9152" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66196" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66198" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.531118,-0.847298,0.847298,-0.531118,614.40334,161.68217)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66200" d="m 28.5475,0 c 0,-10.4335 -5.5972,-19.5597 -13.9527,-24.5398" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66202" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66204" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.658438,-0.752635,0.752635,-0.658438,617.78434,194.17117)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66206" d="m 68.0001,0 c 0,-16.0708 -5.5749,-30.8395 -14.8964,-42.4776" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66208" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66210" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.902511,-0.430666,0.430666,-0.902511,1122.8803,436.55017)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66212" d="m 651.487,0 c 0,-19.015 -0.814,-37.8397 -2.41,-56.4411" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66214" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66216" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.889967,-0.456024,0.456024,-0.889967,1080.8203,470.31017)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66218" d="m 651.487,0 c 0,-25.5838 -1.474,-50.8233 -4.343,-75.6379" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66220" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <path vector-effect="non-scaling-stroke" d="M 649.78031,134.15976 C 523.84137,180.42753 424.90042,267.76543 362.54184,375.45542" id="path66224" inkscape:connector-curvature="0" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66226" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66228" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.865889,-0.500236,0.500236,-0.865889,1022.2103,530.85317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66230" d="m 651.487,0 c 0,-37.595 -3.184,-74.4463 -9.298,-110.299" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66232" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66234" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.855549,-0.517721,0.517721,-0.855549,1006.4403,550.76817)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66236" d="m 651.487,0 c 0,-42.5432 -4.077,-84.1341 -11.864,-124.403" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66238" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66240" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.740409,0.672156,-0.672156,-0.740409,723.17034,282.99817)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66242" d="m 65.829,0 c 0,-11.962 -3.1906,-23.1789 -8.7671,-32.846" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66244" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66246" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.62605,0.779783,-0.779783,-0.62605,706.85034,218.54117)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66248" d="m 133.489,0 c 0,-22.3081 -5.472,-43.3381 -15.148,-61.821" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66250" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66252" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.502202,0.864751,-0.864751,-0.502202,759.65034,22.092173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66254" d="m 347.15,0 c 0,-26.4487 -2.958,-52.2065 -8.56,-76.9608" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66256" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66258" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.479388,0.877603,-0.877603,-0.479388,734.93034,-46.079127)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66260" d="m 424.303,0 c 0,-29.1903 -2.947,-57.6922 -8.561,-85.2242" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66262" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66264" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.450096,-0.89298,0.89298,-0.450096,851.15034,868.91117)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66266" d="m 651.487,0 c 0,-32.2727 -2.346,-63.9973 -6.878,-95.0125" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66268" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66270" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.366873,0.930271,-0.930271,-0.366873,691.69034,-197.19783)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66272" d="m 571.811,0 c 0,-33.8088 -2.934,-66.9323 -8.562,-99.1298" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66274" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66276" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.328269,0.944584,-0.944584,-0.328269,621.20034,-152.69203)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66278" d="m 524.761,0 c 0,-32.4085 -2.937,-64.1308 -8.561,-94.9152" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66280" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66282" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.0422121,-0.999109,0.999109,0.0422121,691.19034,341.92817)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66284" d="m 28.5475,0 c 0,-10.4335 -5.5972,-19.5597 -13.9527,-24.5398" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66286" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66288" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.116333,-0.99321,0.99321,-0.116333,675.58034,370.61817)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66290" d="m 68.0001,0 c 0,-16.0708 -5.5749,-30.8395 -14.8964,-42.4776" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66292" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66294" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.499847,-0.866114,0.866114,-0.499847,954.55034,856.45917)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66296" d="m 651.487,0 c 0,-19.015 -0.814,-37.8397 -2.41,-56.4411" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66298" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66300" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.475146,-0.879907,0.879907,-0.475146,900.77034,860.46017)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66302" d="m 651.487,0 c 0,-25.5838 -1.474,-50.8233 -4.343,-75.6379" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66304" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <path vector-effect="non-scaling-stroke" d="M 735.94035,339.28479 C 605.94454,306.08198 474.93586,322.01798 362.54792,375.44727" id="path66308" inkscape:connector-curvature="0" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66310" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66312" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.430261,-0.902705,0.902705,-0.430261,818.18034,877.15917)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66314" d="m 651.487,0 c 0,-37.595 -3.184,-74.4463 -9.298,-110.299" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66316" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66318" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.411835,-0.911258,0.911258,-0.411835,793.90034,884.63917)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66320" d="m 651.487,0 c 0,-42.5432 -4.077,-84.1341 -11.864,-124.403" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66322" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66324" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.984216,0.176972,-0.176972,-0.984216,717.29034,488.39217)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66326" d="m 65.829,0 c 0,-11.962 -3.1906,-23.1789 -8.7671,-32.846" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66328" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66330" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.944374,0.328874,-0.328874,-0.944374,737.65034,425.09617)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66332" d="m 133.489,0 c 0,-22.3081 -5.472,-43.3381 -15.148,-61.821" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66334" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66336" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.884467,0.466602,-0.466602,-0.884467,886.63034,286.58217)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66338" d="m 347.15,0 c 0,-26.4487 -2.958,-52.2065 -8.56,-76.9608" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66340" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66342" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.871947,0.4896,-0.4896,-0.871947,901.84034,215.68217)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66344" d="m 424.303,0 c 0,-29.1903 -2.947,-57.6922 -8.561,-85.2242" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66346" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66348" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.092204,-0.99574,0.99574,0.092204,514.94334,1052.9522)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66350" d="m 651.487,0 c 0,-32.2727 -2.346,-63.9973 -6.878,-95.0125" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66352" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66354" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.804512,0.593936,-0.593936,-0.804512,945.36034,64.642173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66356" d="m 571.811,0 c 0,-33.8088 -2.934,-66.9323 -8.562,-99.1298" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66358" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66360" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.779382,0.62655,-0.62655,-0.779382,861.99034,64.971173)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66362" d="m 524.761,0 c 0,-32.4085 -2.937,-64.1308 -8.561,-94.9152" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66364" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66366" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.565824,-0.824526,0.824526,0.565824,658.92034,521.38217)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66368" d="m 28.5475,0 c 0,-10.4335 -5.5972,-19.5597 -13.9527,-24.5398" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66370" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66372" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.4283,-0.903637,0.903637,0.4283,630.47034,537.41817)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66374" d="m 68.0001,0 c 0,-16.0708 -5.5749,-30.8395 -14.8964,-42.4776" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66376" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66378" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.0357781,-0.99936,0.99936,0.0357781,609.20034,1097.2522)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66380" d="m 651.487,0 c 0,-19.015 -0.814,-37.8397 -2.41,-56.4411" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66382" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66384" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.0640344,-0.997948,0.997948,0.0640344,561.48634,1072.1122)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66386" d="m 651.487,0 c 0,-25.5838 -1.474,-50.8233 -4.343,-75.6379" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66388" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <path vector-effect="non-scaling-stroke" d="M 698.2557,542.88048 C 605.67601,445.77057 486.16886,389.77707 362.55531,375.44431" id="path66392" inkscape:connector-curvature="0" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66394" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66396" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.114177,-0.99346,0.99346,0.114177,482.61634,1042.4522)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66398" d="m 651.487,0 c 0,-37.595 -3.184,-74.4463 -9.298,-110.299" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66400" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66402" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.134334,-0.990936,0.990936,0.134334,458.07034,1035.9122)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66404" d="m 651.487,0 c 0,-42.5432 -4.077,-84.1341 -11.864,-124.403" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66406" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66408" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.900269,-0.435334,0.435334,-0.900269,583.16234,675.33117)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66410" d="m 65.829,0 c 0,-11.962 -3.1906,-23.1789 -8.7671,-32.846" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66412" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66414" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.957322,-0.289025,0.289025,-0.957322,636.84034,636.09317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66416" d="m 133.489,0 c 0,-22.3081 -5.472,-43.3381 -15.148,-61.821" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66418" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66420" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.989811,-0.142388,0.142388,-0.989811,838.78034,611.59817)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66422" d="m 347.15,0 c 0,-26.4487 -2.958,-52.2065 -8.56,-76.9608" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66424" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66426" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.9932,-0.116423,0.116423,-0.9932,892.76034,563.18117)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66428" d="m 424.303,0 c 0,-29.1903 -2.947,-57.6922 -8.561,-85.2242" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66430" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66432" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.659876,-0.751375,0.751375,0.659876,87.619341,1013.1322)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66434" d="m 651.487,0 c 0,-32.2727 -2.346,-63.9973 -6.878,-95.0125" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66436" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66438" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.999971,0.0076243,-0.0076243,-0.999971,1016.7503,466.56517)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66440" d="m 571.811,0 c 0,-33.8088 -2.934,-66.9323 -8.562,-99.1298" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66442" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66444" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.99881,0.0487802,-0.0487802,-0.99881,949.11034,417.82917)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66446" d="m 524.761,0 c 0,-32.4085 -2.937,-64.1308 -8.561,-94.9152" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66448" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66450" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.942406,-0.334472,0.334472,0.942406,516.55134,667.71317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66452" d="m 28.5475,0 c 0,-10.4335 -5.5972,-19.5597 -13.9527,-24.5398" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66454" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66456" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.877646,-0.479309,0.479309,0.877646,484.10334,663.95917)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66458" d="m 68.0001,0 c 0,-16.0708 -5.5749,-30.8395 -14.8964,-42.4776" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66460" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66462" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.616354,-0.787469,0.787469,0.616354,137.83534,1104.3722)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66464" d="m 651.487,0 c 0,-19.015 -0.814,-37.8397 -2.41,-56.4411" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66466" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66468" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.638384,-0.769718,0.769718,0.638384,114.01234,1055.9922)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66470" d="m 651.487,0 c 0,-25.5838 -1.474,-50.8233 -4.343,-75.6379" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66472" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <path vector-effect="non-scaling-stroke" d="M 535.7351,708.22372 C 517.91638,575.24319 454.14528,459.69896 362.56445,375.44527" id="path66476" inkscape:connector-curvature="0" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66478" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66480" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.676312,-0.736615,0.736615,0.676312,67.639341,985.63217)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66482" d="m 651.487,0 c 0,-37.595 -3.184,-74.4463 -9.298,-110.299" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66484" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66486" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.691136,-0.722725,0.722725,0.691136,51.623341,965.92217)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66488" d="m 651.487,0 c 0,-42.5432 -4.077,-84.1341 -11.864,-124.403" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66490" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66492" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.983948,-0.178457,0.178457,0.983948,-236.05666,670.38817)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66494" d="m 651.487,0 c 0,-42.5432 -4.077,-84.1341 -11.864,-124.403" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66496" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66498" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.98012,-0.198408,0.198408,0.98012,-234.68966,695.75317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66500" d="m 651.487,0 c 0,-37.595 -3.184,-74.4463 -9.298,-110.299" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66502" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <path vector-effect="non-scaling-stroke" d="M 307.06679,746.46187 C 370.81504,628.40483 387.13826,497.44394 362.57085,375.4515" id="path66506" inkscape:connector-curvature="0" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66508" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66510" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.968892,-0.247482,0.247482,0.968892,-238.52666,779.92917)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66512" d="m 651.487,0 c 0,-25.5838 -1.474,-50.8233 -4.343,-75.6379" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66514" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66516" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.961504,-0.274792,0.274792,0.961504,-247.69366,833.07717)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66518" d="m 651.487,0 c 0,-19.015 -0.814,-37.8397 -2.41,-56.4411" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66520" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66522" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.991761,0.128098,-0.128098,0.991761,291.31334,680.30317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66524" d="m 68.0001,0 c 0,-16.0708 -5.5749,-30.8395 -14.8964,-42.4776" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66526" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66528" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.95902,0.283338,-0.283338,0.95902,315.35834,702.41317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66530" d="m 28.5475,0 c 0,-10.4335 -5.5972,-19.5597 -13.9527,-24.5398" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66532" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66534" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.836726,-0.547622,0.547622,-0.836726,812.18034,754.50417)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66536" d="m 524.761,0 c 0,-32.4085 -2.937,-64.1308 -8.561,-94.9152" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66538" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66540" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.813475,-0.5816,0.5816,-0.813475,838.26034,833.68817)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66542" d="m 571.811,0 c 0,-33.8088 -2.934,-66.9323 -8.562,-99.1298" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66544" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66546" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(0.975498,-0.220009,0.220009,0.975498,-234.68766,729.74317)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66548" d="m 651.487,0 c 0,-32.2727 -2.346,-63.9973 -6.878,-95.0125" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66550" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66552" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.735084,-0.677977,0.677977,-0.735084,681.16034,838.97717)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66554" d="m 424.303,0 c 0,-29.1903 -2.947,-57.6922 -8.561,-85.2242" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66556" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66558" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.717081,-0.69699,0.69699,-0.717081,609.03134,846.41717)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66560" d="m 347.15,0 c 0,-26.4487 -2.958,-52.2065 -8.56,-76.9608" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66562" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66564" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.604605,-0.796525,0.796525,-0.604605,431.26034,747.53617)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66566" d="m 133.489,0 c 0,-22.3081 -5.472,-43.3381 -15.148,-61.821" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66568" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66570" font-style="normal" font-weight="400" font-size="14.3611" transform="matrix(-0.47245,-0.881358,0.881358,-0.47245,364.76934,747.72917)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1">
+    <path inkscape:connector-curvature="0" id="path66572" d="m 65.829,0 c 0,-11.962 -3.1906,-23.1789 -8.7671,-32.846" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="g66574" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66576" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66578" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66580" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66582" font-style="normal" font-weight="400" font-size="14.3611" stroke-miterlimit="2" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66588" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66590" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+  <g id="g66592" font-style="normal" font-weight="400" font-size="14.3611" transform="translate(-381.18966,-94.967827)" fill="param(fill) none" stroke="param(outline) #00ff00" stroke-width="param(outline-width) 1"/>
+</svg>
