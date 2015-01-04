@@ -1,9 +1,11 @@
 #!/usr/bin/python
 
-import sys, codecs, argparse
+import sys
+import codecs
+import argparse
 from lxml import etree
  
-NS = { 'svg':"http://www.w3.org/2000/svg" }
+NS = {'svg': "http://www.w3.org/2000/svg"}
  
 parser = argparse.ArgumentParser(description="My first Inkscape effect")
 parser.add_argument('--id', action="append", help="id(s) of selected elements")
@@ -43,10 +45,10 @@ for path in t.xpath("//svg:g ", namespaces=NS):
 for path in t.xpath("//svg:polyline ", namespaces=NS):
     style = path.get("style")
     if style:
-        #try:
-        #    del path.attrib["style"]
-        #except:
-        #    pass
+        # try:
+        #     del path.attrib["style"]
+        # except:
+        #     pass
         path.set("fill", "param(fill) none")
         path.set("stroke", "param(outline) #00ff00")
         path.set("stroke-width", "param(outline-width) 1")
