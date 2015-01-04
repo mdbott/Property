@@ -53,8 +53,8 @@ def create_insert_rule(connection, table_name, view_name):
         CREATE OR REPLACE RULE {rulename} AS
         ON INSERT TO {viewname} DO INSTEAD
         INSERT INTO {tablename}
-        (botanical_name_id, locations, dripline_radius, comment)
-        VALUES (new.botanicalid, new.locations, new.dripline_radius, new.comment);
+        (botanical_name_id, locations, comment)
+        VALUES (new.botanicalid, new.locations, new.comment);
         """
         rule_sql = insert_rule_template.format(rulename=rule_name, viewname=view_name, tablename=table_name)
 
@@ -81,7 +81,6 @@ def create_update_rule(connection, table_name, view_name):
         UPDATE {tablename}
         SET botanical_name_id = new.botanicalid,
         locations = new.locations,
-        dripline_radius = new.dripline_radius,
         comment = new.comment
         WHERE {tablename}.id = new.vegetationid;
         """
@@ -156,7 +155,6 @@ def main():
     table_schema = """
     (id SERIAL PRIMARY KEY,
      botanical_name_id smallint NOT NULL DEFAULT (1)::SMALLINT,
-     dripline_radius SMALLINT,
      comment TEXT
      )"""
     create_table(conn, table_name, table_schema)
@@ -175,7 +173,17 @@ def main():
     {viewname}.ssp,
     {viewname}.common_name,
     {viewname}.locations,
-    {viewname}.dripline_radius,
+    {viewname}.hardyness,
+    {viewname}.range,
+    {viewname}.habitat,
+    {viewname}.habit,
+    {viewname}.persistance,
+    {viewname}.height,
+    {viewname}.width,
+    {viewname}.nitrogen_fixer,
+    {viewname}.cultivation_details,
+    {viewname}.propagation_details,
+    {viewname}.known_hazards,
     {viewname}.comment
     FROM ( SELECT row_number() OVER (ORDER BY {tablename}.id) AS row_number,
             {tablename}.id AS vegetationid,
@@ -187,10 +195,23 @@ def main():
             botanical_name.ssp,
             botanical_name.common_name,
             {tablename}.locations,
-            {tablename}.dripline_radius,
+            culture.hardyness,
+            culture.range,
+            culture.habitat,
+            culture.habit,
+            culture.deciduous_evergreen AS persistance,
+            culture.height_centimeters AS height,
+            culture.width_centimeters AS width,
+            culture.nitrogen_fixer,
+            cultural_notes.cultivation_details,
+            cultural_notes.propagation_details,
+            cultural_notes.known_hazards,
             {tablename}.comment
            FROM {tablename}
-             LEFT JOIN botanical_name ON {tablename}.botanical_name_id = botanical_name.id) {viewname};
+             LEFT JOIN botanical_name ON {tablename}.botanical_name_id = botanical_name.id
+             LEFT JOIN culture ON {tablename}.botanical_name_id = culture.id
+             LEFT JOIN cultural_notes ON {tablename}.botanical_name_id = cultural_notes.id
+             ) {viewname};
     """
     query = query_template.format(viewname=view_name, tablename=table_name)
     create_view(conn, view_name, query)
