@@ -184,6 +184,9 @@ def main():
     {viewname}.cultivation_details,
     {viewname}.propagation_details,
     {viewname}.known_hazards,
+    {viewname}.cultivar,
+    {viewname}.notes_on_cultivar,
+    {viewname}.synonyms,
     {viewname}.comment
     FROM ( SELECT row_number() OVER (ORDER BY {tablename}.id) AS row_number,
             {tablename}.id AS vegetationid,
@@ -206,11 +209,16 @@ def main():
             cultural_notes.cultivation_details,
             cultural_notes.propagation_details,
             cultural_notes.known_hazards,
+            cutlivar.cultivar,
+            cutlivar.notes_on_cultivar,
+            cutlivar.synonyms,
             {tablename}.comment
            FROM {tablename}
              LEFT JOIN botanical_name ON {tablename}.botanical_name_id = botanical_name.id
              LEFT JOIN culture ON {tablename}.botanical_name_id = culture.id
              LEFT JOIN cultural_notes ON {tablename}.botanical_name_id = cultural_notes.id
+             LEFT OUTER JOIN cultivars ON {tablename}.botanical_name_id = cultivar.id
+
              ) {viewname};
     """
     query = query_template.format(viewname=view_name, tablename=table_name)
