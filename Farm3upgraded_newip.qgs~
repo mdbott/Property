@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="Farm" version="2.8.1-Wien">
+<qgis projectname="Farm" version="2.8.3-Wien">
   <title>Farm</title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
@@ -69,7 +69,10 @@
               </customproperties>
             </layer-tree-layer>
           </layer-tree-group>
-          <layer-tree-layer expanded="0" checked="Qt::Checked" id="Notes20140427191839952" name="Notes">
+          <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Notes20140427191839952" name="Notes">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="polyculture_notes20150915233807404" name="polyculture_notes">
             <customproperties/>
           </layer-tree-layer>
           <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Proposed_Zones20140427084706612" name="Proposed Zones">
@@ -82,7 +85,7 @@
           <property key="overview" value="1"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Paddocks20070922154242917" name="Paddocks">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Paddocks20070922154242917" name="Paddocks">
         <customproperties>
           <property key="overview" value="1"/>
         </customproperties>
@@ -219,15 +222,18 @@
           <property key="showFeatureCount" value="0"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150908234528050" name="Native Vegetation">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="Productive Species">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Productive Species">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150909000126920" name="Nuts">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150908235405511" name="Fruit">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150908235405511" name="Fruit">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150908234528050" name="Native Vegetation">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150915222254698" name="Fibre Plants">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -243,24 +249,15 @@
         <property key="overview" value="1"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150908080750243" name="Google Satellite">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150908080540095" name="Apple iPhoto map">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150908080347737" name="Bing Aerial">
-      <customproperties/>
-    </layer-tree-layer>
   </layer-tree-group>
   <relations/>
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>16665318.14325397647917271</xmin>
-      <ymin>-4416044.88800805993378162</ymin>
-      <xmax>16665672.81736495532095432</xmax>
-      <ymax>-4415843.93342701531946659</ymax>
+      <xmin>16665248.58269397541880608</xmin>
+      <ymin>-4416140.07013493403792381</ymin>
+      <xmax>16665587.93686284497380257</xmax>
+      <ymax>-4415915.83611184544861317</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -304,6 +301,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Proposed_Zones20140427084706612"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Functional_Zones20070923090342999"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Strong_Southerly_Winds20070922115811245"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetation_view_copy20150915222254698"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Sectors20070922093252483"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="Power20080316145105996"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tracks20140529101836384"/>
@@ -337,6 +335,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Paddocks20070922154242917"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Paddock_Sample_Path20150101120719472"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Planned_Fences20070923084756295"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="polyculture_notes20150915233807404"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="waypoints20140526192643270"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="acacia20140530003145230"/>
     </layer_coordinate_transform_info>
@@ -380,13 +379,12 @@
       <item>eucaluptus_view20140527010656225</item>
       <item>vegetation_view20140502123646201</item>
       <item>farm20130227082345472</item>
-      <item>OpenLayers_plugin_layer20150908080347737</item>
-      <item>OpenLayers_plugin_layer20150908080540095</item>
-      <item>OpenLayers_plugin_layer20150908080750243</item>
       <item>vegetation_view_copy20150908233515208</item>
       <item>vegetation_view_copy20150908234528050</item>
       <item>vegetation_view_copy20150908235405511</item>
       <item>vegetation_view_copy20150909000126920</item>
+      <item>vegetation_view_copy20150915222254698</item>
+      <item>polyculture_notes20150915233807404</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -470,9 +468,14 @@
               </filegroup>
             </legendlayer>
           </legendgroup>
-          <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Notes" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Notes" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Notes20140427191839952" visible="1"/>
+              <legendlayerfile isInOverview="0" layerid="Notes20140427191839952" visible="0"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="polyculture_notes" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="polyculture_notes20150915233807404" visible="1"/>
             </filegroup>
           </legendlayer>
           <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Proposed Zones" showFeatureCount="0">
@@ -487,8 +490,8 @@
           <legendlayerfile isInOverview="1" layerid="Functional_Zones20070923090342999" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Paddocks" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Paddocks" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="1" layerid="Paddocks20070922154242917" visible="0"/>
         </filegroup>
       </legendlayer>
@@ -601,20 +604,25 @@
           <legendlayerfile isInOverview="0" layerid="vegetation_view20140502123646201" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Native Vegetation" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908234528050" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendgroup open="true" checked="Qt::Checked" name="Productive Species">
+      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Productive Species">
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Nuts" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150909000126920" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Fruit" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Fruit" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908235405511" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908235405511" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Native Vegetation" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908234528050" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Fibre Plants" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150915222254698" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -629,21 +637,6 @@
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="farm" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="1" layerid="farm20130227082345472" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Satellite" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150908080750243" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Apple iPhoto map" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150908080540095" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Bing Aerial" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150908080347737" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -886,7 +879,7 @@
       </ComposerMap>
     </Composition>
   </Composer>
-  <projectlayers layercount="46">
+  <projectlayers layercount="45">
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Boundary_Fences20070921080039767</id>
       <datasource>./Boundary_Fences/Boundary_Fences.shp</datasource>
@@ -2575,7 +2568,6 @@
       <featformsuppress>2</featformsuppress>
       <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
-      <aliases/>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
@@ -2584,81 +2576,6 @@
           <widgetv2config IsMultiline="1" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
-      <id>OpenLayers_plugin_layer20150908080347737</id>
-      <datasource></datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Bing Aerial</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="ol_layer_type" value="Bing Aerial"/>
-      </customproperties>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
-      <id>OpenLayers_plugin_layer20150908080540095</id>
-      <datasource></datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Apple iPhoto map</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="ol_layer_type" value="Apple iPhoto map"/>
-      </customproperties>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
-      <id>OpenLayers_plugin_layer20150908080750243</id>
-      <datasource></datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Google Satellite</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="ol_layer_type" value="Google Satellite"/>
-      </customproperties>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Paddock_Sample_Path20150101120719472</id>
@@ -5484,7 +5401,7 @@
               <prop k="angle" v="1.5"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/albero_pianta_10.svg"/>
+              <prop k="name" v="./symbols/albero_pianta_10.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -6656,6 +6573,260 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>polyculture_notes20150915233807404</id>
+      <datasource>dbname='eden' host=localhost port=5432 user='postgres' sslmode=disable key='id' srid=3857 type=MULTIPOINT table="public"."polyculture_notes" (locations) sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>polyculture_notes</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">postgres</provider>
+      <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="notes">
+          <widgetv2config IsMultiline="1" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="note">
+          <widgetv2config IsMultiline="1" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="77,141,109,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="area"/>
+      </renderer-v2>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value="note"/>
+        <property key="labeling/fontBold" value="true"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Ubuntu"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="4"/>
+        <property key="labeling/fontSizeInMapUnits" value="true"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="63"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelOffsetInMapUnits" value="false"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Medium"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="0"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="8"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="Ubuntu"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="notes">
+          <widgetv2config IsMultiline="1" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="note">
+          <widgetv2config IsMultiline="1" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>test_layer20130313083553387</id>
       <datasource>dbname='eden' host=192.168.1.235 port=5432 user='postgres' password='mega^0lt' sslmode=disable key='botanical_name' estimatedmetadata=true table="test_layer" (geom) sql=</datasource>
@@ -7168,6 +7339,7 @@
             <value key="Grapefruit" value="7412"/>
             <value key="Gully Peppermint" value="7410"/>
             <value key="Hazel" value="1993"/>
+            <value key="Highbush Blueberry" value="7040"/>
             <value key="Kurrajong" value="1114"/>
             <value key="Lemon" value="1761"/>
             <value key="Lightwood" value="7404"/>
@@ -7252,7 +7424,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7272,7 +7444,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7292,7 +7464,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7312,7 +7484,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7332,7 +7504,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/albero_pianta_2.svg"/>
+              <prop k="name" v="./symbols/albero_pianta_2.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7352,7 +7524,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7372,7 +7544,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7392,7 +7564,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/albero_pianta_6.svg"/>
+              <prop k="name" v="./symbols/albero_pianta_6.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7412,7 +7584,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7432,7 +7604,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7452,7 +7624,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7472,7 +7644,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7492,7 +7664,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7512,7 +7684,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7532,7 +7704,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7552,7 +7724,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7574,7 +7746,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7807,6 +7979,7 @@
             <value key="Grapefruit" value="7412"/>
             <value key="Gully Peppermint" value="7410"/>
             <value key="Hazel" value="1993"/>
+            <value key="Highbush Blueberry" value="7040"/>
             <value key="Kurrajong" value="1114"/>
             <value key="Lemon" value="1761"/>
             <value key="Lightwood" value="7404"/>
@@ -7869,7 +8042,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>vegetation_view_copy20150908233515208</id>
-      <datasource>dbname='eden' host=192.168.1.235 port=5432 user='postgres' password='mega^0lt' sslmode=disable key='row_number' srid=3857 type=POINT table="public"."vegetation_view" (locations) sql="genus" = 'Elaeagnus'  OR "genus" = 'Alnus' OR "genus" = 'Acacia'</datasource>
+      <datasource>dbname='eden' host=192.168.1.235 port=5432 user='postgres' password='mega^0lt' sslmode=disable key='row_number' srid=3857 type=POINT table="public"."vegetation_view" (locations) sql="genus" = 'Elaeagnus'  OR "genus" = 'Alnus' OR "genus" = 'Acacia' OR "genus" =  'Robinia'</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7904,60 +8077,10 @@
         </edittype>
         <edittype widgetv2type="ValueMap" name="botanicalid">
           <widgetv2config fieldEditable="1" labelOnTop="0">
-            <value key="African Boxthorn" value="7405"/>
-            <value key="Almond" value="5242"/>
-            <value key="Alnus Cordata" value="378"/>
-            <value key="Apple" value="4053"/>
-            <value key="Avocado" value="7413"/>
             <value key="Black Wattle" value="7399"/>
-            <value key="Blackberry" value="5861"/>
-            <value key="Blackthorn" value="1212"/>
             <value key="Blackwood" value="51"/>
-            <value key="Boldo" value="4713"/>
-            <value key="Brown Barrel" value="7408"/>
-            <value key="Cherry ballart" value="7403"/>
-            <value key="Chilean hazel" value="3019"/>
-            <value key="Chinese cedar" value="6830"/>
-            <value key="Coast grey box" value="7401"/>
-            <value key="Comfrey" value="6673"/>
-            <value key="Cornelian Cherry" value="1955"/>
-            <value key="Creeping Lantana" value="7406"/>
-            <value key="Fig" value="2811"/>
-            <value key="Grapefruit" value="7412"/>
-            <value key="Gully Peppermint" value="7410"/>
-            <value key="Hazel" value="1993"/>
-            <value key="Kurrajong" value="1114"/>
-            <value key="Lemon" value="1761"/>
-            <value key="Lightwood" value="7404"/>
-            <value key="Macadamia" value="4002"/>
-            <value key="Maiden's Gum" value="7400"/>
-            <value key="Mana Gum" value="2697"/>
-            <value key="Mandarin" value="1762"/>
-            <value key="Messmate" value="2687"/>
-            <value key="Olive" value="4396"/>
-            <value key="Orange" value="1763"/>
-            <value key="Osage orange" value="4005"/>
-            <value key="Peach" value="5286"/>
-            <value key="Pear" value="5421"/>
-            <value key="Pecan" value="1445"/>
-            <value key="Pistachio" value="4937"/>
-            <value key="Plum" value="5241"/>
-            <value key="Pomegranate" value="5387"/>
-            <value key="Quercus ilex (Holm Oak)" value="5475"/>
-            <value key="Quercus macrocarpa (Burr Oak)" value="5487"/>
-            <value key="Quercus robur" value="5505"/>
-            <value key="Quercus suber (Pin Oak)" value="5510"/>
-            <value key="Red gum" value="7398"/>
-            <value key="River peppermint" value="7407"/>
-            <value key="Rough barked apple" value="539"/>
-            <value key="Sour Cherry" value="5229"/>
-            <value key="Stinging Nettle" value="7007"/>
-            <value key="Stone Pine" value="4908"/>
-            <value key="Sweet chestnut" value="1466"/>
-            <value key="White Stringybark" value="7402"/>
-            <value key="Woolybutt" value="7411"/>
-            <value key="Yellow Box" value="2685"/>
-            <value key="Yellow Stringybark" value="7409"/>
+            <value key="Elaeagnus ebbingei" value="2488"/>
+            <value key="Robinia pseudoacacia" value="5736"/>
           </widgetv2config>
         </edittype>
         <edittype widgetv2type="TextEdit" name="legacy_pfaf_latin_name">
@@ -8010,7 +8133,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8030,7 +8153,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8050,7 +8173,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8070,7 +8193,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8090,7 +8213,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/albero_pianta_2.svg"/>
+              <prop k="name" v="./symbols/albero_pianta_2.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8110,7 +8233,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8130,7 +8253,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8150,7 +8273,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/albero_pianta_6.svg"/>
+              <prop k="name" v="./symbols/albero_pianta_6.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8170,7 +8293,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8190,7 +8313,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8210,7 +8333,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8230,7 +8353,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8250,7 +8373,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8270,7 +8393,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8290,7 +8413,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8310,7 +8433,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8332,7 +8455,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8394,7 +8517,7 @@
         <property key="labeling/fontLimitPixelSize" value="false"/>
         <property key="labeling/fontMaxPixelSize" value="10000"/>
         <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="3"/>
+        <property key="labeling/fontSize" value="2.5"/>
         <property key="labeling/fontSizeInMapUnits" value="true"/>
         <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
@@ -8543,60 +8666,10 @@
         </edittype>
         <edittype widgetv2type="ValueMap" name="botanicalid">
           <widgetv2config fieldEditable="1" labelOnTop="0">
-            <value key="African Boxthorn" value="7405"/>
-            <value key="Almond" value="5242"/>
-            <value key="Alnus Cordata" value="378"/>
-            <value key="Apple" value="4053"/>
-            <value key="Avocado" value="7413"/>
             <value key="Black Wattle" value="7399"/>
-            <value key="Blackberry" value="5861"/>
-            <value key="Blackthorn" value="1212"/>
             <value key="Blackwood" value="51"/>
-            <value key="Boldo" value="4713"/>
-            <value key="Brown Barrel" value="7408"/>
-            <value key="Cherry ballart" value="7403"/>
-            <value key="Chilean hazel" value="3019"/>
-            <value key="Chinese cedar" value="6830"/>
-            <value key="Coast grey box" value="7401"/>
-            <value key="Comfrey" value="6673"/>
-            <value key="Cornelian Cherry" value="1955"/>
-            <value key="Creeping Lantana" value="7406"/>
-            <value key="Fig" value="2811"/>
-            <value key="Grapefruit" value="7412"/>
-            <value key="Gully Peppermint" value="7410"/>
-            <value key="Hazel" value="1993"/>
-            <value key="Kurrajong" value="1114"/>
-            <value key="Lemon" value="1761"/>
-            <value key="Lightwood" value="7404"/>
-            <value key="Macadamia" value="4002"/>
-            <value key="Maiden's Gum" value="7400"/>
-            <value key="Mana Gum" value="2697"/>
-            <value key="Mandarin" value="1762"/>
-            <value key="Messmate" value="2687"/>
-            <value key="Olive" value="4396"/>
-            <value key="Orange" value="1763"/>
-            <value key="Osage orange" value="4005"/>
-            <value key="Peach" value="5286"/>
-            <value key="Pear" value="5421"/>
-            <value key="Pecan" value="1445"/>
-            <value key="Pistachio" value="4937"/>
-            <value key="Plum" value="5241"/>
-            <value key="Pomegranate" value="5387"/>
-            <value key="Quercus ilex (Holm Oak)" value="5475"/>
-            <value key="Quercus macrocarpa (Burr Oak)" value="5487"/>
-            <value key="Quercus robur" value="5505"/>
-            <value key="Quercus suber (Pin Oak)" value="5510"/>
-            <value key="Red gum" value="7398"/>
-            <value key="River peppermint" value="7407"/>
-            <value key="Rough barked apple" value="539"/>
-            <value key="Sour Cherry" value="5229"/>
-            <value key="Stinging Nettle" value="7007"/>
-            <value key="Stone Pine" value="4908"/>
-            <value key="Sweet chestnut" value="1466"/>
-            <value key="White Stringybark" value="7402"/>
-            <value key="Woolybutt" value="7411"/>
-            <value key="Yellow Box" value="2685"/>
-            <value key="Yellow Stringybark" value="7409"/>
+            <value key="Elaeagnus ebbingei" value="2488"/>
+            <value key="Robinia pseudoacacia" value="5736"/>
           </widgetv2config>
         </edittype>
         <edittype widgetv2type="TextEdit" name="legacy_pfaf_latin_name">
@@ -8625,7 +8698,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>vegetation_view_copy20150908234528050</id>
       <datasource>dbname='eden' host=192.168.1.235 port=5432 user='postgres' password='mega^0lt' sslmode=disable key='row_number' srid=3857 type=POINT table="public"."vegetation_view" (locations) sql="genus" = 'Eucalyptus' OR "genus" = 'Acacia' OR "genus" = 'Exocarpos'</datasource>
       <title></title>
@@ -8662,56 +8735,22 @@
         </edittype>
         <edittype widgetv2type="ValueMap" name="botanicalid">
           <widgetv2config fieldEditable="1" labelOnTop="0">
-            <value key="African Boxthorn" value="7405"/>
-            <value key="Almond" value="5242"/>
-            <value key="Alnus Cordata" value="378"/>
-            <value key="Apple" value="4053"/>
-            <value key="Avocado" value="7413"/>
             <value key="Black Wattle" value="7399"/>
-            <value key="Blackberry" value="5861"/>
             <value key="Blackthorn" value="1212"/>
             <value key="Blackwood" value="51"/>
-            <value key="Boldo" value="4713"/>
             <value key="Brown Barrel" value="7408"/>
             <value key="Cherry ballart" value="7403"/>
-            <value key="Chilean hazel" value="3019"/>
-            <value key="Chinese cedar" value="6830"/>
             <value key="Coast grey box" value="7401"/>
-            <value key="Comfrey" value="6673"/>
-            <value key="Cornelian Cherry" value="1955"/>
-            <value key="Creeping Lantana" value="7406"/>
-            <value key="Fig" value="2811"/>
-            <value key="Grapefruit" value="7412"/>
             <value key="Gully Peppermint" value="7410"/>
-            <value key="Hazel" value="1993"/>
             <value key="Kurrajong" value="1114"/>
-            <value key="Lemon" value="1761"/>
             <value key="Lightwood" value="7404"/>
-            <value key="Macadamia" value="4002"/>
             <value key="Maiden's Gum" value="7400"/>
             <value key="Mana Gum" value="2697"/>
-            <value key="Mandarin" value="1762"/>
             <value key="Messmate" value="2687"/>
-            <value key="Olive" value="4396"/>
-            <value key="Orange" value="1763"/>
-            <value key="Osage orange" value="4005"/>
-            <value key="Peach" value="5286"/>
-            <value key="Pear" value="5421"/>
-            <value key="Pecan" value="1445"/>
-            <value key="Pistachio" value="4937"/>
-            <value key="Plum" value="5241"/>
-            <value key="Pomegranate" value="5387"/>
-            <value key="Quercus ilex (Holm Oak)" value="5475"/>
-            <value key="Quercus macrocarpa (Burr Oak)" value="5487"/>
-            <value key="Quercus robur" value="5505"/>
-            <value key="Quercus suber (Pin Oak)" value="5510"/>
             <value key="Red gum" value="7398"/>
             <value key="River peppermint" value="7407"/>
             <value key="Rough barked apple" value="539"/>
-            <value key="Sour Cherry" value="5229"/>
             <value key="Stinging Nettle" value="7007"/>
-            <value key="Stone Pine" value="4908"/>
-            <value key="Sweet chestnut" value="1466"/>
             <value key="White Stringybark" value="7402"/>
             <value key="Woolybutt" value="7411"/>
             <value key="Yellow Box" value="2685"/>
@@ -8768,7 +8807,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8788,7 +8827,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8808,7 +8847,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8828,7 +8867,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8848,7 +8887,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/albero_pianta_2.svg"/>
+              <prop k="name" v="./symbols/albero_pianta_2.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8868,7 +8907,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8888,7 +8927,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8908,7 +8947,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/albero_pianta_6.svg"/>
+              <prop k="name" v="./symbols/albero_pianta_6.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8928,7 +8967,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8948,7 +8987,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8968,7 +9007,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -8988,7 +9027,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9008,7 +9047,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9028,7 +9067,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9048,7 +9087,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9068,7 +9107,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9090,7 +9129,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9301,56 +9340,22 @@
         </edittype>
         <edittype widgetv2type="ValueMap" name="botanicalid">
           <widgetv2config fieldEditable="1" labelOnTop="0">
-            <value key="African Boxthorn" value="7405"/>
-            <value key="Almond" value="5242"/>
-            <value key="Alnus Cordata" value="378"/>
-            <value key="Apple" value="4053"/>
-            <value key="Avocado" value="7413"/>
             <value key="Black Wattle" value="7399"/>
-            <value key="Blackberry" value="5861"/>
             <value key="Blackthorn" value="1212"/>
             <value key="Blackwood" value="51"/>
-            <value key="Boldo" value="4713"/>
             <value key="Brown Barrel" value="7408"/>
             <value key="Cherry ballart" value="7403"/>
-            <value key="Chilean hazel" value="3019"/>
-            <value key="Chinese cedar" value="6830"/>
             <value key="Coast grey box" value="7401"/>
-            <value key="Comfrey" value="6673"/>
-            <value key="Cornelian Cherry" value="1955"/>
-            <value key="Creeping Lantana" value="7406"/>
-            <value key="Fig" value="2811"/>
-            <value key="Grapefruit" value="7412"/>
             <value key="Gully Peppermint" value="7410"/>
-            <value key="Hazel" value="1993"/>
             <value key="Kurrajong" value="1114"/>
-            <value key="Lemon" value="1761"/>
             <value key="Lightwood" value="7404"/>
-            <value key="Macadamia" value="4002"/>
             <value key="Maiden's Gum" value="7400"/>
             <value key="Mana Gum" value="2697"/>
-            <value key="Mandarin" value="1762"/>
             <value key="Messmate" value="2687"/>
-            <value key="Olive" value="4396"/>
-            <value key="Orange" value="1763"/>
-            <value key="Osage orange" value="4005"/>
-            <value key="Peach" value="5286"/>
-            <value key="Pear" value="5421"/>
-            <value key="Pecan" value="1445"/>
-            <value key="Pistachio" value="4937"/>
-            <value key="Plum" value="5241"/>
-            <value key="Pomegranate" value="5387"/>
-            <value key="Quercus ilex (Holm Oak)" value="5475"/>
-            <value key="Quercus macrocarpa (Burr Oak)" value="5487"/>
-            <value key="Quercus robur" value="5505"/>
-            <value key="Quercus suber (Pin Oak)" value="5510"/>
             <value key="Red gum" value="7398"/>
             <value key="River peppermint" value="7407"/>
             <value key="Rough barked apple" value="539"/>
-            <value key="Sour Cherry" value="5229"/>
             <value key="Stinging Nettle" value="7007"/>
-            <value key="Stone Pine" value="4908"/>
-            <value key="Sweet chestnut" value="1466"/>
             <value key="White Stringybark" value="7402"/>
             <value key="Woolybutt" value="7411"/>
             <value key="Yellow Box" value="2685"/>
@@ -9383,9 +9388,11 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>vegetation_view_copy20150908235405511</id>
-      <datasource>dbname='eden' host=192.168.1.235 port=5432 user='postgres' password='mega^0lt' sslmode=disable key='row_number' srid=3857 type=POINT table="public"."vegetation_view" (locations) sql="genus" = 'Citrus' OR "genus" = 'Olea' OR "genus" = 'Ficus' OR "genus" = 'Prunus' OR "genus" = 'Rubus'OR "genus" = 'Punica'</datasource>
+      <datasource>dbname='eden' host=192.168.1.235 port=5432 user='postgres' password='mega^0lt' sslmode=disable key='row_number' srid=3857 type=POINT table="public"."vegetation_view" (locations) sql="genus" = 'Citrus' OR "genus" = 'Olea' OR "genus" = 'Ficus' OR 
+("genus" = 'Prunus'AND "species" = 'persica') OR "genus" = 'Rubus'
+OR "genus" = 'Punica' OR "genus" = 'Malus'</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -9420,60 +9427,22 @@
         </edittype>
         <edittype widgetv2type="ValueMap" name="botanicalid">
           <widgetv2config fieldEditable="1" labelOnTop="0">
-            <value key="African Boxthorn" value="7405"/>
-            <value key="Almond" value="5242"/>
-            <value key="Alnus Cordata" value="378"/>
             <value key="Apple" value="4053"/>
-            <value key="Avocado" value="7413"/>
-            <value key="Black Wattle" value="7399"/>
             <value key="Blackberry" value="5861"/>
-            <value key="Blackthorn" value="1212"/>
-            <value key="Blackwood" value="51"/>
             <value key="Boldo" value="4713"/>
-            <value key="Brown Barrel" value="7408"/>
             <value key="Cherry ballart" value="7403"/>
-            <value key="Chilean hazel" value="3019"/>
-            <value key="Chinese cedar" value="6830"/>
-            <value key="Coast grey box" value="7401"/>
-            <value key="Comfrey" value="6673"/>
             <value key="Cornelian Cherry" value="1955"/>
-            <value key="Creeping Lantana" value="7406"/>
             <value key="Fig" value="2811"/>
             <value key="Grapefruit" value="7412"/>
-            <value key="Gully Peppermint" value="7410"/>
-            <value key="Hazel" value="1993"/>
-            <value key="Kurrajong" value="1114"/>
             <value key="Lemon" value="1761"/>
-            <value key="Lightwood" value="7404"/>
-            <value key="Macadamia" value="4002"/>
-            <value key="Maiden's Gum" value="7400"/>
-            <value key="Mana Gum" value="2697"/>
             <value key="Mandarin" value="1762"/>
-            <value key="Messmate" value="2687"/>
-            <value key="Olive" value="4396"/>
             <value key="Orange" value="1763"/>
-            <value key="Osage orange" value="4005"/>
             <value key="Peach" value="5286"/>
             <value key="Pear" value="5421"/>
-            <value key="Pecan" value="1445"/>
-            <value key="Pistachio" value="4937"/>
             <value key="Plum" value="5241"/>
             <value key="Pomegranate" value="5387"/>
-            <value key="Quercus ilex (Holm Oak)" value="5475"/>
-            <value key="Quercus macrocarpa (Burr Oak)" value="5487"/>
-            <value key="Quercus robur" value="5505"/>
-            <value key="Quercus suber (Pin Oak)" value="5510"/>
-            <value key="Red gum" value="7398"/>
-            <value key="River peppermint" value="7407"/>
-            <value key="Rough barked apple" value="539"/>
             <value key="Sour Cherry" value="5229"/>
-            <value key="Stinging Nettle" value="7007"/>
-            <value key="Stone Pine" value="4908"/>
-            <value key="Sweet chestnut" value="1466"/>
-            <value key="White Stringybark" value="7402"/>
-            <value key="Woolybutt" value="7411"/>
-            <value key="Yellow Box" value="2685"/>
-            <value key="Yellow Stringybark" value="7409"/>
+            <value key="highbush blueberry" value="4007"/>
           </widgetv2config>
         </edittype>
         <edittype widgetv2type="TextEdit" name="legacy_pfaf_latin_name">
@@ -9526,7 +9495,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9546,7 +9515,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9566,7 +9535,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9586,7 +9555,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9606,7 +9575,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/albero_pianta_2.svg"/>
+              <prop k="name" v="./symbols/albero_pianta_2.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9626,7 +9595,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9646,7 +9615,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9666,7 +9635,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/albero_pianta_6.svg"/>
+              <prop k="name" v="./symbols/albero_pianta_6.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9686,7 +9655,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9706,7 +9675,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9726,7 +9695,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9746,7 +9715,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9766,7 +9735,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9786,7 +9755,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9806,7 +9775,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9826,7 +9795,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -9848,7 +9817,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10059,60 +10028,22 @@
         </edittype>
         <edittype widgetv2type="ValueMap" name="botanicalid">
           <widgetv2config fieldEditable="1" labelOnTop="0">
-            <value key="African Boxthorn" value="7405"/>
-            <value key="Almond" value="5242"/>
-            <value key="Alnus Cordata" value="378"/>
             <value key="Apple" value="4053"/>
-            <value key="Avocado" value="7413"/>
-            <value key="Black Wattle" value="7399"/>
             <value key="Blackberry" value="5861"/>
-            <value key="Blackthorn" value="1212"/>
-            <value key="Blackwood" value="51"/>
             <value key="Boldo" value="4713"/>
-            <value key="Brown Barrel" value="7408"/>
             <value key="Cherry ballart" value="7403"/>
-            <value key="Chilean hazel" value="3019"/>
-            <value key="Chinese cedar" value="6830"/>
-            <value key="Coast grey box" value="7401"/>
-            <value key="Comfrey" value="6673"/>
             <value key="Cornelian Cherry" value="1955"/>
-            <value key="Creeping Lantana" value="7406"/>
             <value key="Fig" value="2811"/>
             <value key="Grapefruit" value="7412"/>
-            <value key="Gully Peppermint" value="7410"/>
-            <value key="Hazel" value="1993"/>
-            <value key="Kurrajong" value="1114"/>
             <value key="Lemon" value="1761"/>
-            <value key="Lightwood" value="7404"/>
-            <value key="Macadamia" value="4002"/>
-            <value key="Maiden's Gum" value="7400"/>
-            <value key="Mana Gum" value="2697"/>
             <value key="Mandarin" value="1762"/>
-            <value key="Messmate" value="2687"/>
-            <value key="Olive" value="4396"/>
             <value key="Orange" value="1763"/>
-            <value key="Osage orange" value="4005"/>
             <value key="Peach" value="5286"/>
             <value key="Pear" value="5421"/>
-            <value key="Pecan" value="1445"/>
-            <value key="Pistachio" value="4937"/>
             <value key="Plum" value="5241"/>
             <value key="Pomegranate" value="5387"/>
-            <value key="Quercus ilex (Holm Oak)" value="5475"/>
-            <value key="Quercus macrocarpa (Burr Oak)" value="5487"/>
-            <value key="Quercus robur" value="5505"/>
-            <value key="Quercus suber (Pin Oak)" value="5510"/>
-            <value key="Red gum" value="7398"/>
-            <value key="River peppermint" value="7407"/>
-            <value key="Rough barked apple" value="539"/>
             <value key="Sour Cherry" value="5229"/>
-            <value key="Stinging Nettle" value="7007"/>
-            <value key="Stone Pine" value="4908"/>
-            <value key="Sweet chestnut" value="1466"/>
-            <value key="White Stringybark" value="7402"/>
-            <value key="Woolybutt" value="7411"/>
-            <value key="Yellow Box" value="2685"/>
-            <value key="Yellow Stringybark" value="7409"/>
+            <value key="highbush blueberry" value="4007"/>
           </widgetv2config>
         </edittype>
         <edittype widgetv2type="TextEdit" name="legacy_pfaf_latin_name">
@@ -10143,7 +10074,8 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>vegetation_view_copy20150909000126920</id>
-      <datasource>dbname='eden' host=192.168.1.235 port=5432 user='postgres' password='mega^0lt' sslmode=disable key='row_number' srid=3857 type=POINT table="public"."vegetation_view" (locations) sql="genus" = 'Pinus'  OR "genus" = 'Quercus'</datasource>
+      <datasource>dbname='eden' host=192.168.1.235 port=5432 user='postgres' password='mega^0lt' sslmode=disable key='row_number' srid=3857 type=POINT table="public"."vegetation_view" (locations) sql="genus" = 'Pinus'  OR "genus" = 'Quercus' OR ("genus" = 'Prunus'  AND "species"='dulcis')
+ OR "genus" = 'Juglans'  OR "genus" = 'Corylus'</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -10178,60 +10110,21 @@
         </edittype>
         <edittype widgetv2type="ValueMap" name="botanicalid">
           <widgetv2config fieldEditable="1" labelOnTop="0">
-            <value key="African Boxthorn" value="7405"/>
             <value key="Almond" value="5242"/>
-            <value key="Alnus Cordata" value="378"/>
-            <value key="Apple" value="4053"/>
-            <value key="Avocado" value="7413"/>
-            <value key="Black Wattle" value="7399"/>
-            <value key="Blackberry" value="5861"/>
-            <value key="Blackthorn" value="1212"/>
-            <value key="Blackwood" value="51"/>
-            <value key="Boldo" value="4713"/>
-            <value key="Brown Barrel" value="7408"/>
+            <value key="Black Walnut" value="3477"/>
             <value key="Cherry ballart" value="7403"/>
             <value key="Chilean hazel" value="3019"/>
-            <value key="Chinese cedar" value="6830"/>
-            <value key="Coast grey box" value="7401"/>
-            <value key="Comfrey" value="6673"/>
-            <value key="Cornelian Cherry" value="1955"/>
-            <value key="Creeping Lantana" value="7406"/>
-            <value key="Fig" value="2811"/>
-            <value key="Grapefruit" value="7412"/>
-            <value key="Gully Peppermint" value="7410"/>
             <value key="Hazel" value="1993"/>
-            <value key="Kurrajong" value="1114"/>
-            <value key="Lemon" value="1761"/>
-            <value key="Lightwood" value="7404"/>
             <value key="Macadamia" value="4002"/>
-            <value key="Maiden's Gum" value="7400"/>
-            <value key="Mana Gum" value="2697"/>
-            <value key="Mandarin" value="1762"/>
-            <value key="Messmate" value="2687"/>
-            <value key="Olive" value="4396"/>
-            <value key="Orange" value="1763"/>
-            <value key="Osage orange" value="4005"/>
-            <value key="Peach" value="5286"/>
-            <value key="Pear" value="5421"/>
             <value key="Pecan" value="1445"/>
             <value key="Pistachio" value="4937"/>
-            <value key="Plum" value="5241"/>
-            <value key="Pomegranate" value="5387"/>
             <value key="Quercus ilex (Holm Oak)" value="5475"/>
             <value key="Quercus macrocarpa (Burr Oak)" value="5487"/>
             <value key="Quercus robur" value="5505"/>
             <value key="Quercus suber (Pin Oak)" value="5510"/>
-            <value key="Red gum" value="7398"/>
-            <value key="River peppermint" value="7407"/>
-            <value key="Rough barked apple" value="539"/>
-            <value key="Sour Cherry" value="5229"/>
-            <value key="Stinging Nettle" value="7007"/>
             <value key="Stone Pine" value="4908"/>
             <value key="Sweet chestnut" value="1466"/>
-            <value key="White Stringybark" value="7402"/>
-            <value key="Woolybutt" value="7411"/>
-            <value key="Yellow Box" value="2685"/>
-            <value key="Yellow Stringybark" value="7409"/>
+            <value key="Walnut" value="3478"/>
           </widgetv2config>
         </edittype>
         <edittype widgetv2type="TextEdit" name="legacy_pfaf_latin_name">
@@ -10284,7 +10177,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10304,7 +10197,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10324,7 +10217,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10344,7 +10237,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10364,7 +10257,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/albero_pianta_2.svg"/>
+              <prop k="name" v="./symbols/albero_pianta_2.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10384,7 +10277,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10404,7 +10297,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10424,7 +10317,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/albero_pianta_6.svg"/>
+              <prop k="name" v="./symbols/albero_pianta_6.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10444,7 +10337,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10464,7 +10357,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10484,7 +10377,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10504,7 +10397,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10524,7 +10417,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10544,7 +10437,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10564,7 +10457,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10584,7 +10477,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10606,7 +10499,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="symbols/test.svg"/>
+              <prop k="name" v="./symbols/test.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10817,60 +10710,677 @@
         </edittype>
         <edittype widgetv2type="ValueMap" name="botanicalid">
           <widgetv2config fieldEditable="1" labelOnTop="0">
-            <value key="African Boxthorn" value="7405"/>
             <value key="Almond" value="5242"/>
-            <value key="Alnus Cordata" value="378"/>
-            <value key="Apple" value="4053"/>
-            <value key="Avocado" value="7413"/>
-            <value key="Black Wattle" value="7399"/>
-            <value key="Blackberry" value="5861"/>
-            <value key="Blackthorn" value="1212"/>
-            <value key="Blackwood" value="51"/>
-            <value key="Boldo" value="4713"/>
-            <value key="Brown Barrel" value="7408"/>
+            <value key="Black Walnut" value="3477"/>
             <value key="Cherry ballart" value="7403"/>
             <value key="Chilean hazel" value="3019"/>
-            <value key="Chinese cedar" value="6830"/>
-            <value key="Coast grey box" value="7401"/>
-            <value key="Comfrey" value="6673"/>
-            <value key="Cornelian Cherry" value="1955"/>
-            <value key="Creeping Lantana" value="7406"/>
-            <value key="Fig" value="2811"/>
-            <value key="Grapefruit" value="7412"/>
-            <value key="Gully Peppermint" value="7410"/>
             <value key="Hazel" value="1993"/>
-            <value key="Kurrajong" value="1114"/>
-            <value key="Lemon" value="1761"/>
-            <value key="Lightwood" value="7404"/>
             <value key="Macadamia" value="4002"/>
-            <value key="Maiden's Gum" value="7400"/>
-            <value key="Mana Gum" value="2697"/>
-            <value key="Mandarin" value="1762"/>
-            <value key="Messmate" value="2687"/>
-            <value key="Olive" value="4396"/>
-            <value key="Orange" value="1763"/>
-            <value key="Osage orange" value="4005"/>
-            <value key="Peach" value="5286"/>
-            <value key="Pear" value="5421"/>
             <value key="Pecan" value="1445"/>
             <value key="Pistachio" value="4937"/>
-            <value key="Plum" value="5241"/>
-            <value key="Pomegranate" value="5387"/>
             <value key="Quercus ilex (Holm Oak)" value="5475"/>
             <value key="Quercus macrocarpa (Burr Oak)" value="5487"/>
             <value key="Quercus robur" value="5505"/>
             <value key="Quercus suber (Pin Oak)" value="5510"/>
-            <value key="Red gum" value="7398"/>
-            <value key="River peppermint" value="7407"/>
-            <value key="Rough barked apple" value="539"/>
-            <value key="Sour Cherry" value="5229"/>
-            <value key="Stinging Nettle" value="7007"/>
             <value key="Stone Pine" value="4908"/>
             <value key="Sweet chestnut" value="1466"/>
-            <value key="White Stringybark" value="7402"/>
-            <value key="Woolybutt" value="7411"/>
-            <value key="Yellow Box" value="2685"/>
-            <value key="Yellow Stringybark" value="7409"/>
+            <value key="Walnut" value="3478"/>
+          </widgetv2config>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="legacy_pfaf_latin_name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="family">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="genus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="species">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ssp">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="common_name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="dripline_radius">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="comment">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>vegetation_view_copy20150915222254698</id>
+      <datasource>dbname='eden' host=192.168.1.235 port=5432 user='postgres' password='mega^0lt' sslmode=disable key='row_number' srid=3857 type=POINT table="public"."vegetation_view" (locations) sql="genus" = 'Phormium' OR "genus" = 'Bambusa'</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Fibre Plants</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">postgres</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="Hidden" name="row_number">
+          <widgetv2config fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="Hidden" name="vegetationid">
+          <widgetv2config fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="ValueMap" name="botanicalid">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="Alphonse Karr Hedging Bamboo" value="973"/>
+            <value key="New Zealand Flax" value="4745"/>
+            <value key="Oldhamii Bamboo" value="974"/>
+          </widgetv2config>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="legacy_pfaf_latin_name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="family">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="genus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="species">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ssp">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="common_name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="dripline_radius">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="comment">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 attr="family" symbollevels="0" type="categorizedSymbol">
+        <categories>
+          <category render="true" symbol="0" value="Elaeagnaceae" label="Elaeagnaceae"/>
+          <category render="true" symbol="1" value="Fagaceae" label="Fagaceae"/>
+          <category render="true" symbol="2" value="Leguminosae" label="Leguminosae"/>
+          <category render="true" symbol="3" value="Moraceae" label="Moraceae"/>
+          <category render="true" symbol="4" value="Myrtaceae" label="Myrtaceae"/>
+          <category render="true" symbol="5" value="Pinaceae" label="Pinaceae"/>
+          <category render="true" symbol="6" value="Punicaceae" label="Punicaceae"/>
+          <category render="true" symbol="7" value="Rosaceae" label="Rosaceae"/>
+          <category render="true" symbol="8" value="Santalaceae" label="Santalaceae"/>
+          <category render="true" symbol="9" value="Urticaceae" label="Urticaceae"/>
+          <category render="true" symbol="10" value="Verbenaceae" label="Verbenaceae"/>
+          <category render="true" symbol="11" value="" label=""/>
+          <category render="true" symbol="12" value="Betulaceae" label="Betulaceae"/>
+          <category render="true" symbol="13" value="Meliaceae" label="Meliaceae"/>
+          <category render="true" symbol="14" value="Oleaceae" label="Oleaceae"/>
+          <category render="true" symbol="15" value="Rutaceae" label="Rutaceae"/>
+        </categories>
+        <symbols>
+          <symbol alpha="1" type="marker" name="0">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#df5021"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="1">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="10">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#e31a1c"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="11">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="12">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/albero_pianta_2.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="13">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="14">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="15">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/albero_pianta_6.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="2">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="3">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="4">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="5">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="6">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="7">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="8">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="marker" name="9">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol alpha="1" type="marker" name="0">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="#000000"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="./symbols/test.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="outline_color" v="#00ff00"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="255,245,235,255"/>
+          <prop k="color2" v="127,39,4,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="stops" v="0.13;254,230,206,255:0.26;253,208,162,255:0.39;253,174,107,255:0.52;253,141,60,255:0.65;241,105,19,255:0.78;217,72,1,255:0.9;166,54,3,255"/>
+        </colorramp>
+        <invertedcolorramp value="0"/>
+        <rotation/>
+        <sizescale field="dripline_radius * 2" scalemethod="area"/>
+      </renderer-v2>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value=" concat ( &quot;common_name&quot; ,' (', &quot;genus&quot; ,' ', &quot;species&quot; ,' ', &quot;ssp&quot; ,')')"/>
+        <property key="labeling/fontBold" value="true"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Ubuntu"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="2.5"/>
+        <property key="labeling/fontSizeInMapUnits" value="true"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="63"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Medium"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="0"/>
+        <property key="labeling/placementFlags" value="0"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="3000"/>
+        <property key="labeling/scaleMin" value="200"/>
+        <property key="labeling/scaleVisibility" value="true"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="true"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>4</featureBlendMode>
+      <layerTransparency>46</layerTransparency>
+      <displayfield>legacy_pfaf_latin_name</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="Ubuntu"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform>.</editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform>.</annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="Hidden" name="row_number">
+          <widgetv2config fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="Hidden" name="vegetationid">
+          <widgetv2config fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="ValueMap" name="botanicalid">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="Alphonse Karr Hedging Bamboo" value="973"/>
+            <value key="New Zealand Flax" value="4745"/>
+            <value key="Oldhamii Bamboo" value="974"/>
           </widgetv2config>
         </edittype>
         <edittype widgetv2type="TextEdit" name="legacy_pfaf_latin_name">
@@ -11313,6 +11823,8 @@
         <value>vegetation_view_copy20150908234528050</value>
         <value>vegetation_view_copy20150908235405511</value>
         <value>vegetation_view_copy20150909000126920</value>
+        <value>vegetation_view_copy20150915222254698</value>
+        <value>polyculture_notes20150915233807404</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
@@ -11356,6 +11868,8 @@
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
       </LayerSnappingEnabledList>
       <SnappingMode type="QString">advanced</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
@@ -11379,6 +11893,8 @@
         <value>0</value>
         <value>0</value>
         <value>1</value>
+        <value>0</value>
+        <value>0</value>
         <value>0</value>
         <value>0</value>
         <value>0</value>
@@ -11446,6 +11962,8 @@
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
@@ -11471,6 +11989,8 @@
         <value>0.000000</value>
         <value>0.000000</value>
         <value>5.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
