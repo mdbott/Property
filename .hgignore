@@ -8,3 +8,4 @@ syntax: glob
 *.sql
 GRASS/farm/PERMANENT/*
 .idea/*
+database/*
