@@ -1,0 +1,20 @@
+to create our layer action, open the gadm layer properties dialog and head over to the Actions tab.
+
+Now set up a new action using the following properties for the action:
+
+Type: Python
+
+Name: Wikipedia
+
+Action (as listed below but all on one single line):
+
+from PyQt4.QtCore import QUrl; from PyQt4.QtWebKit import QWebView;  myWV = QWebView(None);
+myWV.load(QUrl('http://wikipedia.org/wiki/[% "name_0" %]')); myWV.show()
+
+
+Ok so there are a couple of things going on here:
+
+All the python code is in a single line with semi-colons separating commands instead of newlines
+[% “name_0″ %] will be replaced by the actual attribute value when the action is invoked
+The code simply creates a new QWebView instance, sets its url and then calls show to make it visible as a window on the user’s desktop
+As I mentioned, this is a contrived example – in the real world more likely you might import your logic from a python module and then call a function with a field attribute as parameter. You could equally use the approach to display an image without requiring that the user has a particular image viewer on their system.

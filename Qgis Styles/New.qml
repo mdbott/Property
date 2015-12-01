@@ -13,8 +13,7 @@
         <value key="Almond" value="5242"/>
         <value key="Alnus Cordata" value="378"/>
         <value key="Apple" value="4053"/>
-        <value key="Black Chokeberry" value="673"/>
-        <value key="Black Mulberry" value="4276"/>
+        <value key="Avocado" value="7413"/>
         <value key="Black Wattle" value="7399"/>
         <value key="Blackberry" value="5861"/>
         <value key="Blackthorn" value="1212"/>
@@ -22,20 +21,17 @@
         <value key="Boldo" value="4713"/>
         <value key="Brown Barrel" value="7408"/>
         <value key="Cherry ballart" value="7403"/>
-        <value key="Chestnut" value="1466"/>
         <value key="Chilean hazel" value="3019"/>
         <value key="Chinese cedar" value="6830"/>
-        <value key="Chives" value="353"/>
         <value key="Coast grey box" value="7401"/>
         <value key="Comfrey" value="6673"/>
         <value key="Cornelian Cherry" value="1955"/>
         <value key="Creeping Lantana" value="7406"/>
-        <value key="Daffodil" value="4326"/>
         <value key="Fig" value="2811"/>
         <value key="Grapefruit" value="7412"/>
         <value key="Gully Peppermint" value="7410"/>
         <value key="Hazel" value="1993"/>
-        <value key="Indian Bean Tree" value="1485"/>
+        <value key="Highbush Blueberry" value="7040"/>
         <value key="Kurrajong" value="1114"/>
         <value key="Lemon" value="1761"/>
         <value key="Lightwood" value="7404"/>
@@ -44,7 +40,6 @@
         <value key="Mana Gum" value="2697"/>
         <value key="Mandarin" value="1762"/>
         <value key="Messmate" value="2687"/>
-        <value key="Norvegian Spruce" value="4831"/>
         <value key="Olive" value="4396"/>
         <value key="Orange" value="1763"/>
         <value key="Osage orange" value="4005"/>
@@ -58,23 +53,17 @@
         <value key="Quercus macrocarpa (Burr Oak)" value="5487"/>
         <value key="Quercus robur" value="5505"/>
         <value key="Quercus suber (Pin Oak)" value="5510"/>
-        <value key="Raspberry" value="5874"/>
         <value key="Red gum" value="7398"/>
         <value key="River peppermint" value="7407"/>
         <value key="Rough barked apple" value="539"/>
         <value key="Sour Cherry" value="5229"/>
         <value key="Stinging Nettle" value="7007"/>
         <value key="Stone Pine" value="4908"/>
-        <value key="Sweet Alyssum" value="3876"/>
-        <value key="White Clover" value="6886"/>
-        <value key="White Mulberry" value="4259"/>
+        <value key="Sweet chestnut" value="1466"/>
         <value key="White Stringybark" value="7402"/>
-        <value key="Wild Leek" value="295"/>
         <value key="Woolybutt" value="7411"/>
-        <value key="Yarrow" value="95"/>
         <value key="Yellow Box" value="2685"/>
         <value key="Yellow Stringybark" value="7409"/>
-        <value key="highbush blueberry" value="4007"/>
       </widgetv2config>
     </edittype>
     <edittype widgetv2type="TextEdit" name="legacy_pfaf_latin_name">
@@ -131,19 +120,6 @@
       <category render="true" symbol="24" value="Toona" label="Toona"/>
       <category render="true" symbol="25" value="Urtica" label="Urtica"/>
       <category render="true" symbol="26" value="Vaccinium" label="Vaccinium"/>
-      <category render="true" symbol="27" value="Peumus" label="Peumus"/>
-      <category render="true" symbol="28" value="Pistacia" label="Pistacia"/>
-      <category render="true" symbol="29" value="Achillea" label="Achillea"/>
-      <category render="true" symbol="30" value="Lobularia" label="Lobularia"/>
-      <category render="true" symbol="31" value="Narcissus" label="Narcissus"/>
-      <category render="true" symbol="32" value="Allium" label="Allium"/>
-      <category render="true" symbol="33" value="Trifolium" label="Trifolium"/>
-      <category render="true" symbol="34" value="Macadamia" label="Macadamia"/>
-      <category render="true" symbol="35" value="Catalpa" label="Catalpa"/>
-      <category render="true" symbol="36" value="Maclura" label="Maclura"/>
-      <category render="true" symbol="37" value="Morus" label="Morus"/>
-      <category render="true" symbol="38" value="Aronia" label="Aronia"/>
-      <category render="true" symbol="39" value="Carya" label="Carya"/>
     </categories>
     <symbols>
       <symbol alpha="1" type="marker" name="0">
@@ -171,12 +147,12 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="#000000"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Acacia_param.svg"/>
+          <prop k="name" v="../symbols/test.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#36ba52"/>
-          <prop k="outline_width" v="0.2"/>
+          <prop k="outline_color" v="#00ff00"/>
+          <prop k="outline_width" v="1"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
@@ -269,14 +245,14 @@
       <symbol alpha="1" type="marker" name="14">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="#33a02c"/>
+          <prop k="color" v="#ffffff"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="./symbols/Ficus_param.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="outline_color" v="#65b910"/>
-          <prop k="outline_width" v="0.1"/>
+          <prop k="outline_width" v="0.2"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
@@ -349,14 +325,14 @@
       <symbol alpha="1" type="marker" name="18">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
+          <prop k="color" v="#000000"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Pomegranite_param.svg"/>
+          <prop k="name" v="../symbols/test.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#36ba52"/>
-          <prop k="outline_width" v="0.25"/>
+          <prop k="outline_color" v="#00ff00"/>
+          <prop k="outline_width" v="1"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
@@ -449,14 +425,14 @@
       <symbol alpha="1" type="marker" name="22">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="#33a02c"/>
+          <prop k="color" v="#000000"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Rubus_param.svg"/>
+          <prop k="name" v="../symbols/test.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#00a900"/>
-          <prop k="outline_width" v="0.25"/>
+          <prop k="outline_color" v="#00ff00"/>
+          <prop k="outline_width" v="1"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
@@ -546,66 +522,6 @@
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="marker" name="27">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Boldo_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#36ba52"/>
-          <prop k="outline_width" v="0.4"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="28">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Ficus.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#33a02c"/>
-          <prop k="outline_width" v="0.2"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="29">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Yarrow_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#00a900"/>
-          <prop k="outline_width" v="0.2"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
       <symbol alpha="1" type="marker" name="3">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
@@ -617,206 +533,6 @@
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="outline_color" v="#00ff00"/>
           <prop k="outline_width" v="1"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="30">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/SweetAlyssum_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#42e836"/>
-          <prop k="outline_width" v="0.2"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="31">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Dafodil_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#33a02c"/>
-          <prop k="outline_width" v="0.2"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="32">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/WildLeek_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#00a900"/>
-          <prop k="outline_width" v="0.25"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="33">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#33a02c"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Clover_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#42e836"/>
-          <prop k="outline_width" v="0.2"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="34">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Citrus_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#65b910"/>
-          <prop k="outline_width" v="0.2"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="35">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#895418"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Quercus_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#42e836"/>
-          <prop k="outline_width" v="1"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="36">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/OsageOrange_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#61fd59"/>
-          <prop k="outline_width" v="0.25"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="37">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Citrus_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#33a02c"/>
-          <prop k="outline_width" v="0.25"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="38">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Ficus_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#36ba52"/>
-          <prop k="outline_width" v="0.2"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MapUnit"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MapUnit"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="39">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#33a02c"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Quercus_param.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#65b910"/>
-          <prop k="outline_width" v="0.2"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
@@ -849,14 +565,14 @@
       <symbol alpha="1" type="marker" name="5">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="#ffffff"/>
+          <prop k="color" v="#000000"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./symbols/Ficus_param.svg"/>
+          <prop k="name" v="../symbols/test.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
-          <prop k="outline_color" v="#42e836"/>
-          <prop k="outline_width" v="0.2"/>
+          <prop k="outline_color" v="#00ff00"/>
+          <prop k="outline_width" v="1"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
@@ -1015,8 +731,8 @@
     <property key="labeling/fontLimitPixelSize" value="false"/>
     <property key="labeling/fontMaxPixelSize" value="10000"/>
     <property key="labeling/fontMinPixelSize" value="3"/>
-    <property key="labeling/fontSize" value="12"/>
-    <property key="labeling/fontSizeInMapUnits" value="false"/>
+    <property key="labeling/fontSize" value="3"/>
+    <property key="labeling/fontSizeInMapUnits" value="true"/>
     <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
     <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
     <property key="labeling/fontStrikeout" value="false"/>
@@ -1054,8 +770,8 @@
     <property key="labeling/repeatDistanceUnit" value="1"/>
     <property key="labeling/reverseDirectionSymbol" value="false"/>
     <property key="labeling/rightDirectionSymbol" value=">"/>
-    <property key="labeling/scaleMax" value="500"/>
-    <property key="labeling/scaleMin" value="50"/>
+    <property key="labeling/scaleMax" value="3000"/>
+    <property key="labeling/scaleMin" value="200"/>
     <property key="labeling/scaleVisibility" value="true"/>
     <property key="labeling/shadowBlendMode" value="6"/>
     <property key="labeling/shadowColorB" value="0"/>
@@ -1154,9 +870,5 @@
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
-  <attributeactions>
-    <actionsetting action="from PyQt4.QtCore import QUrl; from PyQt4.QtWebKit import QWebView;  myWV=QWebView(None);myWV.setWindowTitle('Local Wiki Link');myWV.load(QUrl('http://localhost/[% &quot;genus&quot; %][% &quot;species&quot; %]')); myWV.show()" icon="" capture="0" type="1" name="Link"/>
-    <actionsetting action="from PyQt4.QtCore import QUrl; from PyQt4.QtWebKit import QWebView;  myWV=QWebView(None);myWV.setWindowTitle('Wikipedia Link');myWV.load(QUrl('https://en.wikipedia.org/wiki/[% &quot;genus&quot; %]_[% &quot;species&quot; %]')); myWV.show()" icon="" capture="0" type="1" name="Wikipedia Page"/>
-    <actionsetting action="from PyQt4.QtCore import QUrl; from PyQt4.QtWebKit import QWebView;  myWV=QWebView(None);myWV.setWindowTitle('Practical Plants Link');myWV.load(QUrl('http://practicalplants.org/wiki/[% &quot;genus&quot; %]_[% &quot;species&quot; %]')); myWV.show()" icon="" capture="0" type="1" name="Practical Plants Page"/>
-  </attributeactions>
+  <attributeactions/>
 </qgis>
