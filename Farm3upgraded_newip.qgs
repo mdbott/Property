@@ -217,35 +217,35 @@
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="eucaluptus_view20140527010656225" name="Eucalyptus">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view20140502123646201" name="vegetation_view">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view20140502123646201" name="vegetation_view">
         <customproperties>
           <property key="showFeatureCount" value="0"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="Productive Species">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Productive Species">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150909000126920" name="Nuts">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150909000126920" name="Nuts">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150908235405511" name="Fruit">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150908235405511" name="Fruit">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150915222254698" name="Fibre Plants">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150915222254698" name="Fibre Plants">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Leaf_Crops_copy20151120141130468" name="Lumber Trees">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Leaf_Crops_copy20151120141130468" name="Lumber Trees">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Fibre_Plants_copy20151120140719942" name="Leaf Crops">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Fibre_Plants_copy20151120140719942" name="Leaf Crops">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="Support Species">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Support Species">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150908233515208" name="Nitrogen Fixers">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150908233515208" name="Nitrogen Fixers">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Nitrogen_Fixers_copy20151120135131273" name="Groundcovers">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Nitrogen_Fixers_copy20151120135131273" name="Groundcovers">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -269,10 +269,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>16665363.07984279282391071</xmin>
-      <ymin>-4416029.11206685099750757</ymin>
-      <xmax>16665587.22611023671925068</xmax>
-      <ymax>-4415895.47014136705547571</ymax>
+      <xmin>16665506.00890320166945457</xmin>
+      <ymin>-4415929.84726156946271658</ymin>
+      <xmax>16665562.04547006264328957</xmax>
+      <ymax>-4415896.43678019847720861</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -622,47 +622,47 @@
           <legendlayerfile isInOverview="0" layerid="eucaluptus_view20140527010656225" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="vegetation_view" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="vegetation_view" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="vegetation_view20140502123646201" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="vegetation_view20140502123646201" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="true" checked="Qt::Checked" name="Productive Species">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Nuts" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Productive Species">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Nuts" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150909000126920" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150909000126920" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Fruit" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Fruit" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908235405511" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908235405511" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Fibre Plants" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Fibre Plants" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150915222254698" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150915222254698" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Lumber Trees" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Lumber Trees" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Leaf_Crops_copy20151120141130468" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="Leaf_Crops_copy20151120141130468" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Leaf Crops" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Leaf Crops" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Fibre_Plants_copy20151120140719942" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="Fibre_Plants_copy20151120140719942" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::Checked" name="Support Species">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Nitrogen Fixers" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Support Species">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Nitrogen Fixers" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908233515208" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908233515208" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Groundcovers" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Groundcovers" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Nitrogen_Fixers_copy20151120135131273" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="Nitrogen_Fixers_copy20151120135131273" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -12616,7 +12616,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v="./symbols/test_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>

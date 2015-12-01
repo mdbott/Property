@@ -30,11 +30,11 @@
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Elevation_Plugin_Results20140427222655012" name="Elevation Plugin Results">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Zones">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Zones">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Zones of Use">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Zones of Use">
         <customproperties/>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Proposed Zones">
+        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Proposed Zones">
           <customproperties/>
           <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Fences">
             <customproperties/>
@@ -69,10 +69,10 @@
               </customproperties>
             </layer-tree-layer>
           </layer-tree-group>
-          <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Notes20140427191839952" name="Notes">
+          <layer-tree-layer expanded="0" checked="Qt::Checked" id="Notes20140427191839952" name="Notes">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="polyculture_notes20150915233807404" name="polyculture_notes">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="polyculture_notes20150915233807404" name="polyculture_notes">
             <customproperties/>
           </layer-tree-layer>
           <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Proposed_Zones20140427084706612" name="Proposed Zones">
@@ -222,7 +222,7 @@
           <property key="showFeatureCount" value="0"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Productive Species">
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="Productive Species">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150909000126920" name="Nuts">
           <customproperties/>
@@ -230,22 +230,22 @@
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150908235405511" name="Fruit">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150915222254698" name="Fibre Plants">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150915222254698" name="Fibre Plants">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Leaf_Crops_copy20151120141130468" name="Lumber Trees">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Leaf_Crops_copy20151120141130468" name="Lumber Trees">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Fibre_Plants_copy20151120140719942" name="Leaf Crops">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Fibre_Plants_copy20151120140719942" name="Leaf Crops">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Support Species">
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="Support Species">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150908233515208" name="Nitrogen Fixers">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150908233515208" name="Nitrogen Fixers">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Nitrogen_Fixers_copy20151120135131273" name="Groundcovers">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Nitrogen_Fixers_copy20151120135131273" name="Groundcovers">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -269,10 +269,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>16665393.71537000313401222</xmin>
-      <ymin>-4415967.87615159060806036</ymin>
-      <xmax>16665505.78850372508168221</xmax>
-      <ymax>-4415901.05518884863704443</ymax>
+      <xmin>16665363.07984279282391071</xmin>
+      <ymin>-4416029.11206685099750757</ymin>
+      <xmax>16665587.22611023671925068</xmax>
+      <ymax>-4415895.47014136705547571</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -456,9 +456,9 @@
         <legendlayerfile isInOverview="0" layerid="Elevation_Plugin_Results20140427222655012" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="true" checked="Qt::Unchecked" name="Zones">
-      <legendgroup open="true" checked="Qt::Unchecked" name="Zones of Use">
-        <legendgroup open="true" checked="Qt::Unchecked" name="Proposed Zones">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Zones">
+      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Zones of Use">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Proposed Zones">
           <legendgroup open="false" checked="Qt::Unchecked" name="Fences">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Planned Fences" showFeatureCount="0">
               <filegroup open="false" hidden="false">
@@ -491,14 +491,14 @@
               </filegroup>
             </legendlayer>
           </legendgroup>
-          <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Notes" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Notes" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="Notes20140427191839952" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="Notes20140427191839952" visible="1"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="polyculture_notes" showFeatureCount="0">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="polyculture_notes" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-              <legendlayerfile isInOverview="0" layerid="polyculture_notes20150915233807404" visible="0"/>
+              <legendlayerfile isInOverview="0" layerid="polyculture_notes20150915233807404" visible="1"/>
             </filegroup>
           </legendlayer>
           <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Proposed Zones" showFeatureCount="0">
@@ -627,7 +627,7 @@
           <legendlayerfile isInOverview="0" layerid="vegetation_view20140502123646201" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Productive Species">
+      <legendgroup open="true" checked="Qt::Checked" name="Productive Species">
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Nuts" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150909000126920" visible="1"/>
@@ -638,31 +638,31 @@
             <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908235405511" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Fibre Plants" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Fibre Plants" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150915222254698" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150915222254698" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Lumber Trees" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Lumber Trees" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Leaf_Crops_copy20151120141130468" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="Leaf_Crops_copy20151120141130468" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Leaf Crops" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Leaf Crops" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Fibre_Plants_copy20151120140719942" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="Fibre_Plants_copy20151120140719942" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::Unchecked" name="Support Species">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Nitrogen Fixers" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Checked" name="Support Species">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Nitrogen Fixers" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908233515208" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908233515208" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Groundcovers" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Groundcovers" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Nitrogen_Fixers_copy20151120135131273" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="Nitrogen_Fixers_copy20151120135131273" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -11721,7 +11721,7 @@ OR "genus" = 'Urtica'</datasource>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>polyculture_notes20150915233807404</id>
       <datasource>dbname='eden' host=localhost port=5432 user='postgres' sslmode=disable key='id' srid=3857 type=MULTIPOINT table="public"."polyculture_notes" (locations) sql=</datasource>
       <title></title>
@@ -11967,7 +11967,6 @@ http://192.168.1.54/ApplePolyculture</displayfield>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions>
-        <actionsetting action="http://localhost/[% &quot;Link&quot; %]" icon="" capture="0" type="5" name="Open Wiki Link"/>
         <actionsetting action="from PyQt4.QtCore import QUrl; from PyQt4.QtWebKit import QWebView;  myWV=QWebView(None);myWV.load(QUrl('http://localhost/[% &quot;Link&quot; %]')); myWV.show()" icon="" capture="0" type="1" name="Internal Link"/>
       </attributeactions>
       <edittypes>
@@ -20181,12 +20180,16 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
         <value>Cool_Sea_Breezes20070922105323342</value>
         <value>Elevation_Plugin_Results20140427222655012</value>
         <value>Farm_Structures20080316144345557</value>
+        <value>Fibre_Plants_copy20151120140719942</value>
         <value>Functional_Zones20070923090342999</value>
         <value>Horticulture_Samples20150101120147061</value>
         <value>Hot_Summer_Winds20070922110420241</value>
         <value>Interior_Fences20070922135554035</value>
         <value>Interior_Fences_Projected20071009150520598</value>
         <value>Landform20130330211347717</value>
+        <value>Leaf_Crops_copy20151120141130468</value>
+        <value>Native_Vegetation_copy20151120141525406</value>
+        <value>Nitrogen_Fixers_copy20151120135131273</value>
         <value>Notes20130330205521487</value>
         <value>Notes20140427191839952</value>
         <value>Paddock_Sample_Path20150101120719472</value>
@@ -20219,9 +20222,6 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
         <value>vegetation_view_copy20150908235405511</value>
         <value>vegetation_view_copy20150909000126920</value>
         <value>vegetation_view_copy20150915222254698</value>
-        <value>Nitrogen_Fixers_copy20151120135131273</value>
-        <value>Fibre_Plants_copy20151120140719942</value>
-        <value>Leaf_Crops_copy20151120141130468</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
@@ -20234,11 +20234,6 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
-        <value>enabled</value>
-        <value>disabled</value>
-        <value>enabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
         <value>disabled</value>
         <value>enabled</value>
         <value>disabled</value>
@@ -20249,6 +20244,15 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
+        <value>enabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>enabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -20262,9 +20266,6 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
         <value>disabled</value>
         <value>disabled</value>
         <value>enabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -20286,16 +20287,17 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
         <value>0</value>
         <value>0</value>
         <value>0</value>
-        <value>1</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
         <value>0</value>
         <value>1</value>
         <value>0</value>
         <value>0</value>
         <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>1</value>
         <value>0</value>
         <value>0</value>
         <value>0</value>
@@ -20329,6 +20331,20 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
         <value>to_vertex</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex</value>
+        <value>to_vertex</value>
+        <value>to_vertex</value>
+        <value>to_vertex</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex</value>
+        <value>to_vertex</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
@@ -20337,16 +20353,6 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
         <value>to_vertex</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
@@ -20362,9 +20368,6 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
         <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -20388,16 +20391,17 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
-        <value>5.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
         <value>0.000000</value>
         <value>5.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>5.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
