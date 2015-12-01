@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="Farm" version="2.8.3-Wien">
+<qgis projectname="Farm" version="2.8.1-Wien">
   <title>Farm</title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
@@ -209,7 +209,7 @@
         </layer-tree-group>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Vegetation">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Vegetation">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vegetation20130313185510813" name="vegetation">
         <customproperties/>
@@ -222,30 +222,30 @@
           <property key="showFeatureCount" value="0"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="Productive Species">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Productive Species">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150909000126920" name="Nuts">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150909000126920" name="Nuts">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150908235405511" name="Fruit">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150908235405511" name="Fruit">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150915222254698" name="Fibre Plants">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150915222254698" name="Fibre Plants">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Leaf_Crops_copy20151120141130468" name="Lumber Trees">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Leaf_Crops_copy20151120141130468" name="Lumber Trees">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Fibre_Plants_copy20151120140719942" name="Leaf Crops">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Fibre_Plants_copy20151120140719942" name="Leaf Crops">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="Support Species">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Support Species">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="vegetation_view_copy20150908233515208" name="Nitrogen Fixers">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vegetation_view_copy20150908233515208" name="Nitrogen Fixers">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Nitrogen_Fixers_copy20151120135131273" name="Groundcovers">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Nitrogen_Fixers_copy20151120135131273" name="Groundcovers">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -269,10 +269,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>16665363.07984279282391071</xmin>
-      <ymin>-4416029.11206685099750757</ymin>
-      <xmax>16665587.22611023671925068</xmax>
-      <ymax>-4415895.47014136705547571</ymax>
+      <xmin>16665481.74940385669469833</xmin>
+      <ymin>-4416008.61412356048822403</ymin>
+      <xmax>16665705.8956713005900383</xmax>
+      <ymax>-4415874.97219807654619217</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -611,7 +611,7 @@
         </legendgroup>
       </legendgroup>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Vegetation">
+    <legendgroup open="true" checked="Qt::Unchecked" name="Vegetation">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="vegetation" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="vegetation20130313185510813" visible="0"/>
@@ -627,42 +627,42 @@
           <legendlayerfile isInOverview="0" layerid="vegetation_view20140502123646201" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="true" checked="Qt::Checked" name="Productive Species">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Nuts" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Productive Species">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Nuts" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150909000126920" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150909000126920" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Fruit" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Fruit" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908235405511" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908235405511" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Fibre Plants" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Fibre Plants" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150915222254698" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150915222254698" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Lumber Trees" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Lumber Trees" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Leaf_Crops_copy20151120141130468" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="Leaf_Crops_copy20151120141130468" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Leaf Crops" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Leaf Crops" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Fibre_Plants_copy20151120140719942" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="Fibre_Plants_copy20151120140719942" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::Checked" name="Support Species">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Nitrogen Fixers" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Support Species">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Nitrogen Fixers" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908233515208" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="vegetation_view_copy20150908233515208" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Groundcovers" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Groundcovers" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Nitrogen_Fixers_copy20151120135131273" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="Nitrogen_Fixers_copy20151120135131273" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -1598,7 +1598,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1618,7 +1618,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Acacia_param.svg"/>
+              <prop k="name" v="symbols/Acacia_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1638,7 +1638,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1658,7 +1658,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1678,7 +1678,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1698,7 +1698,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Olive_param.svg"/>
+              <prop k="name" v="symbols/Olive_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1718,7 +1718,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1738,7 +1738,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1758,7 +1758,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pinus.svg"/>
+              <prop k="name" v="symbols/Pinus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1778,7 +1778,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1798,7 +1798,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pomegranite_param.svg"/>
+              <prop k="name" v="symbols/Pomegranite_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1818,7 +1818,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1838,7 +1838,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1858,7 +1858,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#6f4816"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Quercus_param.svg"/>
+              <prop k="name" v="Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1878,7 +1878,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1898,7 +1898,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Rubus_param.svg"/>
+              <prop k="name" v="symbols/Rubus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1918,7 +1918,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Symphytum_param.svg"/>
+              <prop k="name" v="symbols/Symphytum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1938,7 +1938,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1958,7 +1958,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1978,7 +1978,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -1998,7 +1998,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Boldo_param.svg"/>
+              <prop k="name" v="symbols/Boldo_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2018,7 +2018,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus.svg"/>
+              <prop k="name" v="symbols/Ficus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2038,7 +2038,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Yarrow_param.svg"/>
+              <prop k="name" v="symbols/Yarrow_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2058,7 +2058,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Bambusa.svg"/>
+              <prop k="name" v="symbols/Bambusa.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2078,7 +2078,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/SweetAlyssum_param.svg"/>
+              <prop k="name" v="symbols/SweetAlyssum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2098,7 +2098,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Dafodil_param.svg"/>
+              <prop k="name" v="symbols/Dafodil_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2118,7 +2118,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/WildLeek_param.svg"/>
+              <prop k="name" v="symbols/WildLeek_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2138,7 +2138,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Clover_param.svg"/>
+              <prop k="name" v="symbols/Clover_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2158,7 +2158,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2178,7 +2178,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#895418"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2198,7 +2198,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/OsageOrange_param.svg"/>
+              <prop k="name" v="symbols/OsageOrange_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2218,7 +2218,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2238,7 +2238,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2258,7 +2258,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2278,7 +2278,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2298,7 +2298,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Elaeagnus.svg"/>
+              <prop k="name" v="symbols/Elaeagnus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2318,7 +2318,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2338,7 +2338,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2358,7 +2358,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -2380,7 +2380,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3720,7 +3720,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3740,7 +3740,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Acacia_param.svg"/>
+              <prop k="name" v="symbols/Acacia_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3760,7 +3760,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3780,7 +3780,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3800,7 +3800,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3820,7 +3820,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Olive_param.svg"/>
+              <prop k="name" v="symbols/Olive_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3840,7 +3840,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3860,7 +3860,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3880,7 +3880,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pinus.svg"/>
+              <prop k="name" v="symbols/Pinus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3900,7 +3900,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3920,7 +3920,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pomegranite_param.svg"/>
+              <prop k="name" v="symbols/Pomegranite_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3940,7 +3940,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3960,7 +3960,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -3980,7 +3980,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#6f4816"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Quercus_param.svg"/>
+              <prop k="name" v="Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4000,7 +4000,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4020,7 +4020,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Rubus_param.svg"/>
+              <prop k="name" v="symbols/Rubus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4040,7 +4040,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Symphytum_param.svg"/>
+              <prop k="name" v="symbols/Symphytum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4060,7 +4060,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4080,7 +4080,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4100,7 +4100,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4120,7 +4120,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Boldo_param.svg"/>
+              <prop k="name" v="symbols/Boldo_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4140,7 +4140,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus.svg"/>
+              <prop k="name" v="symbols/Ficus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4160,7 +4160,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Yarrow_param.svg"/>
+              <prop k="name" v="symbols/Yarrow_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4180,7 +4180,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Bambusa.svg"/>
+              <prop k="name" v="symbols/Bambusa.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4200,7 +4200,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/SweetAlyssum_param.svg"/>
+              <prop k="name" v="symbols/SweetAlyssum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4220,7 +4220,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Dafodil_param.svg"/>
+              <prop k="name" v="symbols/Dafodil_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4240,7 +4240,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/WildLeek_param.svg"/>
+              <prop k="name" v="symbols/WildLeek_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4260,7 +4260,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Clover_param.svg"/>
+              <prop k="name" v="symbols/Clover_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4280,7 +4280,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4300,7 +4300,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#895418"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4320,7 +4320,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/OsageOrange_param.svg"/>
+              <prop k="name" v="symbols/OsageOrange_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4340,7 +4340,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4360,7 +4360,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4380,7 +4380,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4400,7 +4400,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4420,7 +4420,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Elaeagnus.svg"/>
+              <prop k="name" v="symbols/Elaeagnus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4440,7 +4440,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4460,7 +4460,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4480,7 +4480,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4502,7 +4502,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -4989,7 +4989,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5009,7 +5009,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Acacia_param.svg"/>
+              <prop k="name" v="symbols/Acacia_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5029,7 +5029,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5049,7 +5049,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5069,7 +5069,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5089,7 +5089,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Olive_param.svg"/>
+              <prop k="name" v="symbols/Olive_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5109,7 +5109,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5129,7 +5129,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5149,7 +5149,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pinus.svg"/>
+              <prop k="name" v="symbols/Pinus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5169,7 +5169,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5189,7 +5189,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pomegranite_param.svg"/>
+              <prop k="name" v="symbols/Pomegranite_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5209,7 +5209,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5229,7 +5229,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5249,7 +5249,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#6f4816"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Quercus_param.svg"/>
+              <prop k="name" v="Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5269,7 +5269,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5289,7 +5289,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Rubus_param.svg"/>
+              <prop k="name" v="symbols/Rubus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5309,7 +5309,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Symphytum_param.svg"/>
+              <prop k="name" v="symbols/Symphytum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5329,7 +5329,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5349,7 +5349,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5369,7 +5369,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5389,7 +5389,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Boldo_param.svg"/>
+              <prop k="name" v="symbols/Boldo_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5409,7 +5409,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus.svg"/>
+              <prop k="name" v="symbols/Ficus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5429,7 +5429,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Yarrow_param.svg"/>
+              <prop k="name" v="symbols/Yarrow_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5449,7 +5449,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Bambusa.svg"/>
+              <prop k="name" v="symbols/Bambusa.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5469,7 +5469,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/SweetAlyssum_param.svg"/>
+              <prop k="name" v="symbols/SweetAlyssum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5489,7 +5489,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Dafodil_param.svg"/>
+              <prop k="name" v="symbols/Dafodil_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5509,7 +5509,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/WildLeek_param.svg"/>
+              <prop k="name" v="symbols/WildLeek_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5529,7 +5529,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Clover_param.svg"/>
+              <prop k="name" v="symbols/Clover_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5549,7 +5549,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5569,7 +5569,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#895418"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5589,7 +5589,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/OsageOrange_param.svg"/>
+              <prop k="name" v="symbols/OsageOrange_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5609,7 +5609,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5629,7 +5629,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5649,7 +5649,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5669,7 +5669,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5689,7 +5689,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Elaeagnus.svg"/>
+              <prop k="name" v="symbols/Elaeagnus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5709,7 +5709,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5729,7 +5729,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5749,7 +5749,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -5771,7 +5771,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6260,7 +6260,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6280,7 +6280,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Acacia_param.svg"/>
+              <prop k="name" v="symbols/Acacia_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6300,7 +6300,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6320,7 +6320,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6340,7 +6340,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6360,7 +6360,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Olive_param.svg"/>
+              <prop k="name" v="symbols/Olive_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6380,7 +6380,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6400,7 +6400,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6420,7 +6420,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pinus.svg"/>
+              <prop k="name" v="symbols/Pinus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6440,7 +6440,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6460,7 +6460,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pomegranite_param.svg"/>
+              <prop k="name" v="symbols/Pomegranite_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6480,7 +6480,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6500,7 +6500,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6520,7 +6520,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#6f4816"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Quercus_param.svg"/>
+              <prop k="name" v="Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6540,7 +6540,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6560,7 +6560,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Rubus_param.svg"/>
+              <prop k="name" v="symbols/Rubus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6580,7 +6580,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Symphytum_param.svg"/>
+              <prop k="name" v="symbols/Symphytum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6600,7 +6600,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6620,7 +6620,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6640,7 +6640,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6660,7 +6660,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Boldo_param.svg"/>
+              <prop k="name" v="symbols/Boldo_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6680,7 +6680,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus.svg"/>
+              <prop k="name" v="symbols/Ficus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6700,7 +6700,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Yarrow_param.svg"/>
+              <prop k="name" v="symbols/Yarrow_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6720,7 +6720,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Bambusa.svg"/>
+              <prop k="name" v="symbols/Bambusa.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6740,7 +6740,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/SweetAlyssum_param.svg"/>
+              <prop k="name" v="symbols/SweetAlyssum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6760,7 +6760,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Dafodil_param.svg"/>
+              <prop k="name" v="symbols/Dafodil_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6780,7 +6780,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/WildLeek_param.svg"/>
+              <prop k="name" v="symbols/WildLeek_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6800,7 +6800,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Clover_param.svg"/>
+              <prop k="name" v="symbols/Clover_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6820,7 +6820,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6840,7 +6840,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#895418"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6860,7 +6860,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/OsageOrange_param.svg"/>
+              <prop k="name" v="symbols/OsageOrange_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6880,7 +6880,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6900,7 +6900,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6920,7 +6920,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6940,7 +6940,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6960,7 +6960,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Elaeagnus.svg"/>
+              <prop k="name" v="symbols/Elaeagnus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -6980,7 +6980,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7000,7 +7000,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7020,7 +7020,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -7042,7 +7042,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -10549,7 +10549,7 @@ OR "genus" = 'Urtica'</datasource>
               <prop k="angle" v="1.5"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/albero_pianta_10.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -12616,7 +12616,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v="symbols/test_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12636,7 +12636,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Acacia_param.svg"/>
+              <prop k="name" v="symbols/Acacia_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12656,7 +12656,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12676,7 +12676,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12696,7 +12696,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12716,7 +12716,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Olive_param.svg"/>
+              <prop k="name" v="symbols/Olive_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12736,7 +12736,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12756,7 +12756,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12776,7 +12776,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pinus.svg"/>
+              <prop k="name" v="symbols/Pinus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12796,7 +12796,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12816,7 +12816,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pomegranite_param.svg"/>
+              <prop k="name" v="symbols/Pomegranite_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12836,7 +12836,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12856,7 +12856,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12876,7 +12876,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#6f4816"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Quercus_param.svg"/>
+              <prop k="name" v="Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12896,7 +12896,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12916,7 +12916,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Rubus_param.svg"/>
+              <prop k="name" v="symbols/Rubus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12936,7 +12936,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Symphytum_param.svg"/>
+              <prop k="name" v="symbols/Symphytum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12956,7 +12956,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12976,7 +12976,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -12996,7 +12996,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13016,7 +13016,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Boldo_param.svg"/>
+              <prop k="name" v="symbols/Boldo_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13036,7 +13036,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus.svg"/>
+              <prop k="name" v="symbols/Ficus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13056,7 +13056,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Yarrow_param.svg"/>
+              <prop k="name" v="symbols/Yarrow_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13076,7 +13076,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Bambusa.svg"/>
+              <prop k="name" v="symbols/Bambusa.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13096,7 +13096,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/SweetAlyssum_param.svg"/>
+              <prop k="name" v="symbols/SweetAlyssum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13116,7 +13116,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Dafodil_param.svg"/>
+              <prop k="name" v="symbols/Dafodil_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13136,7 +13136,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/WildLeek_param.svg"/>
+              <prop k="name" v="symbols/WildLeek_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13156,7 +13156,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Clover_param.svg"/>
+              <prop k="name" v="symbols/Clover_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13176,7 +13176,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13196,7 +13196,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#895418"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13216,7 +13216,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/OsageOrange_param.svg"/>
+              <prop k="name" v="symbols/OsageOrange_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13236,7 +13236,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13256,7 +13256,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13276,7 +13276,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13296,7 +13296,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13316,7 +13316,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13336,7 +13336,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Elaeagnus.svg"/>
+              <prop k="name" v="symbols/Elaeagnus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13356,7 +13356,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13376,7 +13376,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13396,7 +13396,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13418,7 +13418,7 @@ http://192.168.1.54/ApplePolyculture</displayfield>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13846,7 +13846,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13866,7 +13866,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Acacia_param.svg"/>
+              <prop k="name" v="symbols/Acacia_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13886,7 +13886,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13906,7 +13906,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13926,7 +13926,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13946,7 +13946,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Olive_param.svg"/>
+              <prop k="name" v="symbols/Olive_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13966,7 +13966,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -13986,7 +13986,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14006,7 +14006,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pinus.svg"/>
+              <prop k="name" v="symbols/Pinus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14026,7 +14026,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14046,7 +14046,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pomegranite_param.svg"/>
+              <prop k="name" v="symbols/Pomegranite_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14066,7 +14066,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14086,7 +14086,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14106,7 +14106,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#6f4816"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Quercus_param.svg"/>
+              <prop k="name" v="Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14126,7 +14126,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14146,7 +14146,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Rubus_param.svg"/>
+              <prop k="name" v="symbols/Rubus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14166,7 +14166,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Symphytum_param.svg"/>
+              <prop k="name" v="symbols/Symphytum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14186,7 +14186,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14206,7 +14206,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14226,7 +14226,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14246,7 +14246,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Boldo_param.svg"/>
+              <prop k="name" v="symbols/Boldo_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14266,7 +14266,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus.svg"/>
+              <prop k="name" v="symbols/Ficus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14286,7 +14286,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Yarrow_param.svg"/>
+              <prop k="name" v="symbols/Yarrow_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14306,7 +14306,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Bambusa.svg"/>
+              <prop k="name" v="symbols/Bambusa.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14326,7 +14326,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/SweetAlyssum_param.svg"/>
+              <prop k="name" v="symbols/SweetAlyssum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14346,7 +14346,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Dafodil_param.svg"/>
+              <prop k="name" v="symbols/Dafodil_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14366,7 +14366,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/WildLeek_param.svg"/>
+              <prop k="name" v="symbols/WildLeek_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14386,7 +14386,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Clover_param.svg"/>
+              <prop k="name" v="symbols/Clover_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14406,7 +14406,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14426,7 +14426,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#895418"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14446,7 +14446,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/OsageOrange_param.svg"/>
+              <prop k="name" v="symbols/OsageOrange_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14466,7 +14466,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14486,7 +14486,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14506,7 +14506,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14526,7 +14526,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14546,7 +14546,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Elaeagnus.svg"/>
+              <prop k="name" v="symbols/Elaeagnus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14566,7 +14566,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14586,7 +14586,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14606,7 +14606,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -14628,7 +14628,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15055,7 +15055,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15075,7 +15075,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Acacia_param.svg"/>
+              <prop k="name" v="symbols/Acacia_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15095,7 +15095,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15115,7 +15115,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15135,7 +15135,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15155,7 +15155,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Olive_param.svg"/>
+              <prop k="name" v="symbols/Olive_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15175,7 +15175,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15195,7 +15195,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15215,7 +15215,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pinus.svg"/>
+              <prop k="name" v="symbols/Pinus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15235,7 +15235,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15255,7 +15255,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pomegranite_param.svg"/>
+              <prop k="name" v="symbols/Pomegranite_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15275,7 +15275,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15295,7 +15295,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15315,7 +15315,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#6f4816"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Quercus_param.svg"/>
+              <prop k="name" v="Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15335,7 +15335,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15355,7 +15355,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Rubus_param.svg"/>
+              <prop k="name" v="symbols/Rubus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15375,7 +15375,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Symphytum_param.svg"/>
+              <prop k="name" v="symbols/Symphytum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15395,7 +15395,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15415,7 +15415,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15435,7 +15435,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15455,7 +15455,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Boldo_param.svg"/>
+              <prop k="name" v="symbols/Boldo_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15475,7 +15475,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus.svg"/>
+              <prop k="name" v="symbols/Ficus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15495,7 +15495,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Yarrow_param.svg"/>
+              <prop k="name" v="symbols/Yarrow_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15515,7 +15515,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Bambusa.svg"/>
+              <prop k="name" v="symbols/Bambusa.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15535,7 +15535,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/SweetAlyssum_param.svg"/>
+              <prop k="name" v="symbols/SweetAlyssum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15555,7 +15555,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Dafodil_param.svg"/>
+              <prop k="name" v="symbols/Dafodil_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15575,7 +15575,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/WildLeek_param.svg"/>
+              <prop k="name" v="symbols/WildLeek_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15595,7 +15595,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Clover_param.svg"/>
+              <prop k="name" v="symbols/Clover_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15615,7 +15615,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15635,7 +15635,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#895418"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15655,7 +15655,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/OsageOrange_param.svg"/>
+              <prop k="name" v="symbols/OsageOrange_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15675,7 +15675,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15695,7 +15695,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15715,7 +15715,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15735,7 +15735,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15755,7 +15755,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Elaeagnus.svg"/>
+              <prop k="name" v="symbols/Elaeagnus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15775,7 +15775,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15795,7 +15795,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15815,7 +15815,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -15837,7 +15837,7 @@ OR "genus" = 'Trifolium'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16291,7 +16291,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16311,7 +16311,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Acacia_param.svg"/>
+              <prop k="name" v="symbols/Acacia_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16331,7 +16331,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16351,7 +16351,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16371,7 +16371,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16391,7 +16391,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Olive_param.svg"/>
+              <prop k="name" v="symbols/Olive_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16411,7 +16411,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16431,7 +16431,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16451,7 +16451,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pinus.svg"/>
+              <prop k="name" v="symbols/Pinus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16471,7 +16471,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16491,7 +16491,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pomegranite_param.svg"/>
+              <prop k="name" v="symbols/Pomegranite_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16511,7 +16511,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16531,7 +16531,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16551,7 +16551,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#6f4816"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Quercus_param.svg"/>
+              <prop k="name" v="Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16571,7 +16571,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16591,7 +16591,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Rubus_param.svg"/>
+              <prop k="name" v="symbols/Rubus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16611,7 +16611,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Symphytum_param.svg"/>
+              <prop k="name" v="symbols/Symphytum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16631,7 +16631,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16651,7 +16651,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16671,7 +16671,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16691,7 +16691,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Boldo_param.svg"/>
+              <prop k="name" v="symbols/Boldo_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16711,7 +16711,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus.svg"/>
+              <prop k="name" v="symbols/Ficus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16731,7 +16731,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Yarrow_param.svg"/>
+              <prop k="name" v="symbols/Yarrow_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16751,7 +16751,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Bambusa.svg"/>
+              <prop k="name" v="symbols/Bambusa.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16771,7 +16771,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/SweetAlyssum_param.svg"/>
+              <prop k="name" v="symbols/SweetAlyssum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16791,7 +16791,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Dafodil_param.svg"/>
+              <prop k="name" v="symbols/Dafodil_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16811,7 +16811,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/WildLeek_param.svg"/>
+              <prop k="name" v="symbols/WildLeek_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16831,7 +16831,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Clover_param.svg"/>
+              <prop k="name" v="symbols/Clover_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16851,7 +16851,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16871,7 +16871,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#895418"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16891,7 +16891,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/OsageOrange_param.svg"/>
+              <prop k="name" v="symbols/OsageOrange_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16911,7 +16911,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16931,7 +16931,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16951,7 +16951,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16971,7 +16971,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -16991,7 +16991,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Elaeagnus.svg"/>
+              <prop k="name" v="symbols/Elaeagnus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17011,7 +17011,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17031,7 +17031,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17051,7 +17051,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17073,7 +17073,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17473,7 +17473,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17493,7 +17493,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Acacia_param.svg"/>
+              <prop k="name" v="symbols/Acacia_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17513,7 +17513,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17533,7 +17533,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17553,7 +17553,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17573,7 +17573,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Olive_param.svg"/>
+              <prop k="name" v="symbols/Olive_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17593,7 +17593,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17613,7 +17613,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17633,7 +17633,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pinus.svg"/>
+              <prop k="name" v="symbols/Pinus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17653,7 +17653,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17673,7 +17673,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pomegranite_param.svg"/>
+              <prop k="name" v="symbols/Pomegranite_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17693,7 +17693,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17713,7 +17713,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17733,7 +17733,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#6f4816"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Quercus_param.svg"/>
+              <prop k="name" v="Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17753,7 +17753,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17773,7 +17773,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Rubus_param.svg"/>
+              <prop k="name" v="symbols/Rubus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17793,7 +17793,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Symphytum_param.svg"/>
+              <prop k="name" v="symbols/Symphytum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17813,7 +17813,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17833,7 +17833,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17853,7 +17853,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17873,7 +17873,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Boldo_param.svg"/>
+              <prop k="name" v="symbols/Boldo_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17893,7 +17893,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus.svg"/>
+              <prop k="name" v="symbols/Ficus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17913,7 +17913,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Yarrow_param.svg"/>
+              <prop k="name" v="symbols/Yarrow_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17933,7 +17933,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Bambusa.svg"/>
+              <prop k="name" v="symbols/Bambusa.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17953,7 +17953,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/SweetAlyssum_param.svg"/>
+              <prop k="name" v="symbols/SweetAlyssum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17973,7 +17973,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Dafodil_param.svg"/>
+              <prop k="name" v="symbols/Dafodil_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -17993,7 +17993,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/WildLeek_param.svg"/>
+              <prop k="name" v="symbols/WildLeek_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18013,7 +18013,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Clover_param.svg"/>
+              <prop k="name" v="symbols/Clover_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18033,7 +18033,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18053,7 +18053,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#895418"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18073,7 +18073,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/OsageOrange_param.svg"/>
+              <prop k="name" v="symbols/OsageOrange_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18093,7 +18093,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18113,7 +18113,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18133,7 +18133,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18153,7 +18153,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18173,7 +18173,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18193,7 +18193,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Elaeagnus.svg"/>
+              <prop k="name" v="symbols/Elaeagnus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18213,7 +18213,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18233,7 +18233,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18253,7 +18253,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18275,7 +18275,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18711,7 +18711,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18731,7 +18731,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Acacia_param.svg"/>
+              <prop k="name" v="symbols/Acacia_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18751,7 +18751,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18771,7 +18771,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18791,7 +18791,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18811,7 +18811,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Olive_param.svg"/>
+              <prop k="name" v="symbols/Olive_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18831,7 +18831,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18851,7 +18851,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18871,7 +18871,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pinus.svg"/>
+              <prop k="name" v="symbols/Pinus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18891,7 +18891,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18911,7 +18911,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Pomegranite_param.svg"/>
+              <prop k="name" v="symbols/Pomegranite_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18931,7 +18931,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#00ff00"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Malus_param.svg"/>
+              <prop k="name" v="symbols/Malus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18951,7 +18951,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18971,7 +18971,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#6f4816"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Quercus_param.svg"/>
+              <prop k="name" v="Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -18991,7 +18991,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19011,7 +19011,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Rubus_param.svg"/>
+              <prop k="name" v="symbols/Rubus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19031,7 +19031,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Symphytum_param.svg"/>
+              <prop k="name" v="symbols/Symphytum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19051,7 +19051,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19071,7 +19071,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19091,7 +19091,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19111,7 +19111,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Boldo_param.svg"/>
+              <prop k="name" v="symbols/Boldo_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19131,7 +19131,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus.svg"/>
+              <prop k="name" v="symbols/Ficus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19151,7 +19151,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Yarrow_param.svg"/>
+              <prop k="name" v="symbols/Yarrow_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19171,7 +19171,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Bambusa.svg"/>
+              <prop k="name" v="symbols/Bambusa.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19191,7 +19191,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/SweetAlyssum_param.svg"/>
+              <prop k="name" v="symbols/SweetAlyssum_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19211,7 +19211,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Dafodil_param.svg"/>
+              <prop k="name" v="symbols/Dafodil_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19231,7 +19231,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/WildLeek_param.svg"/>
+              <prop k="name" v="symbols/WildLeek_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19251,7 +19251,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#33a02c"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Clover_param.svg"/>
+              <prop k="name" v="symbols/Clover_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19271,7 +19271,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19291,7 +19291,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#895418"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19311,7 +19311,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/OsageOrange_param.svg"/>
+              <prop k="name" v="symbols/OsageOrange_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19331,7 +19331,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19351,7 +19351,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19371,7 +19371,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Citrus_param.svg"/>
+              <prop k="name" v="symbols/Citrus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19391,7 +19391,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19411,7 +19411,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Elaeagnus.svg"/>
+              <prop k="name" v="symbols/Elaeagnus.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19431,7 +19431,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Quercus_param.svg"/>
+              <prop k="name" v="symbols/Quercus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19451,7 +19451,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19471,7 +19471,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#ffffff"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./symbols/Ficus_param.svg"/>
+              <prop k="name" v="symbols/Ficus_param.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
@@ -19493,7 +19493,7 @@ OR "genus" = 'Annona' OR "genus" = 'Eriobotrya'</datasource>
               <prop k="angle" v="0"/>
               <prop k="color" v="#000000"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="../symbols/test.svg"/>
+              <prop k="name" v=""/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MapUnit"/>
