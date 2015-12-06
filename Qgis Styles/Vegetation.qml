@@ -9,72 +9,75 @@
     </edittype>
     <edittype widgetv2type="ValueMap" name="botanicalid">
       <widgetv2config fieldEditable="1" labelOnTop="0">
-        <value key="African Boxthorn" value="7405"/>
         <value key="Almond" value="5242"/>
-        <value key="Alnus Cordata" value="378"/>
         <value key="Apple" value="4053"/>
-        <value key="Black Chokeberry" value="673"/>
-        <value key="Black Mulberry" value="4276"/>
-        <value key="Black Wattle" value="7399"/>
+        <value key="Apricot" value="5214"/>
+        <value key="Avocado" value="7413"/>
+        <value key="Black chokeberry" value="673"/>
+        <value key="Black locust" value="5736"/>
+        <value key="Black mulberry" value="4267"/>
+        <value key="Black walnut" value="3477"/>
         <value key="Blackberry" value="5861"/>
-        <value key="Blackthorn" value="1212"/>
+        <value key="Blackcurrant" value="5695"/>
         <value key="Blackwood" value="51"/>
-        <value key="Boldo" value="4713"/>
+        <value key="Boldu" value="4713"/>
         <value key="Brown Barrel" value="7408"/>
+        <value key="Burr oak" value="5487"/>
         <value key="Cherry ballart" value="7403"/>
-        <value key="Chestnut" value="1466"/>
         <value key="Chilean hazel" value="3019"/>
         <value key="Chinese cedar" value="6830"/>
-        <value key="Chives" value="353"/>
         <value key="Coast grey box" value="7401"/>
         <value key="Comfrey" value="6673"/>
-        <value key="Cornelian Cherry" value="1955"/>
+        <value key="Cork oak" value="5510"/>
+        <value key="Cornelian cherry" value="1955"/>
         <value key="Creeping Lantana" value="7406"/>
-        <value key="Daffodil" value="4326"/>
+        <value key="Custard Apple" value="7418"/>
+        <value key="Dwarf banana" value="4280"/>
+        <value key="Elaeagnus" value="2488"/>
         <value key="Fig" value="2811"/>
         <value key="Grapefruit" value="7412"/>
-        <value key="Gully Peppermint" value="7410"/>
         <value key="Hazel" value="1993"/>
-        <value key="Indian Bean Tree" value="1485"/>
-        <value key="Kurrajong" value="1114"/>
+        <value key="Hedge bamboo" value="973"/>
+        <value key="High-bush blueberry" value="7040"/>
+        <value key="Holly oak" value="5474"/>
+        <value key="Holm oak" value="5475"/>
+        <value key="Indian bean tree" value="1485"/>
+        <value key="Italian alder" value="378"/>
+        <value key="Italian stone pine" value="4908"/>
         <value key="Lemon" value="1761"/>
         <value key="Lightwood" value="7404"/>
+        <value key="Loquat" value="2598"/>
         <value key="Macadamia" value="4002"/>
-        <value key="Maiden's Gum" value="7400"/>
-        <value key="Mana Gum" value="2697"/>
         <value key="Mandarin" value="1762"/>
-        <value key="Messmate" value="2687"/>
-        <value key="Norvegian Spruce" value="4831"/>
+        <value key="Manna gum" value="2697"/>
+        <value key="New Zealand flax" value="4745"/>
         <value key="Olive" value="4396"/>
-        <value key="Orange" value="1763"/>
         <value key="Osage orange" value="4005"/>
         <value key="Peach" value="5286"/>
         <value key="Pear" value="5421"/>
         <value key="Pecan" value="1445"/>
+        <value key="Pedunculate oak" value="5505"/>
+        <value key="Pin oak" value="5497"/>
         <value key="Pistachio" value="4937"/>
         <value key="Plum" value="5241"/>
         <value key="Pomegranate" value="5387"/>
-        <value key="Quercus ilex (Holm Oak)" value="5475"/>
-        <value key="Quercus macrocarpa (Burr Oak)" value="5487"/>
-        <value key="Quercus robur" value="5505"/>
-        <value key="Quercus suber (Pin Oak)" value="5510"/>
+        <value key="Pomelo" value="7415"/>
         <value key="Raspberry" value="5874"/>
         <value key="Red gum" value="7398"/>
-        <value key="River peppermint" value="7407"/>
-        <value key="Rough barked apple" value="539"/>
-        <value key="Sour Cherry" value="5229"/>
-        <value key="Stinging Nettle" value="7007"/>
-        <value key="Stone Pine" value="4908"/>
-        <value key="Sweet Alyssum" value="3876"/>
-        <value key="White Clover" value="6886"/>
-        <value key="White Mulberry" value="4259"/>
+        <value key="Redcurrant" value="5714"/>
+        <value key="Ryoku-chiku" value="974"/>
+        <value key="Stinging nettle" value="7007"/>
+        <value key="Sweet alyssum" value="3876"/>
+        <value key="Sweet chestnut" value="1466"/>
+        <value key="Sweet orange" value="1763"/>
+        <value key="Tangelo" value="7417"/>
+        <value key="Walnut" value="3478"/>
         <value key="White Stringybark" value="7402"/>
-        <value key="Wild Leek" value="295"/>
-        <value key="Woolybutt" value="7411"/>
+        <value key="White clover" value="6886"/>
+        <value key="White mulberry" value="4259"/>
+        <value key="Wild daffodil" value="4326"/>
+        <value key="Wild leek" value="295"/>
         <value key="Yarrow" value="95"/>
-        <value key="Yellow Box" value="2685"/>
-        <value key="Yellow Stringybark" value="7409"/>
-        <value key="highbush blueberry" value="4007"/>
       </widgetv2config>
     </edittype>
     <edittype widgetv2type="TextEdit" name="legacy_pfaf_latin_name">
@@ -94,6 +97,19 @@
     </edittype>
     <edittype widgetv2type="TextEdit" name="common_name">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+    </edittype>
+    <edittype widgetv2type="ValueMap" name="type">
+      <widgetv2config fieldEditable="1" labelOnTop="0">
+        <value key="Fibre Plants" value="3"/>
+        <value key="Fruit" value="1"/>
+        <value key="Groundcovers" value="7"/>
+        <value key="Leaf Crops" value="5"/>
+        <value key="Lumber Trees" value="4"/>
+        <value key="Native Species" value="8"/>
+        <value key="Nitrogen Fixers" value="6"/>
+        <value key="Nuts" value="2"/>
+        <value key="Weed Species" value="9"/>
+      </widgetv2config>
     </edittype>
     <edittype widgetv2type="TextEdit" name="dripline_radius">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>

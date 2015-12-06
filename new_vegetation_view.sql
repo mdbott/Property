@@ -12,9 +12,11 @@ CREATE OR REPLACE VIEW vegetation_view AS
     vegetation_view.species,
     vegetation_view.ssp,
     vegetation_view.common_name,
+    vegetation_view.type,
     vegetation_view.locations,
     vegetation_view.dripline_radius,
-    vegetation_view.comment
+    vegetation_view.comment,
+    vegetation_view.germination_date
    FROM ( SELECT row_number() OVER (ORDER BY vegetation.id) AS row_number,
             vegetation.id AS vegetationid,
             botanical_name.id AS botanicalid,
@@ -24,9 +26,11 @@ CREATE OR REPLACE VIEW vegetation_view AS
             botanical_name.species,
             botanical_name.ssp,
             botanical_name.common_name,
+            botanical_name.type,
             vegetation.locations,
             culture.width_centimeters AS dripline_radius,
-            vegetation.comment
+            vegetation.comment,
+            vegetation.germination_date
            FROM vegetation
              LEFT JOIN botanical_name ON vegetation.botanical_name_id = botanical_name.id
              LEFT JOIN culture ON vegetation.botanical_name_id = culture.id) vegetation_view;
@@ -49,13 +53,15 @@ CREATE OR REPLACE RULE view_delete AS
 -- DROP RULE view_insert ON vegetation_view;
 
 CREATE OR REPLACE RULE view_insert AS
-    ON INSERT TO vegetation_view DO INSTEAD  INSERT INTO vegetation (botanical_name_id, locations, comment)
-  VALUES (new.botanicalid, new.locations, new.comment);
+    ON INSERT TO vegetation_view DO INSTEAD  INSERT INTO vegetation (botanical_name_id, locations, comment, germination_date)
+  VALUES (new.botanicalid, new.locations, new.comment, new.germination_date);
 
 -- Rule: view_update ON vegetation_view
 
--- DROP RULE view_update ON vegetation_view;
-
+-- DROP RULE view_update ON vegetation_view; 
 CREATE OR REPLACE RULE view_update AS
-    ON UPDATE TO vegetation_view DO INSTEAD  UPDATE vegetation SET botanical_name_id = new.botanicalid, locations = new.locations, comment = new.comment
+    ON UPDATE TO vegetation_view DO INSTEAD ( UPDATE vegetation SET botanical_name_id = new.botanicalid, locations = new.locations, comment = new.comment, germination_date = new.germination_date
   WHERE vegetation.id = new.vegetationid;
+ UPDATE botanical_name SET type = new.type
+  WHERE botanical_name.id = new.botanicalid;
+);
