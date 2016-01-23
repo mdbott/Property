@@ -1,0 +1,31 @@
+
+CREATE OR REPLACE VIEW species_count_view AS 
+ SELECT vegetation_view.row_number,
+    vegetation_view.vegetationid,
+    vegetation_view.botanicalid,
+    vegetation_view.legacy_pfaf_latin_name,
+    vegetation_view.family,
+    vegetation_view.genus,
+    vegetation_view.species,
+    vegetation_view.ssp,
+    vegetation_view.common_name,
+    vegetation_view.type,
+    COUNT(*) AS 'num'
+   FROM ( SELECT row_number() OVER (ORDER BY vegetation.id) AS row_number,
+            vegetation.id AS vegetationid,
+            botanical_name.id AS botanicalid,
+            botanical_name.legacy_pfaf_latin_name,
+            botanical_name.family,
+            botanical_name.genus,
+            botanical_name.species,
+            botanical_name.ssp,
+            botanical_name.common_name,
+            botanical_name.type,
+            vegetation.locations,
+            culture.width_centimeters AS dripline_radius,
+            vegetation.comment,
+            vegetation.germination_date
+           FROM vegetation
+             LEFT JOIN botanical_name ON vegetation.botanical_name_id = botanical_name.id) 
+      vegetation_view
+   GROUP BY vegetation_view.botanicalid;

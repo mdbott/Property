@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.2.0">
+    <MODULE library="grid_gridding" id="3" name="Natural Neighbour">
+      <OPTION type="table_field" id="FIELD" name="Attribute">ALT</OPTION>
+      <OPTION type="boolean" id="SIBSON" name="Sibson">TRUE</OPTION>
+      <INPUT type="shapes" id="SHAPES" name="Points">
+        <FILE>/home/max/Property/elevation_points.shp</FILE>
+      </INPUT>
+      <OUTPUT type="grid" id="OUT_GRID" name="Target Grid">ALT [Natural Neighbour]</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE>/home/max/Property/DEM.sgrd</FILE>
+    <DATABASE></DATABASE>
+    <PROJECTION>
+      <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]]</OGC_WKT>
+      <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>

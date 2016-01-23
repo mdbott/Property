@@ -5,6 +5,7 @@ syntax: glob
 *.gif
 *.png
 *.ovr
+*.sdat
 GRASS/farm/PERMANENT/*
 .idea/*
 database/*
