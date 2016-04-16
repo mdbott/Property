@@ -237,10 +237,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>16665399.308268828317523</xmin>
-      <ymin>-4416070.11488387826830149</ymin>
-      <xmax>16665553.12954120151698589</xmax>
-      <ymax>-4415828.20579228643327951</ymax>
+      <xmin>16665252.43489179015159607</xmin>
+      <ymin>-4416000.23003519512712955</ymin>
+      <xmax>16665406.25616416335105896</xmax>
+      <ymax>-4415758.32094360329210758</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -296,8 +296,8 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Moisture20160120213050080"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetation_view_copy20150908234528050"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="newfarm20160101160323001"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEM20160124072034218"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="plantdb_vegetationview20160416002301956"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEM20160124072034218"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Roads20070922085550013"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151229120629223"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Nitrogen_Fixers_copy20151120135131273"/>
@@ -875,7 +875,7 @@
   <projectlayers>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Boundary_Fences20070921080039767</id>
-      <datasource>./Boundary_Fences/Boundary_Fences.shp</datasource>
+      <datasource>/home/max/Property/Boundary_Fences/Boundary_Fences.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -963,14 +963,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -982,7 +982,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Boundary_Fences20071009171024537</id>
-      <datasource>./Boundary_Fences/Boundary_Fences.shp</datasource>
+      <datasource>/home/max/Property/Boundary_Fences/Boundary_Fences.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1070,14 +1070,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1089,7 +1089,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Cool_Sea_Breezes20070922105323342</id>
-      <datasource>./Sector Analysis/Cool Sea Breezes/Cool Sea Breezes.shp</datasource>
+      <datasource>/home/max/Property/Sector Analysis/Cool Sea Breezes/Cool Sea Breezes.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1174,14 +1174,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1276,14 +1276,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1295,7 +1295,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Farm_Structures20080316144345557</id>
-      <datasource>./Infrastructure/Current Structures/Farm_Structures.shp</datasource>
+      <datasource>/home/max/Property/Infrastructure/Current Structures/Farm_Structures.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1376,14 +1376,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1395,7 +1395,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Functional_Zones20070923090342999</id>
-      <datasource>./Zones/Functional Zones/Functional Zones.shp</datasource>
+      <datasource>/home/max/Property/Zones/Functional Zones/Functional Zones.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1480,14 +1480,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1499,7 +1499,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Horticulture_Samples20150101120147061</id>
-      <datasource>./Soil/Soil Samples/Horticulture Samples/Horticulture Samples.shp</datasource>
+      <datasource>/home/max/Property/Soil/Soil Samples/Horticulture Samples/Horticulture Samples.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1652,14 +1652,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1671,7 +1671,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Hot_Summer_Winds20070922110420241</id>
-      <datasource>./Sector Analysis/Hot Summer Winds/Hot Summer Winds.shp</datasource>
+      <datasource>/home/max/Property/Sector Analysis/Hot Summer Winds/Hot Summer Winds.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1756,14 +1756,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1775,7 +1775,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Interior_Fences20070922135554035</id>
-      <datasource>./Fences/Interior Fences/Interior Fences.shp</datasource>
+      <datasource>/home/max/Property/Fences/Interior Fences/Interior Fences.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1866,14 +1866,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1885,7 +1885,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Interior_Fences_Projected20071009150520598</id>
-      <datasource>./Fences/Interior Fences/Interior Fences Projected.shp</datasource>
+      <datasource>/home/max/Property/Fences/Interior Fences/Interior Fences Projected.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -1976,14 +1976,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1995,7 +1995,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Landform20130330211347717</id>
-      <datasource>./Forest Garden Design/Site A+A/Landform.shp</datasource>
+      <datasource>/home/max/Property/Forest Garden Design/Site A+A/Landform.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -2175,14 +2175,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2194,7 +2194,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Notes20130330205521487</id>
-      <datasource>./Forest Garden Design/Site A+A/Notes.shp</datasource>
+      <datasource>/home/max/Property/Forest Garden Design/Site A+A/Notes.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -2285,14 +2285,14 @@
         <multilineenabled fieldname="" on="1"/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2304,7 +2304,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Notes20140427191839952</id>
-      <datasource>./Zones of Use/Proposed Zones/Notes.shp</datasource>
+      <datasource>/home/max/Property/Zones of Use/Proposed Zones/Notes.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -2533,14 +2533,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>2</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2552,7 +2552,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Paddock_Sample_Path20150101120719472</id>
-      <datasource>./Soil/Soil Samples/Paddock Sample Path/Paddock Sample Path.shp</datasource>
+      <datasource>/home/max/Property/Soil/Soil Samples/Paddock Sample Path/Paddock Sample Path.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -2673,14 +2673,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2692,7 +2692,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Paddock_Samples20150101120524167</id>
-      <datasource>./Soil/Soil Samples/Paddock Samples/Paddock Samples.shp</datasource>
+      <datasource>/home/max/Property/Soil/Soil Samples/Paddock Samples/Paddock Samples.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -2845,14 +2845,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2864,7 +2864,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Paddocks20070922154242917</id>
-      <datasource>./Zones/Paddocks/Paddocks.shp</datasource>
+      <datasource>/home/max/Property/Zones/Paddocks/Paddocks.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3021,14 +3021,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3040,7 +3040,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="-4.65661e-10" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Permaculture_Zone20070923114425453</id>
-      <datasource>./Zones/Permaculture Zone/Permaculture Zone.shp</datasource>
+      <datasource>/home/max/Property/Zones/Permaculture Zone/Permaculture Zone.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3349,14 +3349,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3368,7 +3368,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Pipes20070923081718780</id>
-      <datasource>./Water/Pipes/Pipes.shp</datasource>
+      <datasource>/home/max/Property/Water/Pipes/Pipes.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3456,14 +3456,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3475,7 +3475,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Planned_Fences20070923084756295</id>
-      <datasource>./Fences/Planned Fences/Planned Fences.shp</datasource>
+      <datasource>/home/max/Property/Fences/Planned Fences/Planned Fences.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3566,14 +3566,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3585,7 +3585,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Planned_Fences_Projected20071009170507701</id>
-      <datasource>./Fences/Planned Fences/Planned Fences Projected.shp</datasource>
+      <datasource>/home/max/Property/Fences/Planned Fences/Planned Fences Projected.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3676,14 +3676,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3695,7 +3695,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Power20080316145105996</id>
-      <datasource>./Infrastructure/Power/Power.shp</datasource>
+      <datasource>/home/max/Property/Infrastructure/Power/Power.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -3783,14 +3783,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3802,7 +3802,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Proposed_Zones20140427084706612</id>
-      <datasource>./Zones of Use/Proposed Zones/Proposed Zones.shp</datasource>
+      <datasource>/home/max/Property/Zones of Use/Proposed Zones/Proposed Zones.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4161,14 +4161,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4180,7 +4180,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Roads20070922085550013</id>
-      <datasource>./Access/Roads/Roads.shp</datasource>
+      <datasource>/home/max/Property/Access/Roads/Roads.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4268,14 +4268,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4287,7 +4287,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>S37E14920130315230759617</id>
-      <datasource>./S37E149/S37E149.shp</datasource>
+      <datasource>/home/max/Property/S37E149/S37E149.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4493,14 +4493,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4512,7 +4512,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Sectors20070922093252483</id>
-      <datasource>./Sector Analysis/Sectors/Sectors.shp</datasource>
+      <datasource>/home/max/Property/Sector Analysis/Sectors/Sectors.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4597,14 +4597,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4616,7 +4616,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Strong_Southerly_Winds20070922115811245</id>
-      <datasource>./Sector Analysis/Strong Southerly Winds/Strong Southerly Winds.shp</datasource>
+      <datasource>/home/max/Property/Sector Analysis/Strong Southerly Winds/Strong Southerly Winds.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4701,14 +4701,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4720,7 +4720,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Summer_Sun20070922101747724</id>
-      <datasource>./Sector Analysis/Summer Sun/Summer Sun.shp</datasource>
+      <datasource>/home/max/Property/Sector Analysis/Summer Sun/Summer Sun.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4805,14 +4805,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4824,7 +4824,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Truffiere_Samples20150101120311251</id>
-      <datasource>./Soil/Soil Samples/Truffiere Samples/Truffiere Samples.shp</datasource>
+      <datasource>/home/max/Property/Soil/Soil Samples/Truffiere Samples/Truffiere Samples.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -4977,14 +4977,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4996,7 +4996,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="-4.65661e-10" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Water_Storages20070920231657995</id>
-      <datasource>./Water/Water_Storages/Water_Storages.shp</datasource>
+      <datasource>/home/max/Property/Water/Water_Storages/Water_Storages.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -5198,14 +5198,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5217,7 +5217,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>beehive20140529100416255</id>
-      <datasource>./beehive.shp</datasource>
+      <datasource>/home/max/Property/beehive.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -5327,14 +5327,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5346,7 +5346,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>elevation_points20151229112027809</id>
-      <datasource>./elevation_points.shp</datasource>
+      <datasource>/home/max/Property/elevation_points.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -5791,14 +5791,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5810,7 +5810,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>farm20130227082345472</id>
-      <datasource>./farm.tif</datasource>
+      <datasource>/home/max/Property/farm.tif</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -6107,7 +6107,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>farm_contours20151229113536674</id>
-      <datasource>./farm_contours.shp</datasource>
+      <datasource>/home/max/Property/farm_contours.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -6337,14 +6337,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6356,7 +6356,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>lines20151228202559288</id>
-      <datasource>./lines.shp</datasource>
+      <datasource>/home/max/Property/lines.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -6444,14 +6444,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6463,7 +6463,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>modified_contours20151228182615171</id>
-      <datasource>file:./modified_contours.csv?encoding=System&amp;type=csv&amp;delimiter=;&amp;decimalPoint=,&amp;xField=LONG&amp;yField=LAT&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <datasource>file:///home/max/Property/modified_contours.csv?encoding=System&amp;type=csv&amp;delimiter=;&amp;decimalPoint=,&amp;xField=LONG&amp;yField=LAT&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -6556,14 +6556,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6573,7 +6573,7 @@
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>plantdb_vegetationview20160416002301956</id>
       <datasource>dbname='plantdb' host=192.168.1.100 port=5432 user='postgres' password='mega^0lt' sslmode=disable key='row_number' srid=3857 type=Point table="public"."plantdb_vegetationview" (locations) sql=</datasource>
       <shortname>plantdb_vegetationview</shortname>
@@ -6696,7 +6696,157 @@
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
-      <customproperties/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Ubuntu"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="11"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Medium Italic"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="0"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
@@ -6722,17 +6872,39 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+          <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>/home/max/Property/forms/vegetation.ui</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
+      <editorlayout>uifilelayout</editorlayout>
       <widgets/>
       <conditionalstyles>
         <rowstyles/>
@@ -6741,7 +6913,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>points520160124071807522</id>
-      <datasource>./points5.shp</datasource>
+      <datasource>/home/max/Property/points5.shp</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
@@ -6828,14 +7000,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform>/home/max/Property</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform>/home/max/Property</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>/home/max/Property</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6847,7 +7019,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>water_demand20140528112734010</id>
-      <datasource>./water_demand.tiff</datasource>
+      <datasource>/home/max/Property/water_demand.tiff</datasource>
       <shortname></shortname>
       <title></title>
       <abstract></abstract>
