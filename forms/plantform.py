@@ -1,9 +1,16 @@
 # -*- encoding: utf-8 -*-
 
-from PyQt4.QtCore import *
+from PyQt4.QtCore import (QDate, QDateTime, QFile, QVariant, Qt, QEvent)
+from PyQt4.QtGui import (QApplication, QComboBox, QCursor,
+        QDataWidgetMapper, QDateTimeEdit, QDialog, QGridLayout,
+        QHBoxLayout, QIcon, QLabel, QLineEdit, QMessageBox, QPixmap,
+        QPushButton, QVBoxLayout, QWidget, QCheckBox, QDialogButtonBox)
+from PyQt4.QtSql import (QSqlDatabase, QSqlQuery, QSqlRelation,
+        QSqlRelationalDelegate, QSqlRelationalTableModel, QSqlIndex, QSqlField)
 from qgis.core import *
-from PyQt4.QtGui import *
-from PyQt4.QtSql import *
+
+import sys
+#import vegetation
 try:
     from PyQt4.QtCore import QString
 except ImportError:
@@ -11,6 +18,8 @@ except ImportError:
 __author__ = 'max'
 myDialog = None
 
+ROWNUMBER, ID, PLANTID, ROOTSTOCKID, CULTIVARID, LATINNAME, FAMILY, GENUS, SPECIES, SSP, COMMONNAME, FUNCTION, BORDER, \
+    FILL, SYMBOL, FORM, LOCATIONS, WIDTH, HEIGHT, GRAFTED, COMMENT,  GERMINATIONDATE = range(22)
 
 def formOpen(dialog, layer, feature):
     mydialog = myDialog(dialog, layer, feature)
@@ -21,10 +30,11 @@ class myDialog:
         self.dlg = dialog
         self.layerid = layer
         self.featureid = feature
+        self.create_model()
+        self.validate_data()
 
-        provider = layer.dataProvider()
-        #app = QtCore.QCoreApplication(sys.argv)
-        #QMessageBox.information(None, "DEBUG:", str(provider.name()))
+    def create_model(self):
+        provider = self.layerid.dataProvider()
         if provider.name() == 'postgres':
             # get the URI containing the connection parameters
             uri = QgsDataSourceURI(provider.dataSourceUri())
@@ -46,276 +56,371 @@ class myDialog:
                 db.authcfg = None
                 self.db = db
                 self.db.open()
-                #query = QSqlQuery("""select genus,species from plantdb_plant where genus = 'Prunus'""")
-                query = db.exec_("""select genus,species from plantdb_plant where genus = 'Prunus'""")
-                #QMessageBox.information(None, "DEBUG:", str(query.record().count()))
             else:
                 QMessageBox.information(None, "DEBUG:", str('Add the qt postgresql driver with  apt-get install libqt4-sql-psql'))
-            # database = 'plantdb'
-            # username = 'postgres'
-            # password = ''
-            # table = 'testing'
-            # srid = 4326
-            # dimension = 2
-            # typmod = 'POINT'
-            #
-            # db2 = QSqlDatabase.addDatabase('QPSQL')
-            #
-            # uri = QgsDataSourceURI()
-            # uri.setConnection('192.168.1.100', '5432', database, username, password)
-            # uri.setDataSource('public', table, 'the_geom', '')
-            #
-            # db2.setHostName(uri.host())
-            # db2.setPort(int(uri.port()))
-            # db2.setDatabaseName(uri.database())
-            # db2.setUserName(uri.username())
-            # db2.setPassword(uri.password())
-            # QMessageBox.information(None, "DEBUG:", str(db2.isValid()))
 
-        # Create plantcombobox model
-        self.plantcombobox = self.dlg.findChild(QComboBox, "plantid")
-        self.cultivarcombobox = self.dlg.findChild(QComboBox, "cultivarid")
-        self.rootstockcombobox = self.dlg.findChild(QComboBox, "rootstockid")
+        # Attach form widget
+        self.plantingid = self.dlg.findChild(QLineEdit, "row_number")
+        self.plantid = self.dlg.findChild(QComboBox, "plantid")
+        self.cultivarid = self.dlg.findChild(QComboBox, "cultivarid")
+        self.rootstockid = self.dlg.findChild(QComboBox, "rootstockid")
+        self.grafted = self.dlg.findChild(QCheckBox, "grafted")
+        self.buttonBox = self.dlg.findChild(QDialogButtonBox,"buttonBox")
+        try:
+            currentplantingindex = int(self.plantingid.text())-1
+        except ValueError:
+            currentplantingindex = ''
+        # currentplantingindex = int(self.plantingid.text())-1
+        currentcomboindex = self.plantid.currentText()
+        currentcultivarindex = self.cultivarid.currentText()
+        currentrootstockindex = self.rootstockid.currentText()
 
-        currentcomboindex = self.plantcombobox.currentText()
-        currentcultivarindex = self.cultivarcombobox.currentText()
-        currentrootstockindex = self.rootstockcombobox.currentText()
-        QMessageBox.information(None, "DEBUG:", 'plantid: '+str(currentcomboindex))
-        QMessageBox.information(None, "DEBUG:", 'cultivarid: '+str(currentcultivarindex))
-        QMessageBox.information(None, "DEBUG:", 'rootstockid: '+str(currentrootstockindex))
-        self.plantingmodel = QSqlRelationalTableModel(self.dlg, self.db)
-        self.plantingmodel.setTable('plantdb_vegetation')
-        self.plantingmodel.setRelation(2, QSqlRelation("plantdb_plant", "id", "legacy_pfaf_latin_name"))
-        self.plantingmodel.setRelation(3, QSqlRelation("plantdb_cultivar", "id", "name"))
-        self.plantingmodel.setRelation(4, QSqlRelation("plantdb_rootstock", "id", "rootstockname"))
-        self.plantingmodel.setSort(1, Qt.AscendingOrder)
-        self.plantingmodel.select()
-        index = self.plantingmodel.index(0,0)
-        self.plantingmodel.setCurrentIndex(index)
-        #self.dlg.setItemDelegate(QSqlRelationalDelegate(self.dlg))
-        #self.dlg.setCurrentIndex(self.plantingmodel.index(0))
+        #QMessageBox.information(None, "DEBUG:", 'planting id: '+str(currentplantingindex))
+        #QMessageBox.information(None, "DEBUG:", 'plantid: '+str(currentcomboindex))
+        #QMessageBox.information(None, "DEBUG:", 'cultivarid: '+str(currentcultivarindex))
+        #QMessageBox.information(None, "DEBUG:", 'rootstockid: '+str(currentrootstockindex))
 
+        self.model = QSqlRelationalTableModel(self.dlg, self.db)
+        self.model.setTable("plantdb_vegetationview")
+
+        self.model.setRelation(PLANTID, QSqlRelation("plantdb_plant", "id", "legacy_pfaf_latin_name"))
+        self.model.setRelation(CULTIVARID, QSqlRelation("plantdb_cultivar", "id", "name"))
+        self.model.setRelation(ROOTSTOCKID, QSqlRelation("plantdb_rootstock", "id", "rootstockname"))
+        pk = QSqlIndex("cursor", "idxName")
+        pk.append(QSqlField("row_number"))
+        self.model.setPrimaryKey(pk)
+        self.model.setSort(ROWNUMBER, Qt.AscendingOrder)
+        self.model.select()
+
+        # define mapper
+        # establish ties between underlying database model and data widgets on form
         self.mapper = QDataWidgetMapper(self.dlg)
         self.mapper.setSubmitPolicy(QDataWidgetMapper.ManualSubmit)
-        self.mapper.setModel(self.plantingmodel)
-        row = self.plantingmodel.rowCount()
-        self.mapper.setItemDelegate(QSqlRelationalDelegate(self.dlg))
+        self.mapper.setModel(self.model)
+        self.mapper.addMapping(self.plantingid, ROWNUMBER)
+        plantDelegate = GenericDelegate(self.dlg)
+        plantDelegate.insertColumnDelegate(CULTIVARID, CultivarComboBoxDelegate(self.dlg, self))
+        plantDelegate.insertColumnDelegate(ROOTSTOCKID, RootstockComboBoxDelegate(self.dlg, self))
+        self.mapper.setItemDelegate(plantDelegate)
 
-        plantrelationModel = self.plantingmodel.relationModel(2)
-        cultivarrelationModel = self.plantingmodel.relationModel(3)
-        rootstockrelationModel = self.plantingmodel.relationModel(4)
+        # Plant combobox
+        plantrelationModel = self.model.relationModel(PLANTID)
+        self.plantid.setModel(plantrelationModel)
+        self.plantid.setModelColumn(
+                plantrelationModel.fieldIndex("legacy_pfaf_latin_name"))
+        self.mapper.addMapping(self.plantid, PLANTID)
 
-        self.plantcombobox.setModel(plantrelationModel)
-        self.plantcombobox.setModelColumn(plantrelationModel.fieldIndex("legacy_pfaf_latin_name"))
-        self.mapper.addMapping(self.plantcombobox, 3)
+        # Cultivar combobox
+        cultivarrelationModel = self.model.relationModel(CULTIVARID)
+        self.cultivarid.setModel(cultivarrelationModel)
+        self.cultivarid.setModelColumn(
+                cultivarrelationModel.fieldIndex("name"))
+        self.mapper.addMapping(self.cultivarid, CULTIVARID)
 
-
-        self.cultivarcombobox.setModel(cultivarrelationModel)
-        #self.dlg.cultivarcombomodel = cultivarrelationModel
-        self.cultivarcombobox.setModelColumn(cultivarrelationModel.fieldIndex("name"))
-        self.mapper.addMapping(self.cultivarcombobox, 5)
-
-        self.rootstockcombobox.setModel(rootstockrelationModel)
-        self.plantcombobox.setModelColumn(rootstockrelationModel.fieldIndex("rootstockname"))
-        self.mapper.addMapping(self.rootstockcombobox, 6)
-
-
-
-
-
-
-
-
-
-
-
-        # self.plantcombomodel = QSqlTableModel(self.plantCombobox, self.db)
-        # self.plantcombomodel.setTable('plantdb_plant')
-        # self.plantcombomodel.select()
-        # newcombobox_query = QSqlQuery(db=self.db)
-        # newcombobox_query.prepare("SELECT legacy_pfaf_latin_name FROM plantdb_plant WHERE id=:id")
-        # newcombobox_query.bindValue(":id", currentcomboindex)
-        # newcombobox_query.exec_()
-        # QMessageBox.information(None, "DEBUG:", str(newcombobox_query.first()))
-        # # self.plantcombomodel.data(self.plantcombomodel.index(currentcomboindex, self.plantcombomodel.fieldIndex("id"))).toString()
-        #
-        # self.plantCombobox.setModel(self.plantcombomodel)
-        # self.plantCombobox.setModelColumn(self.plantcombomodel.fieldIndex("legacy_pfaf_latin_name"))
-        # currentplantid = str(self.plantCombobox.itemData(self.plantCombobox.currentIndex()))
-        #
-        #
-        #
-        #
-        #
-        # # Create cultivarcombobox model
-        # self.cultivarCombobox = self.dlg.findChild(QComboBox, "cultivarid")
-        # self.cultivarcombomodel = QSqlTableModel(self.cultivarCombobox, self.db)
-        # self.cultivarcombomodel.setTable("plantdb_cultivar")
-        # cultivarfilter = QString('plant_id = ' + currentplantid)
-        # self.cultivarcombomodel.setFilter(cultivarfilter)
-        #
-        # self.cultivarcombomodel.select()
-        #
-        # # Create rootstockcombobox model
-        # self.rootstockCombobox = self.dlg.findChild(QComboBox, "rootstockid")
-        # self.rootstockcombomodel = QSqlTableModel(self.rootstockCombobox, self.db)
-        # self.rootstockcombomodel.setTable("plantdb_rootstock")
-        # rootstockfilter = QString('plant_id = ' + currentplantid)
-        # self.rootstockcombomodel.setFilter(rootstockfilter)
-        # self.rootstockcombomodel.select()
-        #
-        #
-        #
-        #
-        # self.cultivarCombobox.setModel(self.cultivarcombomodel)
-        # self.cultivarCombobox.setModelColumn(self.cultivarcombomodel.fieldIndex("name"))
-        # self.rootstockCombobox.setModel(self.rootstockcombomodel)
-        # self.rootstockCombobox.setModelColumn(self.rootstockcombomodel.fieldIndex("name"))
-        self.plantcombobox.currentIndexChanged[str].connect(self.printMsg)
-        self.plantcombobox.highlighted[int].connect(self.printMsg)
+        # Rootstock combobox
+        rootstockrelationModel = self.model.relationModel(ROOTSTOCKID)
+        self.rootstockid.setModel(rootstockrelationModel)
+        self.rootstockid.setModelColumn(
+                rootstockrelationModel.fieldIndex("rootstockname"))
+        self.mapper.addMapping(self.rootstockid, ROOTSTOCKID)
+        self.rootstockid.readonly = False
+        self.rootstockid.installEventFilter(self.dlg)
+        self.mapper.addMapping(self.grafted, GRAFTED)
+        self.mapper.toFirst()
+        pid = self.plantingid.text()
+        #QMessageBox.information(None, "DEBUG:", 'initial row number: '+pid)
+        row = self.mapper.currentIndex()
+        row = currentplantingindex
         self.mapper.setCurrentIndex(row)
-        QMessageBox.information(None, "DEBUG:", 'current index: '+str(self.mapper.currentIndex()))
+        pid = self.plantingid.text()
+        #QMessageBox.information(None, "DEBUG:", 'final row number: '+pid)
 
-        currentcomboindex = self.plantcombobox.currentText()
-        currentcultivarindex = self.cultivarcombobox.currentText()
-        currentrootstockindex = self.rootstockcombobox.currentText()
-        QMessageBox.information(None, "DEBUG:", 'plantid: '+str(currentcomboindex))
-        QMessageBox.information(None, "DEBUG:", 'cultivarid: '+str(currentcultivarindex))
-        QMessageBox.information(None, "DEBUG:", 'rootstockid: '+str(currentrootstockindex))
+    def validate_data(self):
+        # Disconnect the signal that QGIS has wired up for the dialog to the button box.
 
-        # When you change the value for plant widget, change the content of the cultivar widget
-        #self.plantcombobox.currentIndexChanged.connect(lambda: self.populateDependantCombobox(self.cultivarcombobox, self.plantcombobox))
+        self.buttonBox.accepted.disconnect(self.dlg.accept)
+        self.buttonBox.accepted.connect(self.validate)
+        self.buttonBox.rejected.connect(self.dlg.reject)
+
+    def validate(self):
+        # Make sure that the name field isn't empty.
+
+        # get final plantid
+        plantIndex = self.plantid.currentIndex()
+        plant_id = self.plantid.model().record(plantIndex).value("id")
+        # get final cultivarid
+        cultivarIndex = self.cultivarid.currentIndex()
+        cultivar_id = self.cultivarid.model().record(cultivarIndex).value("id")
+        # get final rootstockid
+        rootstockIndex = self.rootstockid.currentIndex()
+        rootstock_id = self.rootstockid.model().record(rootstockIndex).value("id")
+        self.mapper.submit()
+        # QMessageBox.information(None, "DEBUG:", 'plantid: '+str(plant_id))
+        # QMessageBox.information(None, "DEBUG:", 'cultivarid: '+str(cultivar_id))
+        # QMessageBox.information(None, "DEBUG:", 'rootstockid: '+str(rootstock_id))
+        self.mapper.removeMapping(self.plantid)
+        self.mapper.removeMapping(self.cultivarid)
+        self.mapper.removeMapping(self.rootstockid)
+
+        newplantindex = self.plantid.findText(str(plant_id))
+        newcultivarindex = self.plantid.findText(str(cultivar_id))
+        newrootstockindex = self.plantid.findText(str(rootstock_id))
+
+        if newplantindex >= 0:
+            self.plantid.setCurrentIndex(newplantindex)
+        if newcultivarindex >= 0:
+            self.cultivarid.setCurrentIndex(newcultivarindex)
+        if newrootstockindex >= 0:
+            self.rootstockid.setCurrentIndex(newrootstockindex)
+        currentcomboindex = self.plantid.currentText()
+        currentcultivarindex = self.cultivarid.currentText()
+        currentrootstockindex = self.rootstockid.currentText()
+        #QMessageBox.information(None, "DEBUG:", 'plant text: '+str(currentcomboindex))
+        #QMessageBox.information(None, "DEBUG:", 'cultivar text: '+str(currentcultivarindex))
+        #QMessageBox.information(None, "DEBUG:", 'rootstock text: '+str(currentrootstockindex))
+
+        self.dlg.accept()
+        # if not self.plantingid.text().length() == 0:
+        #     msgBox = QMessageBox()
+        #     msgBox.setText("Name field can not be null.")
+        #     msgBox.exec_()
+        # else:
+        #     # Return the form as accpeted to QGIS.
+        #     self.dlg.accept()
 
 
 
-    def getDistrictCeiRoute(self):
-        db = spatialite_utils.GeoDB(sqlitePath)
-        sql = """SELECT * FROM reseau_metadata"""
-        cursor = db.con.cursor()
-        db._exec_sql(cursor,sql)
-        return cursor.fetchall()
+class CultivarComboBoxDelegate(QSqlRelationalDelegate):
+    """Implements custom delegate for Cultivar combobox in the Plant dialog.
 
-    def printMsg(self):
-        QgsMessageLog.logMessage(str(self.plantcombobox.count()), "essai", 0)
+    Filters the cultivar combobox to show the cultivars relevant to the selected plant table.
 
-    def populateDependantCombobox(self, widget, parent_widget):
-        """Generic function to manage cascading QComboBox.
-           * widget: widget object (QComboBox) to control
-           * parent_widget: get the value from the parent QComboBox widget"""
-
-        # Get the value of the parent QComboBox
-        newplantid = str(parent_widget.itemData(parent_widget.currentIndex()))
-        cultivarfilter = QString('plant_id = ' + newplantid)
-        rootstockfilter = QString('plant_id = ' + newplantid)
-        self.cultivarcombomodel.setFilter(cultivarfilter)
-        self.rootstockcombomodel.setFilter(rootstockfilter)
-
-
-class Delegate(QSqlRelationalDelegate):
+    Inherits QSqlRelationalDelegate.
     """
-    Delegate class handles the delegate. This allows for custom editing within
-    the GUI. QtSql.QSqlRelationalDelegate is being subclassed to support custom editing.
 
-    Methods that are being overridden are:
-        createEditor
-        setEditorData
-        setModelData
-    """
-
-    def __init__(self, parent = None):
-        """Class constructor."""
-
-        super(Delegate, self).__init__(parent)
-
-    def createEditor(self, parent, option, index):
-        """
-        This creates the editors in the delegate, which is reimplemented from
-        QAbstractItemDelegate::createEditor(). It returns the widget used to edit
-        the item specified by index for editing. The parent widget and style option
-        are used to control how the editor widget appears.
-        """
-
-        column = index.column()
-
-        if column == 1:
-            editor = QtGui.QLineEdit(parent)
-            regex = QtCore.QRegExp(r"[a-zA-Z][a-zA-Z0-9_]{3,60}")
-            validator = QtGui.QRegExpValidator(regex,parent)
-            editor.setValidator(validator)
-            return editor
-
-        # Else return the base editor. This will handle all other columns.
-        else:
-            return super(AppDelegate, self).createEditor(parent, option, index)
+    def __init__(self, parent, parentinst):
+        """Constructor for RootstockComboBoxDelegate class."""
+        super(CultivarComboBoxDelegate, self).__init__(parent)
+        self.plantid = parentinst.plantid
 
     def setEditorData(self, editor, index):
+        """Writes current data from model into editor.
+
+        Filters contents of combobox so that only options are the shootout rounds not referenced
+        twice in the Penalty Shootout table.
+
+        Arguments:
+            editor -- ComboBox widget
+            index -- current index of database table model for the cultivar column
+
         """
-         Once the editor has been created and given to the view, the view calls
-         setEditorData(). This gives the delegate the opportunity to populate the
-         editor with the current data, ready for the user to edit.
+        plantingModel = index.model()
+        cultivarModel = editor.model()
+        plantModel = self.plantid.model()
+        # block signals from player combobox so that EnableWidget() is not called multiple times
+        editor.blockSignals(True)
+        # clear filters
+        cultivarModel.setFilter(QString())
+        # current plant name and ID
+        cultivarName = plantingModel.data(index, Qt.DisplayRole)
+        # get plantid
+        plantIndex = self.plantid.currentIndex()
+        plant_id = plantModel.record(plantIndex).value("id")
 
-        Sets the contents of the given editor to the data for the item
-        at the given index.
-
-        Note that the index contains information about the model being used.
-
-        The base implementation does nothing.
-        If you want custom editing you will need to reimplement this function.
-        """
-
-        column = index.column()
-
-        # Get the data value from the model.
-        text = index.model().data(index, QtCore.Qt.DisplayRole).toString()
-
-        # Set the editors text to be the text from the model.
-        if column == 1:
-            editor.setText(text)
-
-        # Else return the base setEditorData method.
-        # This is not strictly needed because in flags the ID column is set
-        # to be selectable only so it should never call setEditorData.
-        else:
-            return super(AppDelegate, self).setEditorData(self, editor, index)
+        cultivarModel.select()
+        # cultivarText = plantingModel.data(index, Qt.DisplayRole).toString()
+        cultivarModel.setFilter("plant_id = {}".format(plant_id))
+        editor.setCurrentIndex(editor.findText(cultivarName, Qt.MatchExactly))
+        editor.blockSignals(False) # unblock signals from player combobox
 
     def setModelData(self, editor, model, index):
+        """Maps round name to ID number in Rounds model, and writes ID to the current entry in the database table.
+
+        Arguments:
+            editor -- ComboBox widget
+            model -- underlying database table model
+            index -- current index of database table model
+
         """
-        Sets the data for the item at the given index in the model
-        to the contents of the given editor. The base implementation does
-        nothing.
-        If you want custom editing you will need to reimplement this method.
+        cultivarIndex = editor.currentIndex()
+        value = editor.model().record(cultivarIndex).value("id")
+        model.setData(index, value)
 
-        If the user confirms their edit the editor's data must be written
-        back to the model. The model will then notify the views that the item
-        has changed, and those views that are showing the item
-        will request fresh data to display.
 
-        In each case we simply retrieve the value from the appropriate editor,
-        and call setData (), passing the values as QVariants.
+class RootstockComboBoxDelegate(QSqlRelationalDelegate):
+    """Implements custom delegate for Rootstock combobox in the Plant dialog.
+
+    Filters the rootstock combobox to show the rootstocks relevant to the selected plant table.
+
+    Inherits QSqlRelationalDelegate.
+    """
+
+    def __init__(self, parent, parentinst):
+        """Constructor for RootstockComboBoxDelegate class."""
+        super(RootstockComboBoxDelegate, self).__init__(parent)
+        self.plantid = parentinst.plantid
+        self.grafted = parentinst.grafted
+        self.cultivarid = parentinst.cultivarid
+        self.parent = parentinst
+
+    def setEditorData(self, editor, index):
+        """Writes current data from model into editor.
+
+        Filters contents of combobox so that only options are the shootout rounds not referenced
+        twice in the Penalty Shootout table.
+
+        Arguments:
+            editor -- ComboBox widget
+            index -- current index of database table model for the rootstock column
+
         """
+        plantingModel = index.model()
+        rootstockModel = editor.model()
+        cultivarmodel = self.cultivarid.model()
+        plantModel = self.plantid.model()
 
-        column = index.column()
+        # block signals from player combobox so that EnableWidget() is not called multiple times
+        editor.blockSignals(True)
 
-        # Test if the editor has been modified.
-        if not editor.isModified():
-            return
+        # clear filters
+        rootstockModel.setFilter(QString())
 
-        # This ensure that validation passes.
-        text = editor.text()
-        validator = editor.validator()
-        if validator is not None:
-            state, text = validator.validate(text, 0)
-            if state != QtGui.QValidator.Acceptable:
-                return
+        # current plant name and ID
+        rootstockName = plantingModel.data(index, Qt.DisplayRole)
+        pid = int(self.parent.plantingid.text())-1
+        graftedindex = self.parent.model.createIndex(pid, GRAFTED)
+        isgrafted = self.parent.model.data(graftedindex, Qt.DisplayRole)
+        # get plantid
+        plantIndex = self.plantid.currentIndex()
+        plant_id = plantModel.record(plantIndex).value("id")
+        # get native rootstock
+        cultivarIndex = self.cultivarid.currentIndex()
+        native_rootstock = cultivarmodel.record(cultivarIndex).value("native_rootstock_id")
 
-        if column == 1:
-            # Call model.setData and set the data to the text in the QLineEdit.
-            # After the user confirms the edit then set the model data to the
-            # new user input.
-            model.setData(index, QtCore.QVariant(editor.text()))
+        rootstockModel.select()
 
-        # else return the base setModelData method.
+        # get Grafted status
+        if isgrafted:
+            print "Model Grafted"
+            rootstockModel.setFilter("plant_id = {}".format(plant_id))
+            editor.setCurrentIndex(editor.findText(rootstockName, Qt.MatchExactly))
         else:
-            super(AppDelegate, self).setModelData(self, editor, model, index)
+            print "Model Not Grafted"
+            rootstockModel.setFilter("id = {}".format(native_rootstock))
+            editor.setCurrentIndex(editor.findText(rootstockName, Qt.MatchExactly))
+
+        # unblock signals from player combobox
+        editor.blockSignals(False)
+
+    def setModelData(self, editor, model, index):
+        """Maps round name to ID number in Rounds model, and writes ID to the current entry in the database table.
+
+        Arguments:
+            editor -- ComboBox widget
+            model -- underlying database table model
+            index -- current index of database table model
+
+        """
+
+        plantingModel = index.model()
+        cultivarmodel = self.cultivarid.model()
+        pid = int(self.parent.plantingid.text())-1
+        # print int(self.parent.plantingid.text())-1, self.parent.plantingid.text().toInt()[0]-1
+        graftedindex = self.parent.model.createIndex(pid, GRAFTED)
+        isgrafted = self.parent.model.data(graftedindex, Qt.DisplayRole)
+        cultivarIndex = self.cultivarid.currentIndex()
+        native_rootstock = cultivarmodel.record(cultivarIndex).value("native_rootstock_id")
+
+        rootstockIndex = editor.currentIndex()
+        value = editor.model().record(rootstockIndex).value("id")
+        # model.setData(index, value)
+        if isgrafted:
+           model.setData(index, value)
+        else:
+           model.setData(index, native_rootstock)
 
 
+class GenericDelegate(QSqlRelationalDelegate):
+    """Implements generic components of UI delegates.
+
+    This class is designed to accommodate a list of custom column delegates.
+    Can implement either baseclass paint(), createEditor(), setEditorData() and
+    setModelData() methods or custom methods if defined by the subclass.
+
+    Source: "Rapid GUI Programming with Python and Qt" by Mark Summerfield,
+    Prentice-Hall, 2008, pg. 483-486.
+
+    Inherits QSqlRelationalDelegate.
+
+    """
+
+    def __init__(self, parent=None):
+        """Constructor for GenericDelegate class.
+
+        Defines delegates member as empty dictionary.  Keys will be column numbers.
+
+        """
+        super(GenericDelegate, self).__init__(parent)
+        self.delegates = {}
+
+    def insertColumnDelegate(self, column, delegate):
+        """Inserts delegate and column number in delegate dictionary."""
+        delegate.setParent(self)
+        self.delegates[column] = delegate
+
+    def removeColumnDelegate(self, column):
+        """Removes delegate from delegate dictionary."""
+        if column in self.delegates:
+            del self.delegates[column]
+
+    def paint(self, painter, option, index):
+        """Calls either custom or baseclass paint methods for widget.
+
+        Custom method is called if delegate is defined for the column.
+        Base class method is called otherwise.
+
+        """
+        delegate = self.delegates.get(index.column())
+        if delegate is not None:
+            delegate.paint(painter, option, index)
+        else:
+            QSqlRelationalDelegate.paint(self, painter, option, index)
+
+    def createEditor(self, parent, option, index):
+        """Calls either custom or baseclass editor creation methods for widget.
+
+        Custom method is called if delegate is defined for the column.
+        Base class method is called otherwise.
+
+        """
+        delegate = self.delegates.get(index.column())
+        if delegate is not None:
+            return delegate.createEditor(parent, option, index)
+        else:
+            return QSqlRelationalDelegate.createEditor(self, parent, option, index)
+
+    def setEditorData(self, editor, index):
+        """Calls either custom or standard models to write data from database model to editor.
+
+        Custom method is called if delegate is defined for the column.
+        Base class method is called otherwise.
+
+        """
+        delegate = self.delegates.get(index.column())
+        if delegate is not None:
+            delegate.setEditorData(editor, index)
+        else:
+            QSqlRelationalDelegate.setEditorData(self, editor, index)
+
+    def setModelData(self, editor, model, index):
+        """Calls either custom or standard methods to write data from editor to database model.
+
+        Custom method is called if delegate is defined for the column.
+        Base class method is called otherwise.
+
+        """
+        delegate = self.delegates.get(index.column())
+        if delegate is not None:
+            delegate.setModelData(editor, model, index)
+        else:
+            QSqlRelationalDelegate.setModelData(self, editor, model, index)
