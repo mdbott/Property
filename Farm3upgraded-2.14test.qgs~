@@ -232,10 +232,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>16665185.54700136557221413</xmin>
-      <ymin>-4416034.41560741327702999</ymin>
-      <xmax>16665608.88791165128350258</xmax>
-      <ymax>-4415913.461061617359519</ymax>
+      <xmin>16665451.79935982264578342</xmin>
+      <ymin>-4415907.6214918214827776</ymin>
+      <xmax>16665504.71697360835969448</xmax>
+      <ymax>-4415874.09794573299586773</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -6481,8 +6481,8 @@
         <edittype widgetv2type="TextEdit" name="comment">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="germination_date">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        <edittype widgetv2type="DateTime" name="germination_date">
+          <widgetv2config fieldEditable="1" calendar_popup="1" allow_null="0" display_format="yyyy-MM-dd" field_format="yyyy-MM-dd" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
@@ -6722,14 +6722,21 @@ def my_form_open(dialog, layer, feature):
 	control = dialog.findChild(QWidget, "MyLineEdit")
 ]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
+      <editorlayout>tablayout</editorlayout>
       <attributeEditorForm>
-        <attributeEditorContainer name="Plant"/>
-        <attributeEditorContainer name="">
+        <attributeEditorContainer name="plant">
           <attributeEditorField index="0" name="row_number"/>
+          <attributeEditorField index="1" name="vegetationid"/>
           <attributeEditorField index="2" name="plantid"/>
           <attributeEditorField index="3" name="rootstockid"/>
           <attributeEditorField index="4" name="cultivarid"/>
+          <attributeEditorField index="5" name="legacy_pfaf_latin_name"/>
+          <attributeEditorField index="18" name="grafted"/>
+        </attributeEditorContainer>
+        <attributeEditorContainer name="form &amp; colour">
+          <attributeEditorField index="16" name="width"/>
+          <attributeEditorField index="17" name="height"/>
+          <attributeEditorField index="15" name="form"/>
         </attributeEditorContainer>
       </attributeEditorForm>
       <widgets/>
@@ -7209,6 +7216,7 @@ def my_form_open(dialog, layer, feature):
         <value>farm_contours20151229113536674</value>
         <value>lines20151228202559288</value>
         <value>modified_contours20151228182615171</value>
+        <value>plantdb_vegetation20160421013320696</value>
         <value>plantdb_vegetationview20160416002301956</value>
         <value>points520160124071807522</value>
       </LayerSnappingList>
@@ -7247,6 +7255,7 @@ def my_form_open(dialog, layer, feature):
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
+        <value>enabled</value>
         <value>enabled</value>
         <value>disabled</value>
       </LayerSnappingEnabledList>
@@ -7290,6 +7299,7 @@ def my_form_open(dialog, layer, feature):
         <value>0</value>
         <value>0</value>
         <value>2</value>
+        <value>2</value>
         <value>0</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
@@ -7328,6 +7338,7 @@ def my_form_open(dialog, layer, feature):
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
+        <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
@@ -7354,6 +7365,7 @@ def my_form_open(dialog, layer, feature):
         <value>0.000000</value>
         <value>0.000000</value>
         <value>5.000000</value>
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>

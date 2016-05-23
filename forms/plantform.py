@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-from PyQt4.QtCore import (QDate, QDateTime, QFile, QVariant, Qt, QEvent)
+from PyQt4.QtCore import (QDate, QDateTime, QFile, QVariant, Qt, QEvent, SIGNAL)
 from PyQt4.QtGui import (QApplication, QComboBox, QCursor,
         QDataWidgetMapper, QDateTimeEdit, QDialog, QGridLayout,
         QHBoxLayout, QIcon, QLabel, QLineEdit, QMessageBox, QPixmap,
@@ -21,6 +21,7 @@ myDialog = None
 ROWNUMBER, ID, PLANTID, ROOTSTOCKID, CULTIVARID, LATINNAME, FAMILY, GENUS, SPECIES, SSP, COMMONNAME, FUNCTION, BORDER, \
     FILL, SYMBOL, FORM, LOCATIONS, WIDTH, HEIGHT, GRAFTED, COMMENT,  GERMINATIONDATE = range(22)
 
+
 def formOpen(dialog, layer, feature):
     mydialog = myDialog(dialog, layer, feature)
 
@@ -31,6 +32,7 @@ class myDialog:
         self.layerid = layer
         self.featureid = feature
         self.create_model()
+        self.create_connections()
         self.validate_data()
 
     def create_model(self):
@@ -92,6 +94,11 @@ class myDialog:
         self.model.setSort(ROWNUMBER, Qt.AscendingOrder)
         self.model.select()
 
+        # define the relation models
+        self.plantmodel = self.model.relationModel(PLANTID)
+        self.cultivarmodel = self.model.relationModel(CULTIVARID)
+        self.rootstockmodel = self.model.relationModel(ROOTSTOCKID)
+
         # define mapper
         # establish ties between underlying database model and data widgets on form
         self.mapper = QDataWidgetMapper(self.dlg)
@@ -104,24 +111,21 @@ class myDialog:
         self.mapper.setItemDelegate(plantDelegate)
 
         # Plant combobox
-        plantrelationModel = self.model.relationModel(PLANTID)
-        self.plantid.setModel(plantrelationModel)
+        self.plantid.setModel(self.plantmodel)
         self.plantid.setModelColumn(
-                plantrelationModel.fieldIndex("legacy_pfaf_latin_name"))
+                self.plantmodel.fieldIndex("legacy_pfaf_latin_name"))
         self.mapper.addMapping(self.plantid, PLANTID)
 
         # Cultivar combobox
-        cultivarrelationModel = self.model.relationModel(CULTIVARID)
-        self.cultivarid.setModel(cultivarrelationModel)
+        self.cultivarid.setModel(self.cultivarmodel)
         self.cultivarid.setModelColumn(
-                cultivarrelationModel.fieldIndex("name"))
+                self.cultivarmodel.fieldIndex("name"))
         self.mapper.addMapping(self.cultivarid, CULTIVARID)
 
         # Rootstock combobox
-        rootstockrelationModel = self.model.relationModel(ROOTSTOCKID)
-        self.rootstockid.setModel(rootstockrelationModel)
+        self.rootstockid.setModel(self.rootstockmodel)
         self.rootstockid.setModelColumn(
-                rootstockrelationModel.fieldIndex("rootstockname"))
+                self.rootstockmodel.fieldIndex("rootstockname"))
         self.mapper.addMapping(self.rootstockid, ROOTSTOCKID)
         self.rootstockid.readonly = False
         self.rootstockid.installEventFilter(self.dlg)
@@ -134,6 +138,85 @@ class myDialog:
         self.mapper.setCurrentIndex(row)
         pid = self.plantingid.text()
         #QMessageBox.information(None, "DEBUG:", 'final row number: '+pid)
+
+    def create_connections(self):
+        self.plantid.currentIndexChanged.connect(self.updateComboboxes)
+        self.cultivarid.currentIndexChanged.connect(self.updateRootstocklist)
+        self.grafted.stateChanged.connect(self.updateGrafted)
+
+    def updateGrafted(self):
+        # get grafted state
+        pid = int(self.plantingid.text())-1
+        graftedindex = self.model.createIndex(pid, GRAFTED)
+        isgrafted = self.model.data(graftedindex, Qt.DisplayRole)
+
+        self.rootstockid.blockSignals(True)
+        self.rootstockmodel.setFilter("")
+        if self.grafted.isChecked():
+            plantIndex = self.plantid.currentIndex()
+            plant_id = self.plantmodel.record(plantIndex).value("id")
+            # QMessageBox.critical(self, 'Grafted: filter', "plant_id = {}".format(plant_id), str(self.grafted.isChecked()))
+            self.rootstockmodel.setFilter("plant_id = {}".format(plant_id))
+        else:
+            cultivarIndex = self.cultivarid.currentIndex()
+            native_rootstock = self.cultivarmodel.record(cultivarIndex).value("native_rootstock_id")
+            # QMessageBox.critical(self, 'Not Grafted: filter', "id = {}".format(native_rootstock))
+            self.rootstockmodel.setFilter("id = {}".format(native_rootstock))
+        self.rootstockid.blockSignals(False)
+
+    def updateComboboxes(self):
+        # get plantid
+        plantIndex = self.plantid.currentIndex()
+        plant_id = self.plantmodel.record(plantIndex).value("id")
+        #QMessageBox.critical(self, 'Results', str(plant_id))
+
+        self.cultivarid.blockSignals(True)
+        self.rootstockid.blockSignals(True)
+
+        self.cultivarmodel.setFilter("")
+        self.rootstockmodel.setFilter("")
+        # QMessageBox.critical(self, 'filter', "plant_id = {}".format(plant_id))
+        self.cultivarmodel.setFilter("plant_id = {}".format(plant_id))
+
+        pid = int(self.plantingid.text())-1
+        graftedindex = self.model.createIndex(pid, GRAFTED)
+        isgrafted = self.model.data(graftedindex, Qt.DisplayRole)
+
+        if self.grafted.isChecked():
+            self.rootstockmodel.setFilter("plant_id = {}".format(plant_id))
+        else:
+            cultivarIndex = self.cultivarid.currentIndex()
+            native_rootstock = self.cultivarmodel.record(cultivarIndex).value("native_rootstock_id")
+
+            self.rootstockmodel.setFilter("id = {}".format(native_rootstock))
+
+        self.cultivarid.blockSignals(False)
+        self.rootstockid.blockSignals(False)
+
+    def updateRootstocklist(self):
+        # get plantid
+        plantIndex = self.plantid.currentIndex()
+        plant_id = self.plantmodel.record(plantIndex).value("id")
+        # QMessageBox.critical(self, 'Results', str(plant_id))
+
+        self.rootstockid.blockSignals(True)
+
+        self.rootstockmodel.setFilter("")
+
+        pid = int(self.plantingid.text())-1
+        graftedindex = self.model.createIndex(pid, GRAFTED)
+        isgrafted = self.model.data(graftedindex, Qt.DisplayRole)
+
+        if self.grafted.isChecked():
+            #QMessageBox.critical(self, 'rootstock filter', "plant_id = {}".format(plant_id))
+            self.rootstockmodel.setFilter("plant_id = {}".format(plant_id))
+        else:
+            cultivarIndex = self.cultivarid.currentIndex()
+            native_rootstock = self.cultivarmodel.record(cultivarIndex).value("native_rootstock_id")
+            #QMessageBox.critical(self, 'Not grafted: rootstock filter', "id = {}".format(native_rootstock))
+            self.rootstockmodel.setFilter("id = {}".format(native_rootstock))
+        #QMessageBox.critical(self, 'Current rootstock filter', str(self.rootstockmodel.filter()))
+        self.rootstockid.blockSignals(False)
 
     def validate_data(self):
         # Disconnect the signal that QGIS has wired up for the dialog to the button box.
@@ -187,7 +270,6 @@ class myDialog:
         # else:
         #     # Return the form as accpeted to QGIS.
         #     self.dlg.accept()
-
 
 
 class CultivarComboBoxDelegate(QSqlRelationalDelegate):
