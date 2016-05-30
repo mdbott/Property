@@ -5,7 +5,7 @@ from PyQt4.QtGui import (QApplication, QComboBox, QCursor,
         QDataWidgetMapper, QDateTimeEdit, QDialog, QGridLayout,
         QHBoxLayout, QIcon, QLabel, QLineEdit, QMessageBox, QPixmap,
         QPushButton, QVBoxLayout, QWidget, QCheckBox, QDialogButtonBox)
-from PyQt4.QtSql import (QSqlDatabase, QSqlQuery, QSqlRelation,
+from PyQt4.QtSql import (QSqlDatabase, QSqlQuery, QSqlRelation, QSqlTableModel, QSqlQuery,
         QSqlRelationalDelegate, QSqlRelationalTableModel, QSqlIndex, QSqlField)
 from qgis.core import *
 
@@ -63,19 +63,34 @@ class myDialog:
 
         # Attach form widget
         self.plantingid = self.dlg.findChild(QLineEdit, "row_number")
-        self.plantid = self.dlg.findChild(QComboBox, "plantid")
-        self.cultivarid = self.dlg.findChild(QComboBox, "cultivarid")
-        self.rootstockid = self.dlg.findChild(QComboBox, "rootstockid")
+        self.plantid = self.dlg.findChild(QComboBox, "plantcomboBox")
+        self.cultivarid = self.dlg.findChild(QComboBox, "cultivarcomboBox")
+        self.rootstockid = self.dlg.findChild(QComboBox, "rootstockcomboBox")
+        self.commonname = self.dlg.findChild(QComboBox, "name")
         self.grafted = self.dlg.findChild(QCheckBox, "grafted")
-        self.buttonBox = self.dlg.findChild(QDialogButtonBox,"buttonBox")
+        self.buttonBox = self.dlg.findChild(QDialogButtonBox, "buttonBox")
+
+        self.plantpk = self.dlg.findChild(QLineEdit, "plantid")
+        self.cultivarpk = self.dlg.findChild(QLineEdit, "cultivarid")
+        self.rootstockpk = self.dlg.findChild(QLineEdit, "rootstockid")
         try:
             currentplantingindex = int(self.plantingid.text())-1
         except ValueError:
             currentplantingindex = ''
+        try:
+            currentplant = int(self.plantpk.text())
+        except ValueError:
+            currentplant = ''
         # currentplantingindex = int(self.plantingid.text())-1
         currentcomboindex = self.plantid.currentText()
         currentcultivarindex = self.cultivarid.currentText()
         currentrootstockindex = self.rootstockid.currentText()
+
+        # Store original qcombobox models
+
+        # self.originalplantmodel = self.plantid.model()
+        # self.originalcultivarmodel = self.cultivarid.model()
+        # self.originalrootstockmodel = self.rootstockid.model()
 
         #QMessageBox.information(None, "DEBUG:", 'planting id: '+str(currentplantingindex))
         #QMessageBox.information(None, "DEBUG:", 'plantid: '+str(currentcomboindex))
@@ -88,6 +103,7 @@ class myDialog:
         self.model.setRelation(PLANTID, QSqlRelation("plantdb_plant", "id", "legacy_pfaf_latin_name"))
         self.model.setRelation(CULTIVARID, QSqlRelation("plantdb_cultivar", "id", "name"))
         self.model.setRelation(ROOTSTOCKID, QSqlRelation("plantdb_rootstock", "id", "rootstockname"))
+
         pk = QSqlIndex("cursor", "idxName")
         pk.append(QSqlField("row_number"))
         self.model.setPrimaryKey(pk)
@@ -116,6 +132,19 @@ class myDialog:
                 self.plantmodel.fieldIndex("legacy_pfaf_latin_name"))
         self.mapper.addMapping(self.plantid, PLANTID)
 
+        # Common Name combobox
+        self.commonnamemodel = QSqlTableModel(self.dlg, self.db)
+        self.commonnamemodel.setTable("plantdb_plant")
+        self.commonnamemodel.setSort(7, Qt.AscendingOrder)
+        self.commonnamemodel.select()
+        self.commonnamemapper = QDataWidgetMapper(self.dlg)
+        self.commonnamemapper.setSubmitPolicy(QDataWidgetMapper.ManualSubmit)
+        self.commonnamemapper.setModel(self.commonnamemodel)
+        self.commonnamemapper.addMapping(self.commonname, 7)
+        # self.commonnamemapper.toFirst()
+        self.commonname.setModel(self.commonnamemodel)
+        self.commonname.setModelColumn(7)
+
         # Cultivar combobox
         self.cultivarid.setModel(self.cultivarmodel)
         self.cultivarid.setModelColumn(
@@ -130,26 +159,48 @@ class myDialog:
         self.rootstockid.readonly = False
         self.rootstockid.installEventFilter(self.dlg)
         self.mapper.addMapping(self.grafted, GRAFTED)
+
         self.mapper.toFirst()
+        # pid = self.plantingid.text()
+        # QMessageBox.information(None, "DEBUG:", 'initial row number: '+pid)
+        # row = self.mapper.currentIndex()
+        if currentplantingindex != '':
+            row = currentplantingindex
+            self.mapper.setCurrentIndex(row)
+        else:
+            row = self.model.rowCount()
+            self.mapper.submit()
+            self.model.insertRow(row)
+            self.mapper.setCurrentIndex(row)
+            self.plantid.setCurrentIndex(self.plantid.findText('Malus Domestica', Qt.MatchExactly))
+
+        if currentplant != '':
+            # QMessageBox.information(None, "DEBUG:", 'plant primary key: '+str(currentplant))
+            query = QSqlQuery()
+            query.prepare('select common_name from plantdb_plant where id = ?')
+            query.addBindValue(str(currentplant))
+            query.exec_()
+            if query.next():
+                currentname = query.value(0)
+                # QMessageBox.information(None, "DEBUG:", 'plant common name: '+str(currentname))
+                # cnindex = self.commonnamemodel.createIndex(currentplant, 0)
+                self.commonname.setCurrentIndex(self.commonname.findText(currentname, Qt.MatchExactly))
+
+
         pid = self.plantingid.text()
-        #QMessageBox.information(None, "DEBUG:", 'initial row number: '+pid)
-        row = self.mapper.currentIndex()
-        row = currentplantingindex
-        self.mapper.setCurrentIndex(row)
-        pid = self.plantingid.text()
-        #QMessageBox.information(None, "DEBUG:", 'final row number: '+pid)
+        # QMessageBox.information(None, "DEBUG:", 'final row number: '+pid)
 
     def create_connections(self):
         self.plantid.currentIndexChanged.connect(self.updateComboboxes)
         self.cultivarid.currentIndexChanged.connect(self.updateRootstocklist)
         self.grafted.stateChanged.connect(self.updateGrafted)
+        self.commonname.currentIndexChanged.connect(self.updatefromCommonname)
 
     def updateGrafted(self):
         # get grafted state
         pid = int(self.plantingid.text())-1
         graftedindex = self.model.createIndex(pid, GRAFTED)
         isgrafted = self.model.data(graftedindex, Qt.DisplayRole)
-
         self.rootstockid.blockSignals(True)
         self.rootstockmodel.setFilter("")
         if self.grafted.isChecked():
@@ -157,26 +208,44 @@ class myDialog:
             plant_id = self.plantmodel.record(plantIndex).value("id")
             # QMessageBox.critical(self, 'Grafted: filter', "plant_id = {}".format(plant_id), str(self.grafted.isChecked()))
             self.rootstockmodel.setFilter("plant_id = {}".format(plant_id))
+            rootstockIndex = self.rootstockid.currentIndex()
+            rootstock_id = self.rootstockmodel.record(rootstockIndex).value("id")
+            self.rootstockpk.setText(str(rootstock_id))
         else:
             cultivarIndex = self.cultivarid.currentIndex()
             native_rootstock = self.cultivarmodel.record(cultivarIndex).value("native_rootstock_id")
+
             # QMessageBox.critical(self, 'Not Grafted: filter', "id = {}".format(native_rootstock))
             self.rootstockmodel.setFilter("id = {}".format(native_rootstock))
+            self.rootstockpk.setText(str(native_rootstock))
         self.rootstockid.blockSignals(False)
 
-    def updateComboboxes(self):
+    def updatefromCommonname(self):
         # get plantid
-        plantIndex = self.plantid.currentIndex()
-        plant_id = self.plantmodel.record(plantIndex).value("id")
-        #QMessageBox.critical(self, 'Results', str(plant_id))
 
+        # QMessageBox.information(None, "DEBUG:", 'commonname  text: '+str(self.commonname.currentText()))
+        commonnameIndex = self.commonname.currentIndex()
+        plant_id = self.commonnamemodel.record(commonnameIndex).value("id")
+        # QMessageBox.information(None, "DEBUG:", 'commonname  text: '+str(plant_id))
+        #
+        self.plantid.blockSignals(True)
         self.cultivarid.blockSignals(True)
         self.rootstockid.blockSignals(True)
-
+        self.plantpk.setText(str(plant_id))
+        query = QSqlQuery()
+        query.prepare('select legacy_pfaf_latin_name from plantdb_plant where id = ?')
+        query.addBindValue(str(plant_id))
+        query.exec_()
+        if query.next():
+            newname = query.value(0)
+            self.plantid.setCurrentIndex(self.plantid.findText(newname, Qt.MatchExactly))
         self.cultivarmodel.setFilter("")
         self.rootstockmodel.setFilter("")
         # QMessageBox.critical(self, 'filter', "plant_id = {}".format(plant_id))
         self.cultivarmodel.setFilter("plant_id = {}".format(plant_id))
+        cultivarIndex = self.cultivarid.currentIndex()
+        cultivar_id = self.cultivarmodel.record(cultivarIndex).value("id")
+        self.cultivarpk.setText(str(cultivar_id))
 
         pid = int(self.plantingid.text())-1
         graftedindex = self.model.createIndex(pid, GRAFTED)
@@ -184,12 +253,61 @@ class myDialog:
 
         if self.grafted.isChecked():
             self.rootstockmodel.setFilter("plant_id = {}".format(plant_id))
+            rootstockIndex = self.rootstockid.currentIndex()
+            rootstock_id = self.rootstockmodel.record(rootstockIndex).value("id")
+            self.rootstockpk.setText(str(rootstock_id))
         else:
             cultivarIndex = self.cultivarid.currentIndex()
             native_rootstock = self.cultivarmodel.record(cultivarIndex).value("native_rootstock_id")
-
             self.rootstockmodel.setFilter("id = {}".format(native_rootstock))
+            self.rootstockpk.setText(str(native_rootstock))
 
+        self.plantid.blockSignals(False)
+        self.cultivarid.blockSignals(False)
+        self.rootstockid.blockSignals(False)
+
+    def updateComboboxes(self):
+        # get plantid
+        plantIndex = self.plantid.currentIndex()
+        plant_id = self.plantmodel.record(plantIndex).value("id")
+        #QMessageBox.information(None, "DEBUG:", 'plant primary key: '+str(self.plantpk.text()))
+        self.plantpk.setText(str(plant_id))
+        #QMessageBox.critical(self, 'Results', str(plant_id))
+        self.commonname.blockSignals(True)
+        self.cultivarid.blockSignals(True)
+        self.rootstockid.blockSignals(True)
+
+        query = QSqlQuery()
+        query.prepare('select common_name from plantdb_plant where id = ?')
+        query.addBindValue(str(plant_id))
+        query.exec_()
+        if query.next():
+            newname = query.value(0)
+            self.commonname.setCurrentIndex(self.commonname.findText(newname, Qt.MatchExactly))
+
+        self.cultivarmodel.setFilter("")
+        self.rootstockmodel.setFilter("")
+        # QMessageBox.critical(self, 'filter', "plant_id = {}".format(plant_id))
+        self.cultivarmodel.setFilter("plant_id = {}".format(plant_id))
+        cultivarIndex = self.cultivarid.currentIndex()
+        cultivar_id = self.cultivarmodel.record(cultivarIndex).value("id")
+        self.cultivarpk.setText(str(cultivar_id))
+
+        pid = int(self.plantingid.text())-1
+        graftedindex = self.model.createIndex(pid, GRAFTED)
+        isgrafted = self.model.data(graftedindex, Qt.DisplayRole)
+
+        if self.grafted.isChecked():
+            self.rootstockmodel.setFilter("plant_id = {}".format(plant_id))
+            rootstockIndex = self.rootstockid.currentIndex()
+            rootstock_id = self.rootstockmodel.record(rootstockIndex).value("id")
+            self.rootstockpk.setText(str(rootstock_id))
+        else:
+            cultivarIndex = self.cultivarid.currentIndex()
+            native_rootstock = self.cultivarmodel.record(cultivarIndex).value("native_rootstock_id")
+            self.rootstockmodel.setFilter("id = {}".format(native_rootstock))
+            self.rootstockpk.setText(str(native_rootstock))
+        self.commonname.blockSignals(False)
         self.cultivarid.blockSignals(False)
         self.rootstockid.blockSignals(False)
 
@@ -201,6 +319,11 @@ class myDialog:
 
         self.rootstockid.blockSignals(True)
 
+
+        cultivarIndex = self.cultivarid.currentIndex()
+        cultivar_id = self.cultivarmodel.record(cultivarIndex).value("id")
+        self.cultivarpk.setText(str(cultivar_id))
+
         self.rootstockmodel.setFilter("")
 
         pid = int(self.plantingid.text())-1
@@ -210,11 +333,15 @@ class myDialog:
         if self.grafted.isChecked():
             #QMessageBox.critical(self, 'rootstock filter', "plant_id = {}".format(plant_id))
             self.rootstockmodel.setFilter("plant_id = {}".format(plant_id))
+            rootstockIndex = self.rootstockid.currentIndex()
+            rootstock_id = self.rootstockmodel.record(rootstockIndex).value("id")
+            self.rootstockpk.setText(str(rootstock_id))
         else:
             cultivarIndex = self.cultivarid.currentIndex()
             native_rootstock = self.cultivarmodel.record(cultivarIndex).value("native_rootstock_id")
             #QMessageBox.critical(self, 'Not grafted: rootstock filter', "id = {}".format(native_rootstock))
             self.rootstockmodel.setFilter("id = {}".format(native_rootstock))
+            self.rootstockpk.setText(str(native_rootstock))
         #QMessageBox.critical(self, 'Current rootstock filter', str(self.rootstockmodel.filter()))
         self.rootstockid.blockSignals(False)
 
@@ -237,30 +364,36 @@ class myDialog:
         # get final rootstockid
         rootstockIndex = self.rootstockid.currentIndex()
         rootstock_id = self.rootstockid.model().record(rootstockIndex).value("id")
-        self.mapper.submit()
+        # self.mapper.submit()
         # QMessageBox.information(None, "DEBUG:", 'plantid: '+str(plant_id))
         # QMessageBox.information(None, "DEBUG:", 'cultivarid: '+str(cultivar_id))
         # QMessageBox.information(None, "DEBUG:", 'rootstockid: '+str(rootstock_id))
         self.mapper.removeMapping(self.plantid)
         self.mapper.removeMapping(self.cultivarid)
         self.mapper.removeMapping(self.rootstockid)
+        # self.plantid.currentIndexChanged.disconnect()
+        # self.cultivarid.currentIndexChanged.disconnect()
+        # self.grafted.stateChanged.disconnect()
+        # self.plantid.setModel(self.originalplantmodel)
+        # self.cultivarid.setModel(self.originalcultivarmodel)
+        # self.rootstockid.setModel(self.originalrootstockmodel)
 
-        newplantindex = self.plantid.findText(str(plant_id))
-        newcultivarindex = self.plantid.findText(str(cultivar_id))
-        newrootstockindex = self.plantid.findText(str(rootstock_id))
+        # newplantindex = self.plantid.findText(str(plant_id))
+        # newcultivarindex = self.plantid.findText(str(cultivar_id))
+        # newrootstockindex = self.plantid.findText(str(rootstock_id))
 
-        if newplantindex >= 0:
-            self.plantid.setCurrentIndex(newplantindex)
-        if newcultivarindex >= 0:
-            self.cultivarid.setCurrentIndex(newcultivarindex)
-        if newrootstockindex >= 0:
-            self.rootstockid.setCurrentIndex(newrootstockindex)
-        currentcomboindex = self.plantid.currentText()
-        currentcultivarindex = self.cultivarid.currentText()
-        currentrootstockindex = self.rootstockid.currentText()
-        #QMessageBox.information(None, "DEBUG:", 'plant text: '+str(currentcomboindex))
-        #QMessageBox.information(None, "DEBUG:", 'cultivar text: '+str(currentcultivarindex))
-        #QMessageBox.information(None, "DEBUG:", 'rootstock text: '+str(currentrootstockindex))
+        # if newplantindex >= 0:
+        #     self.plantid.setCurrentIndex(newplantindex)
+        # if newcultivarindex >= 0:
+        #     self.cultivarid.setCurrentIndex(newcultivarindex)
+        # if newrootstockindex >= 0:
+        #     self.rootstockid.setCurrentIndex(newrootstockindex)
+        # currentcomboindex = self.plantid.currentText()
+        # currentcultivarindex = self.cultivarid.currentText()
+        # currentrootstockindex = self.rootstockid.currentText()
+        # QMessageBox.information(None, "DEBUG:", 'plant text: '+str(currentcomboindex))
+        # QMessageBox.information(None, "DEBUG:", 'cultivar text: '+str(currentcultivarindex))
+        # QMessageBox.information(None, "DEBUG:", 'rootstock text: '+str(currentrootstockindex))
 
         self.dlg.accept()
         # if not self.plantingid.text().length() == 0:
@@ -312,7 +445,10 @@ class CultivarComboBoxDelegate(QSqlRelationalDelegate):
         cultivarModel.select()
         # cultivarText = plantingModel.data(index, Qt.DisplayRole).toString()
         cultivarModel.setFilter("plant_id = {}".format(plant_id))
-        editor.setCurrentIndex(editor.findText(cultivarName, Qt.MatchExactly))
+        try:
+            editor.setCurrentIndex(editor.findText(cultivarName, Qt.MatchExactly))
+        except TypeError:
+            pass
         editor.blockSignals(False) # unblock signals from player combobox
 
     def setModelData(self, editor, model, index):
@@ -385,11 +521,17 @@ class RootstockComboBoxDelegate(QSqlRelationalDelegate):
         if isgrafted:
             print "Model Grafted"
             rootstockModel.setFilter("plant_id = {}".format(plant_id))
-            editor.setCurrentIndex(editor.findText(rootstockName, Qt.MatchExactly))
+            try:
+                editor.setCurrentIndex(editor.findText(rootstockName, Qt.MatchExactly))
+            except TypeError:
+                pass
         else:
             print "Model Not Grafted"
             rootstockModel.setFilter("id = {}".format(native_rootstock))
-            editor.setCurrentIndex(editor.findText(rootstockName, Qt.MatchExactly))
+            try:
+                editor.setCurrentIndex(editor.findText(rootstockName, Qt.MatchExactly))
+            except TypeError:
+                pass
 
         # unblock signals from player combobox
         editor.blockSignals(False)
