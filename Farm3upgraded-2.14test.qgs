@@ -3,7 +3,7 @@
   <title>Farm</title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="plantdb_vegetation20160421013320696" name="plantdb_vegetation">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="plantdb_vegetation20160601230250110" name="plantdb_vegetation">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="plantdb_vegetationview20160416002301956" name="plantdb_vegetationview">
@@ -232,10 +232,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>16665451.79935982264578342</xmin>
-      <ymin>-4415907.6214918214827776</ymin>
-      <xmax>16665504.71697360835969448</xmax>
-      <ymax>-4415874.09794573299586773</ymax>
+      <xmin>16665111.85641042329370975</xmin>
+      <ymin>-4416097.30512333102524281</ymin>
+      <xmax>16665535.19732070900499821</xmax>
+      <ymax>-4415829.11675462312996387</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -304,6 +304,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetation_view_copy20150908235405511"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Interior_Fences20070922135554035"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Hot_Summer_Winds20070922110420241"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="plantdb_vegetation20160601230250110"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="2016_planting_copy20151231102707400"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Farm_Structures20080316144345557"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pipes20070923081718780"/>
@@ -362,13 +363,13 @@
       <item>farm_contours20151229113536674</item>
       <item>points520160124071807522</item>
       <item>plantdb_vegetationview20160416002301956</item>
-      <item>plantdb_vegetation20160421013320696</item>
+      <item>plantdb_vegetation20160601230250110</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="plantdb_vegetation" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="plantdb_vegetation" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="plantdb_vegetation20160421013320696" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="plantdb_vegetation20160601230250110" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="plantdb_vegetationview" showFeatureCount="0">
@@ -6165,9 +6166,8 @@
       </conditionalstyles>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>plantdb_vegetation20160421013320696</id>
+      <id>plantdb_vegetation20160601230250110</id>
       <datasource>dbname='plantdb' host=192.168.1.100 port=5432 user='postgres' password='mega^0lt' sslmode=disable key='id' srid=3857 type=Point table="public"."plantdb_vegetation" (locations) sql=</datasource>
-      <shortname>plantdb_vegetation</shortname>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6214,13 +6214,16 @@
         <edittype widgetv2type="TextEdit" name="comment">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="testdate">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="20,160,114,255"/>
+              <prop k="color" v="47,182,178,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -6376,7 +6379,7 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="DateTime" name="germination_date">
-          <widgetv2config fieldEditable="1" calendar_popup="1" allow_null="0" display_format="yyyy-MM-dd" field_format="yyyy-MM-dd" labelOnTop="0"/>
+          <widgetv2config fieldEditable="1" calendar_popup="1" allow_null="1" display_format="yyyy-MM-dd" field_format="yyyy-MM-dd" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
@@ -7118,7 +7121,6 @@ def my_form_open(dialog, layer, feature):
         <value>farm_contours20151229113536674</value>
         <value>lines20151228202559288</value>
         <value>modified_contours20151228182615171</value>
-        <value>plantdb_vegetation20160421013320696</value>
         <value>plantdb_vegetationview20160416002301956</value>
         <value>points520160124071807522</value>
       </LayerSnappingList>
@@ -7157,7 +7159,6 @@ def my_form_open(dialog, layer, feature):
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
-        <value>enabled</value>
         <value>enabled</value>
         <value>disabled</value>
       </LayerSnappingEnabledList>
@@ -7201,7 +7202,6 @@ def my_form_open(dialog, layer, feature):
         <value>0</value>
         <value>0</value>
         <value>2</value>
-        <value>2</value>
         <value>0</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
@@ -7240,7 +7240,6 @@ def my_form_open(dialog, layer, feature):
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
-        <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
@@ -7267,7 +7266,6 @@ def my_form_open(dialog, layer, feature):
         <value>0.000000</value>
         <value>0.000000</value>
         <value>5.000000</value>
-        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
