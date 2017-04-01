@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 
-from PyQt4.QtCore import (QDate, QDateTime, QFile, QVariant, Qt, QEvent, SIGNAL)
+from PyQt4.QtCore import (QDate, QDateTime, QFile, QVariant, Qt, QEvent, SIGNAL, QSize)
 from PyQt4.QtGui import (QApplication, QComboBox, QCursor,
-        QDataWidgetMapper, QDateTimeEdit, QDialog, QGridLayout,
-        QHBoxLayout, QIcon, QLabel, QLineEdit, QMessageBox, QPixmap,
+        QDataWidgetMapper, QDateTimeEdit, QDialog, QGridLayout, QTableWidgetItem,
+        QHBoxLayout, QIcon, QLabel, QLineEdit, QMessageBox, QPixmap, QTableWidget,
         QPushButton, QVBoxLayout, QWidget, QCheckBox, QDialogButtonBox)
 from PyQt4.QtSql import (QSqlDatabase, QSqlQuery, QSqlRelation, QSqlTableModel, QSqlQuery,
         QSqlRelationalDelegate, QSqlRelationalTableModel, QSqlIndex, QSqlField)
@@ -20,6 +20,10 @@ myDialog = None
 
 ROWNUMBER, ID, PLANTID, ROOTSTOCKID, CULTIVARID, LATINNAME, FAMILY, GENUS, SPECIES, SSP, COMMONNAME, FUNCTION, BORDER, \
     FILL, SYMBOL, FORM, LOCATIONS, WIDTH, HEIGHT, GRAFTED, COMMENT,  GERMINATIONDATE = range(22)
+
+THUMBNAIL_SIZE = 256
+SPACING = 10
+IMAGES_PER_ROW = 3
 
 MoistureLevel = {1: 'Dry',
                  2: 'Moist',
@@ -140,6 +144,7 @@ LightLevel = {
 
 LightLevel_reverse = dict(reversed(item) for item in LightLevel.items())
 
+
 def formOpen(dialog, layer, feature):
     mydialog = myDialog(dialog, layer, feature)
 
@@ -152,6 +157,7 @@ class myDialog:
         self.create_model()
         self.create_connections()
         self.validate_data()
+        # self.plantingid = None
 
     def create_model(self):
         provider = self.layerid.dataProvider()
@@ -244,6 +250,12 @@ class myDialog:
         self.ph_upper_limit = self.dlg.findChild(QLineEdit, "pH_upper_limit")
         self.salinity_lower_limit = self.dlg.findChild(QLineEdit, "salinity_lower_limit")
         self.salinity_upper_limit = self.dlg.findChild(QLineEdit, "salinity_upper_limit")
+        self.picturelist = self.dlg.findChild(QLineEdit, "picturelist")
+
+        self.imagetable = self.dlg.findChild(QTableWidget, "ImageTable")
+
+
+
         try:
             currentplantingindex = int(self.plantingid.text())-1
         except ValueError:
@@ -263,10 +275,10 @@ class myDialog:
         # self.originalcultivarmodel = self.cultivarid.model()
         # self.originalrootstockmodel = self.rootstockid.model()
 
-        #QMessageBox.information(None, "DEBUG:", 'planting id: '+str(currentplantingindex))
-        #QMessageBox.information(None, "DEBUG:", 'plantid: '+str(currentcomboindex))
-        #QMessageBox.information(None, "DEBUG:", 'cultivarid: '+str(currentcultivarindex))
-        #QMessageBox.information(None, "DEBUG:", 'rootstockid: '+str(currentrootstockindex))
+        # QMessageBox.information(None, "DEBUG:", 'planting id: '+str(currentplantingindex))
+        # QMessageBox.information(None, "DEBUG:", 'plantid: '+str(currentcomboindex))
+        # QMessageBox.information(None, "DEBUG:", 'cultivarid: '+str(currentcultivarindex))
+        # QMessageBox.information(None, "DEBUG:", 'rootstockid: '+str(currentrootstockindex))
 
         self.model = QSqlRelationalTableModel(self.dlg, self.db)
         self.model.setTable("plantdb_vegetationview")
@@ -340,13 +352,17 @@ class myDialog:
             self.mapper.setCurrentIndex(row)
         else:
             row = self.model.rowCount()
-            QMessageBox.information(None, "DEBUG:", 'row number: '+str(row))
+            # QMessageBox.information(None, "DEBUG:", 'row number: '+str(row))
             self.mapper.submit()
+            # QMessageBox.information(None, "DEBUG:", 'mapper submitted')
             self.model.insertRow(row)
+            # QMessageBox.information(None, "DEBUG:", 'row inserted')
             self.mapper.setCurrentIndex(row)
+            # QMessageBox.information(None, "DEBUG:", 'current mapper index set')
             self.vegetationpk.setText(str(row))
-
+            # QMessageBox.information(None, "DEBUG:", 'text set')
             self.plantid.setCurrentIndex(self.plantid.findText('Malus Domestica', Qt.MatchExactly))
+            # QMessageBox.information(None, "DEBUG:", 'plant set up apple')
 
         if currentplant != '':
             # QMessageBox.information(None, "DEBUG:", 'plant primary key: '+str(currentplant))
@@ -361,10 +377,18 @@ class myDialog:
                 if currentname != '':
                     self.commonname.setCurrentIndex(self.commonname.findText(currentname, Qt.MatchExactly))
         # Symbol combobox
+        # QMessageBox.information(None, "DEBUG:", 'line 368')
         self.symbolcombo.addItems(Symbol.values())
-        if self.symbol.text() != '':
-            self.symbolcombo.setCurrentIndex(self.symbolcombo.findText(Symbol[self.symbol.text()], Qt.MatchExactly))
+        # QMessageBox.information(None, "DEBUG:", 'line 370')
+        if self.symbol.text() != '' and self.symbol.text() is not None:
+            if self.symbol.text() == 'NULL':
+                # QMessageBox.information(None, "DEBUG:", 'found null!')
+                self.symbolcombo.setCurrentIndex(self.symbolcombo.findText(Symbol['Rounded_1'], Qt.MatchExactly))
+            else:
+                # QMessageBox.information(None, "DEBUG:", 'symbol combo:'+str(self.symbol.text()))
+                self.symbolcombo.setCurrentIndex(self.symbolcombo.findText(Symbol[self.symbol.text()], Qt.MatchExactly))
         # Form combobox
+        # QMessageBox.information(None, "DEBUG:", 'line 374')
         self.formcombo.addItems(Form.values())
         if self.form.text() != '':
             self.formcombo.setCurrentIndex(self.formcombo.findText(Form[int(self.form.text())], Qt.MatchExactly))
@@ -374,6 +398,7 @@ class myDialog:
             self.functioncombo.setCurrentIndex(self.functioncombo.findText(PlantFunction[int(self.plant_function.text())], Qt.MatchExactly))
         # Wind level comboboxes
         self.wind_lower.addItems(WindLevel.values())
+        # QMessageBox.information(None, "DEBUG:", 'line 382')
         self.wind_upper.addItems(WindLevel.values())
         if self.wind_lower_limit.text() != '':
             self.wind_lower.setCurrentIndex(self.wind_lower.findText(WindLevel[int(self.wind_lower_limit.text())], Qt.MatchExactly))
@@ -447,6 +472,48 @@ class myDialog:
             self.seed_start.setCurrentIndex(self.seed_start.findText(MonthRange[int(self.seed_startmonth.text())], Qt.MatchExactly))
         if self.seed_endmonth.text() != '':
             self.seed_end.setCurrentIndex(self.seed_end.findText(MonthRange[int(self.seed_endmonth.text())], Qt.MatchExactly))
+
+        if self.picturelist.text() != '':
+            piclist = self.picturelist.text().split(",")
+            self.imagetable.setGridStyle(Qt.NoPen)
+
+            # Set the default column width and hide the header
+            self.imagetable.verticalHeader().setDefaultSectionSize(THUMBNAIL_SIZE+SPACING)
+            self.imagetable.verticalHeader().hide()
+
+            # Set the default row height and hide the header
+            self.imagetable.horizontalHeader().setDefaultSectionSize(THUMBNAIL_SIZE+SPACING)
+            self.imagetable.horizontalHeader().hide()
+            self.imagetable.setIconSize(QSize(THUMBNAIL_SIZE, THUMBNAIL_SIZE))
+            self.imagetable.setColumnCount(IMAGES_PER_ROW)
+            rowCount = len(piclist)//IMAGES_PER_ROW
+            if len(piclist) % IMAGES_PER_ROW:
+                rowCount += 1
+
+            self.imagetable.setRowCount(rowCount)
+            row = -1
+            for i, picture in enumerate(piclist):
+                col = i % IMAGES_PER_ROW
+                if not col:
+                    row += 1
+                # Add picture
+                item = QTableWidgetItem()
+                # Scale the image by either height or width and then 'crop' it to the
+                # desired size, this prevents distortion of the image.
+                pix = QPixmap('/home/max/PycharmProjects/plant-database/eden_site/media/'+picture)
+                #pix = QPixmap(128, 128)
+                #QMessageBox.information(None, "DEBUG:", 'picture path:'+'/home/max/PycharmProjects/plant-database/eden_site/media/'+picture)
+                #QMessageBox.information(None, "DEBUG:", 'picture height: ' + str(pix.height()))
+                #QMessageBox.information(None, "DEBUG:", 'picture width: ' + str(pix.width()))
+                if pix.height() > pix.width():
+                    pix = pix.scaledToWidth(THUMBNAIL_SIZE)
+                else:
+                    pix = pix.scaledToHeight(THUMBNAIL_SIZE)
+                pix = pix.copy(0, 0, THUMBNAIL_SIZE, THUMBNAIL_SIZE)
+                item.setIcon(QIcon(pix))
+
+                self.imagetable.setItem(row, col, item)
+
 
 
 
@@ -626,9 +693,9 @@ class myDialog:
         # get plantid
         plantIndex = self.plantid.currentIndex()
         plant_id = self.plantmodel.record(plantIndex).value("id")
-        #QMessageBox.information(None, "DEBUG:", 'plant primary key: '+str(self.plantpk.text()))
+        # QMessageBox.information(None, "DEBUG:", 'plant primary key: '+str(self.plantpk.text()))
         self.plantpk.setText(str(plant_id))
-        #QMessageBox.critical(self, 'Results', str(plant_id))
+        # QMessageBox.critical(self, 'Results', str(plant_id))
         self.commonname.blockSignals(True)
         self.cultivarid.blockSignals(True)
         self.rootstockid.blockSignals(True)
@@ -676,7 +743,6 @@ class myDialog:
 
         self.rootstockid.blockSignals(True)
 
-
         cultivarIndex = self.cultivarid.currentIndex()
         cultivar_id = self.cultivarmodel.record(cultivarIndex).value("id")
         self.cultivarpk.setText(str(cultivar_id))
@@ -688,7 +754,7 @@ class myDialog:
         isgrafted = self.model.data(graftedindex, Qt.DisplayRole)
 
         if self.grafted.isChecked():
-            #QMessageBox.critical(self, 'rootstock filter', "plant_id = {}".format(plant_id))
+            # QMessageBox.critical(self, 'rootstock filter', "plant_id = {}".format(plant_id))
             self.rootstockmodel.setFilter("plant_id = {}".format(plant_id))
             rootstockIndex = self.rootstockid.currentIndex()
             rootstock_id = self.rootstockmodel.record(rootstockIndex).value("id")
@@ -696,10 +762,10 @@ class myDialog:
         else:
             cultivarIndex = self.cultivarid.currentIndex()
             native_rootstock = self.cultivarmodel.record(cultivarIndex).value("native_rootstock_id")
-            #QMessageBox.critical(self, 'Not grafted: rootstock filter', "id = {}".format(native_rootstock))
+            # QMessageBox.critical(self, 'Not grafted: rootstock filter', "id = {}".format(native_rootstock))
             self.rootstockmodel.setFilter("id = {}".format(native_rootstock))
             self.rootstockpk.setText(str(native_rootstock))
-        #QMessageBox.critical(self, 'Current rootstock filter', str(self.rootstockmodel.filter()))
+        # QMessageBox.critical(self, 'Current rootstock filter', str(self.rootstockmodel.filter()))
         self.rootstockid.blockSignals(False)
 
     def validate_data(self):
@@ -719,8 +785,8 @@ class myDialog:
         cultivarIndex = self.cultivarid.currentIndex()
         cultivar_id = self.cultivarid.model().record(cultivarIndex).value("id")
         # get final rootstockid
-        rootstockIndex = self.rootstockid.currentIndex()
-        rootstock_id = self.rootstockid.model().record(rootstockIndex).value("id")
+        rootstock_Index = self.rootstockid.currentIndex()
+        rootstock_id = self.rootstockid.model().record(rootstock_Index).value("id")
         # self.mapper.submit()
         # QMessageBox.information(None, "DEBUG:", 'plantid: '+str(plant_id))
         # QMessageBox.information(None, "DEBUG:", 'cultivarid: '+str(cultivar_id))

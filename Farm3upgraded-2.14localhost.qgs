@@ -137,7 +137,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Sector Analysis">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Sector Analysis">
       <customproperties/>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Summer_Sun20070922101747724" name="Summer Sun">
         <customproperties>
@@ -165,7 +165,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Forest Garden Design">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Forest Garden Design">
       <customproperties/>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Design Elements">
         <customproperties/>
@@ -227,15 +227,24 @@
         </layer-tree-group>
       </layer-tree-group>
     </layer-tree-group>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="1SecDEMHydro20170131172422656" name="1SecDEMHydro">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Boundary_Footprint_Image20170131165501018" name="Boundary/Footprint/Image">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Boundary_Footprint_Image20170131165200840" name="Boundary/Footprint/Image">
+      <customproperties/>
+    </layer-tree-layer>
   </layer-tree-group>
   <relations/>
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>16665381.32223159074783325</xmin>
-      <ymin>-4415891.75262728147208691</ymin>
-      <xmax>16665445.57932798564434052</xmax>
-      <ymax>-4415843.75222749449312687</ymax>
+      <xmin>16665431.97363178245723248</xmin>
+      <ymin>-4416043.83677659276872873</ymin>
+      <xmax>16665516.58473770134150982</xmax>
+      <ymax>-4415902.7280221963301301</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -256,6 +265,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Paddocks20070922154242917"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="Boundary_Fences20071009171024537"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="plantdb_vegetationview20160412233400271"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="1SecDEMHydro20170131172422656"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetation_view_copy20150915222254698"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151229120210812"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="points5_track20151229111438979"/>
@@ -263,6 +273,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Cool_Sea_Breezes20070922105323342"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="polyculture_notes20150915233807404"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="plantdb_vegetation20160421013320696"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="merimbula031320170131171742525"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Summer_Sun20070922101747724"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="pH20160112223629286"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Functional_Zones20070923090342999"/>
@@ -289,11 +300,13 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Fibre_Plants_copy20151120140719942"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="beehive20140529100416255"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="farm_contours20151229113536674"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="modified_contours20151228182615171"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Moisture20160120213050080"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetation_view_copy20150908234528050"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="newfarm20160101160323001"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="plantdb_vegetationview20160416002301956"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEM20160124072034218"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Boundary_Footprint_Image20170131165501018"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Roads20070922085550013"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151229120629223"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Nitrogen_Fixers_copy20151120135131273"/>
@@ -304,9 +317,11 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetation_view_copy20150908235405511"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Interior_Fences20070922135554035"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Hot_Summer_Winds20070922110420241"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3112" srcDatumTransform="-1" destDatumTransform="-1" layerid="merimbula031320170131174450062"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="plantdb_vegetation20160601230250110"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="2016_planting_copy20151231102707400"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Farm_Structures20080316144345557"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Boundary_Footprint_Image20170131165200840"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pipes20070923081718780"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="farm_contours20151229113300178"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="points420160124071714608"/>
@@ -321,6 +336,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Planned_Fences20070923084756295"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="plantdb_vegetationview20160312154402037"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetation_view_copy20150908233515208"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="merimbula031320170131171400550"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="lines20151228202559288"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Moisture20160120212400556"/>
     </layer_coordinate_transform_info>
@@ -364,6 +380,9 @@
       <item>points520160124071807522</item>
       <item>plantdb_vegetationview20160416002301956</item>
       <item>plantdb_vegetation20160601230250110</item>
+      <item>Boundary_Footprint_Image20170131165200840</item>
+      <item>Boundary_Footprint_Image20170131165501018</item>
+      <item>1SecDEMHydro20170131172422656</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -525,7 +544,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Sector Analysis">
+    <legendgroup open="true" checked="Qt::Unchecked" name="Sector Analysis">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Summer Sun" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="1" layerid="Summer_Sun20070922101747724" visible="0"/>
@@ -552,7 +571,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Forest Garden Design">
+    <legendgroup open="true" checked="Qt::Unchecked" name="Forest Garden Design">
       <legendgroup open="false" checked="Qt::Unchecked" name="Design Elements">
         <legendgroup open="true" checked="Qt::Unchecked" name="Existing Site Conditions"/>
         <legendgroup open="true" checked="Qt::Unchecked" name="Desired Ecosystem Components"/>
@@ -590,6 +609,21 @@
         </legendgroup>
       </legendgroup>
     </legendgroup>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1SecDEMHydro" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="1SecDEMHydro20170131172422656" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Boundary/Footprint/Image" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Boundary_Footprint_Image20170131165501018" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Boundary/Footprint/Image" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Boundary_Footprint_Image20170131165200840" visible="0"/>
+      </filegroup>
+    </legendlayer>
   </legend>
   <Composer title="Composer 1" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="420" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="10" printAsRaster="1" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="0" resizeToContentsMarginBottom="0">
@@ -623,7 +657,7 @@
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="265.713" page="1" id="" lastValidViewScaleFactor="1.49785" positionMode="0" positionLock="false" x="66.7622" y="265.713" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="215.511" outlineWidth="0.3" excludeFromExports="0" uuid="{f32c4930-2987-45ba-aa9c-cb1228134e3e}" height="12" itemRotation="0" frame="false" pagex="66.7622">
+        <ComposerItem pagey="265.713" page="1" id="" lastValidViewScaleFactor="1.49785" positionMode="0" positionLock="false" x="66.7622" y="265.713" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="215.466" outlineWidth="0.3" excludeFromExports="0" uuid="{f32c4930-2987-45ba-aa9c-cb1228134e3e}" height="12" itemRotation="0" frame="false" pagex="66.7622">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -759,7 +793,7 @@
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="276" page="1" id="" lastValidViewScaleFactor="1.53219" positionMode="0" positionLock="false" x="5" y="276" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="165.457" outlineWidth="0.3" excludeFromExports="0" uuid="{94c108db-edb4-4268-9271-1a1ddab2ee4d}" height="12" itemRotation="0" frame="false" pagex="5">
+        <ComposerItem pagey="276" page="1" id="" lastValidViewScaleFactor="1.53219" positionMode="0" positionLock="false" x="5" y="276" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="165.398" outlineWidth="0.3" excludeFromExports="0" uuid="{94c108db-edb4-4268-9271-1a1ddab2ee4d}" height="12" itemRotation="0" frame="false" pagex="5">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -863,7 +897,7 @@
       <customproperties/>
     </Composition>
   </Composer>
-  <Composer title="Forest Garden" visible="1">
+  <Composer title="Forest Garden" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="600" paperWidth="420" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -887,7 +921,7 @@
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="270" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="25" y="270" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="354.196" outlineWidth="0.3" excludeFromExports="0" uuid="{eeee941d-9794-444b-a263-fb4a2a953fa8}" height="20" itemRotation="0" frame="false" pagex="25">
+        <ComposerItem pagey="270" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="25" y="270" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="354.194" outlineWidth="0.3" excludeFromExports="0" uuid="{eeee941d-9794-444b-a263-fb4a2a953fa8}" height="20" itemRotation="0" frame="false" pagex="25">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -945,7 +979,7 @@
           <annotationFontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="21.4221" page="1" id="" lastValidViewScaleFactor="3.91291" positionMode="0" positionLock="false" x="29.8557" y="21.4221" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="327.976" outlineWidth="0.3" excludeFromExports="0" uuid="{6a45fab6-a97a-4ad5-9148-cea3bf118f48}" height="245" itemRotation="0" frame="false" pagex="29.8557">
+        <ComposerItem pagey="21.4221" page="1" id="" lastValidViewScaleFactor="1.603" positionMode="0" positionLock="false" x="29.8557" y="21.4221" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="327.976" outlineWidth="0.3" excludeFromExports="0" uuid="{6a45fab6-a97a-4ad5-9148-cea3bf118f48}" height="245" itemRotation="0" frame="false" pagex="29.8557">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -962,6 +996,50 @@
     </Composition>
   </Composer>
   <projectlayers>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>1SecDEMHydro20170131172422656</id>
+      <datasource>./DATA_840711/Geoscience Australia/DEMs/1 Second/1SecDEMHydro/1SecDEMHydro.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>1SecDEMHydro</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>226.882</minValue>
+            <maxValue>363.452</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Boundary_Fences20070921080039767</id>
       <datasource>./Boundary_Fences/Boundary_Fences.shp</datasource>
@@ -1169,6 +1247,84 @@
         <rowstyles/>
         <fieldstyles/>
       </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Boundary_Footprint_Image20170131165200840</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=Image&amp;layers=Footprint&amp;layers=Boundary&amp;styles=&amp;styles=&amp;styles=&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_5m/MapServer/WMSServer?version%3D1.3.0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Boundary/Footprint/Image</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Boundary_Footprint_Image20170131165501018</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=Image&amp;layers=Footprint&amp;layers=Boundary&amp;styles=&amp;styles=&amp;styles=&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_25m/MapServer/WMSServer?</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Boundary/Footprint/Image</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Cool_Sea_Breezes20070922105323342</id>
@@ -6758,6 +6914,9 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="soiltexture_upper_limit">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="picturelist">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
@@ -7518,6 +7677,7 @@ def my_form_open(dialog, layer, feature):
         <value>farm_contours20151229113536674</value>
         <value>lines20151228202559288</value>
         <value>modified_contours20151228182615171</value>
+        <value>plantdb_vegetation20160601230250110</value>
         <value>plantdb_vegetationview20160416002301956</value>
         <value>points520160124071807522</value>
       </LayerSnappingList>
@@ -7552,6 +7712,7 @@ def my_form_open(dialog, layer, feature):
         <value>disabled</value>
         <value>disabled</value>
         <value>enabled</value>
+        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -7599,6 +7760,7 @@ def my_form_open(dialog, layer, feature):
         <value>0</value>
         <value>0</value>
         <value>2</value>
+        <value>2</value>
         <value>0</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
@@ -7636,6 +7798,7 @@ def my_form_open(dialog, layer, feature):
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
       </LayerSnapToList>
@@ -7663,6 +7826,7 @@ def my_form_open(dialog, layer, feature):
         <value>0.000000</value>
         <value>0.000000</value>
         <value>5.000000</value>
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>

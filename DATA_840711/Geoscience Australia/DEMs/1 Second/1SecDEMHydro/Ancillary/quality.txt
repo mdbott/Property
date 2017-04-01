@@ -1,0 +1,24 @@
+DATA QUALITY
+
+Geoscience Australia has tried to make the information in this product as
+accurate as possible. However, it does not guarantee that the information is
+totally accurate or complete. Therefore you should not solely rely on this
+information when making a commercial decision.
+
+This dataset has been subject to independent post-production validation and testing.  
+Tests have been performed for data completeness, correct spatial representation, 
+attribute accuracy, logical consistency, metadata completeness and correctness, 
+and where appropriate for compliance with Geoscience Australia's data dictionaries. 
+Errors found in this dataset should be reported to:
+
+Geoscience Australia
+GPO Box 378
+Canberra ACT 2601
+Australia
+
+Email: DataQC@ga.gov.au
+
+Reported Errors will be rectified in subsequent data releases, if any.
+
+
+
